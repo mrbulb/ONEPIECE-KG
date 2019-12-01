@@ -24,7 +24,7 @@ fuseki:serviceUpload              "upload" .
     ja:baseModel <#tdbGraph> ;
 
     #本体文件的路径
-    ja:content [ja:externalContent <file:///D:/apache%20jena/apache-jena-fuseki-3.5.0/run/databases/ontology.ttl> ] ;
+    ja:content [ja:externalContent </home/zenghao/ZJU_study/Knowledge_Graph/apache-jena-fuseki-3.6.0/run/databases/ontology.ttl> ] ;
     
     #启用OWL推理机
     ja:reasoner [ja:reasonerURL <http://jena.hpl.hp.com/2003/OWLFBRuleReasoner>] .
@@ -34,5 +34,5 @@ fuseki:serviceUpload              "upload" .
     .
 
 <#tdbDataset> rdf:type tdb:DatasetTDB ;
-    tdb:location "D:/apache jena/tdb" ;
+    tdb:location "/home/zenghao/ZJU_study/Knowledge_Graph/apache-jena-3.6.0/tdb" ;
     .
