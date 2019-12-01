@@ -26,8 +26,14 @@ fuseki:serviceUpload              "upload" .
     #本体文件的路径
     ja:content [ja:externalContent </home/zenghao/ZJU_study/Knowledge_Graph/apache-jena-fuseki-3.6.0/run/databases/ontology.ttl> ] ;
     
-    #启用OWL推理机
-    ja:reasoner [ja:reasonerURL <http://jena.hpl.hp.com/2003/OWLFBRuleReasoner>] .
+    #关闭OWL推理机
+    #ja:reasoner [ja:reasonerURL <http://jena.hpl.hp.com/2003/OWLFBRuleReasoner>] .
+
+    #开启规则推理机，并指定规则文件路径  
+    ja:reasoner [   
+        ja:reasonerURL <http://jena.hpl.hp.com/2003/GenericRuleReasoner> ;  
+        ja:rulesFrom </home/zenghao/ZJU_study/Knowledge_Graph/apache-jena-fuseki-3.6.0/run/databases/rules.ttl> ; ]    
+    .
 
 <#tdbGraph> rdf:type tdb:GraphTDB ;
     tdb:dataset <#tdbDataset> ;
