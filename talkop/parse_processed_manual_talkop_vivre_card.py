@@ -137,9 +137,9 @@ while idx < len(vivre_card_list):
         if len(names_list[-1]) != 0:
             foreign_name = names_list[-1]
 
-        predicate_set.update(['ID', '名称', '中文名', '外文名', '出场篇章'])
+        predicate_set.update(['ID', '名称', '中文名', '外文名', '登场篇章'])
         entity_avpair_list.extend([('ID', entity_id), ('名称', entity_mention_name), \
-                                   ('中文名', names_list[0]), ('外文名', foreign_name), ('出场篇章', chapter)])
+                                   ('中文名', names_list[0]), ('外文名', foreign_name), ('登场篇章', chapter)])
 
         idx          += 2
         entities_idx += 1
