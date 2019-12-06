@@ -7,7 +7,8 @@ data_dir  = './data/processed_manual_talkop_vivre_card'
 
 # 3-（201810东海的猛者们+超新星集结）
 # 4-（201908杰尔马66+大妈团）
-file_name = '4-（201908杰尔马66+大妈团）'
+# 5-（201902空岛住民+新鱼人海贼团）
+file_name = '5-（201902空岛住民+新鱼人海贼团）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
@@ -100,7 +101,7 @@ def process_avpair(item):
     year_result = re.split('[:：]', item)
     if len(year_result) != 0 and 'before' in year_result[0].lower():
         year = year_result[0].lower().split('before')[-1].strip()
-        if year == '??':
+        if '？' in year or '?' in year:
             year = '？'
         elif year.isdecimal():
             year = str(int(year))
