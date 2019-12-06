@@ -1,9 +1,13 @@
 import re
 import os
 import json
+import time
 
 data_dir  = './data/processed_manual_talkop_vivre_card'
-file_name = '3-（201810东海的猛者们+超新星集结）'
+
+# 3-（201810东海的猛者们+超新星集结）
+# 4-（201908杰尔马66+大妈团）
+file_name = '4-（201908杰尔马66+大妈团）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
@@ -89,6 +93,19 @@ def process_avpair(item):
     if '个路飞' in item:
         return '和路飞的身高比例', item.strip('【】')
 
+    # 年份
+    # 针对 `4-（201908杰尔马66+大妈团）` 中 Before75/Before?? 这种形式
+    # 转换为类似 `？年前` `0年前` `11年前` 这种形式
+    # 注意 Before?? 转换为 ？年前
+    year_result = re.split('[:：]', item)
+    if len(year_result) != 0 and 'before' in year_result[0].lower():
+        year = year_result[0].lower().split('before')[-1].strip()
+        if year == '??':
+            year = '？'
+        elif year.isdecimal():
+            year = str(int(year))
+        return '{}年前'.format(year), year_result[-1]
+
     avpair_results = re.findall(avpair_regex, item)
     
     if len(avpair_results) == 0:
@@ -110,8 +127,9 @@ entity_avpair_list           = list() # 单个entities
 entity_avpair_dict           = dict()
 predicate_set                = set()  # 所有不同的predicate，也就是avpair的key
 while idx < len(vivre_card_list):
-    print('---------------------------------------')
     item = vivre_card_list[idx]
+
+    print('---------------------------------------')
 
     # 获取entities所在的篇章
     chapter_results = re.findall(chapter_pattern, item)
@@ -153,11 +171,25 @@ while idx < len(vivre_card_list):
 
                 # 对于3-（201810东海的猛者们+超新星集结）.txt来说
                 # 如果是【档案/Profile】，他的上面一般就有所属的组织和职位
-                if predicate == '【档案/Profile】':
-                    team_title = entity_avpair_list.pop()[0]
-                    predicate_set.remove(team_title)
-                    predicate_set.add('所属组织及职务')
-                    entity_avpair_list.append(('所属组织及职务', team_title))
+                # Update: 对于4-（201908杰尔马66+大妈团）.txt来说，
+                #           1. 是【Profile】
+                #           2. 【Profile】 上面可能有多个, 所以要用while循环溯源
+                if '档案' in predicate or 'Profile' in predicate:
+                    tmp_idx         = idx
+                    team_title_list = []
+                    while True:
+                        tmp_idx -= 1
+                        previous_item = vivre_card_list[tmp_idx]
+                        if '【' not in previous_item:
+                            break
+                        else:
+                            team_title = entity_avpair_list.pop()[0]
+                            team_title_list.append(team_title)
+                            predicate_set.remove(team_title)
+
+                    for team_title in team_title_list:
+                        predicate_set.add('所属组织及职务')
+                        entity_avpair_list.append(('所属组织及职务', team_title))
 
                 predicate_set.add(predicate)
                 entity_avpair_list.append((predicate, object))
@@ -169,11 +201,25 @@ while idx < len(vivre_card_list):
 
                 # 对于3-（201810东海的猛者们+超新星集结）.txt来说
                 # 如果是【档案/Profile】，他的上面一般就有所属的组织和职位
-                if predicate == '【档案/Profile】':
-                    team_title = entity_avpair_list.pop()[0]
-                    predicate_set.remove(team_title)
-                    predicate_set.add('所属组织及职务')
-                    entity_avpair_list.append(('所属组织及职务', team_title))
+                # Update: 对于4-（201908杰尔马66+大妈团）.txt来说，
+                #           1. 是【Profile】
+                #           2. 【Profile】 上面可能有多个, 所以要用while循环溯源
+                if '档案' in predicate or 'Profile' in predicate:
+                    tmp_idx         = idx
+                    team_title_list = []
+                    while True:
+                        tmp_idx -= 1
+                        previous_item = vivre_card_list[tmp_idx]
+                        if '【' not in previous_item:
+                            break
+                        else:
+                            team_title = entity_avpair_list.pop()[0]
+                            team_title_list.append(team_title)
+                            predicate_set.remove(team_title)
+
+                    for team_title in team_title_list:
+                        predicate_set.add('所属组织及职务')
+                        entity_avpair_list.append(('所属组织及职务', team_title))
 
                 predicate_set.add(predicate)
                 entity_avpair_list.append((predicate, object))
@@ -189,6 +235,9 @@ while idx < len(vivre_card_list):
 
         entities_avpair_results_dict[entity_id] = entity_avpair_dict
         entities_id_name_list.append(entity_id + ' ' + entity_mention_name)
+
+    else:
+        idx += 1
     
 
 # write results into files
