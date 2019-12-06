@@ -1,0 +1,63 @@
+0237 【罗西欧】
+0239 【斯佩克托尔】
+0241 【莉莉】
+0242 【里巴斯】
+0243 【罗斯】
+0244 【艾迪】
+0245 【休伊特】
+0246 【玛妮】
+0247 【缪蕾】
+0248 【泰利】
+0249 【大米】
+0250 【探海潜将】
+0253 【指南鸟】
+0254 【乔博】
+0255 【老大】
+0261 【史铁雷斯】
+0410 【卡西/Kashii】
+0411 【欧伊莫/Oimo】
+0679 【布隆迪】
+0688 【阿玛多布】
+0689 【沃雷姆】
+0690 【巴格利】
+0693 【布流】
+0695 【布洛卡】
+0696 【拉修】
+0697 【Great米迦尔】
+0698 【康斯】
+0699 【安德雷】
+0700 【乔伊】
+0701 【金嘉】
+0702 【科尔斯工】
+0703 【阿格希利】
+0704 【尤里乌斯】
+0705 【兹卡】
+0983 【夏洛特•布琳/Charlotte Pudding】
+0987 【文斯莫克·勇治/Vinsmoke Yonji】
+0988 【文斯莫克·蕾玖/Vinsmoke Reiju】
+0996 【夏洛特•玲玲/Charlotte Linlin】
+0997 【夏洛特·普拉琳涅/Charlotte Praline】
+1000 【庞德/Pound】
+1003 【夏洛特•布蕾/Charlotte Brulee】
+1004 【文斯莫克·伽治/Vinsmoke Judge】
+1007 【夏洛特·戚风/Charlotte Chiffon】
+1008 【卡彭·贝茨】
+1009 【夏洛特•佩罗斯佩罗/Charlotte Perospero】
+1011 【夏洛特•克力架/Charlotte Cracker】
+1012 【巴姆大王/Kingbaum】
+1013 【文斯莫克·伊治/Vinsmoke Ichiji】
+1014 【文斯莫克·尼治/Vinsmoke Niji】
+1033 【夏洛特•蒙多尔/Charlotte Mont-D’or】
+1049 【夏洛特•斯慕吉/Charlotte Smoothie】
+1059 【普罗米修斯/Prometheus】
+1060 【宙斯/Zeus】
+1066 【长面包/Streusen】
+1070 【摩根斯/Morgans】
+1076 【夏洛特•卡塔库栗/Charlotte Katakuri】
+1087 【夏洛特•大福/Charlotte Daifuku】
+1088 【夏洛特•欧文/Charlotte Oven】
+1100 【加尔默罗/Carmel】
+1111 【盖尔兹/Gerd】
+1113 【尤鲁鲁/Jorul】
+1114 【崖鲁鲁/Jarul】
+1147 【夏洛特•芙兰佩/Charlotte Flampe】
