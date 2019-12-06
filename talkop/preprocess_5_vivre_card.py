@@ -28,6 +28,11 @@ reward_pattern = re.compile(reward_regex, re.S)
 quotes_regex = '^“(.*)”$'
 quotes_pattern = re.compile(quotes_regex, re.S)
 
+# 对于 5.xxxx.txt 来说，id name新增加了一种种类
+# `id name`, 例如：0568 巨鸟
+name_regex2 = '([0-9]{4}) (.*)'
+name_pattern2 = re.compile(name_regex2, re.S)
+
 
 with open(vivre_card_path) as f:
     content = f.readlines()
@@ -41,7 +46,7 @@ for item in content:
     if len(item) != 0:
         vivre_card_list.append(item)
         print(item)
-
+print('\n\n')
 
 # get onepiece entities name
 entities_cnt          = 0
@@ -53,14 +58,34 @@ for idx, item in enumerate(vivre_card_list):
     # e.g. 
     #   0004
     #   【乌索普/Usopp】
-    if item[0].isdigit() and item[-1].isdigit():
+    # Update: 
+    #   1. 对于 5.xxxx.txt 来说，新增加了一种种类
+    #      `id name`, 例如：0568 巨鸟
+    #   2. 不能用 item[0].isdigit() and item[-1].isdigit() 来判断第一种情况，因为有一些特列
+    #      例如 0128 Mr.9
+    if item.isdecimal():
         next_item = vivre_card_list[idx + 1]
         if next_item.startswith('【') and next_item.endswith('】'):
             entities_id_list.append(item)
             entities_mention_list.append(next_item)
 
-            print(item, next_item)
+            print('|{}|{}|{}|'.format(item, next_item, item + ' ' + next_item))
             entities_cnt += 1
+    elif item[:4].isdecimal() and item[4] == ' ':
+        id_name_split = re.findall(name_pattern2, item)
+        if len(id_name_split) == 0 or id_name_split[0][-1].strip() == '':
+            print('[Error]: Item should be the format like \'id name\', but now item: {}'.format(item))
+            print('split: {}'.format(id_name_split))
+            exit(-1)
+
+        entity_id           = id_name_split[0][0].strip()
+        entity_mention_name = id_name_split[0][-1].strip()
+
+        entities_id_list.append(entity_id)
+        entities_mention_list.append(entity_mention_name)
+
+        print('|{}|{}|{}|'.format(entity_id, entity_mention_name, item))
+        entities_cnt += 1
 
 
 print('\n\nOnepiece Entities Number: {}\n\n'.format(entities_cnt))
@@ -82,20 +107,52 @@ while idx < len(content):
     
     item = content[idx].strip()
 
-    write_item = item
-    print(1, write_item)
-    f.write(write_item + '\n')
+    # write_item = item
+    # print(1, write_item)
+    # f.write(write_item + '\n')
 
 
     if entities_idx >= len(entities_id_list):
         idx += 1
 
-    elif item == entities_id_list[entities_idx]:
-        print('---------------------------------------')
-        entity_id           = item
-        entity_mention_name = content[idx + 1].strip().strip('【】')
-        entity_english_name = content[idx + 2].strip()
+    # 两种形式
+    # 1. 【贝拉米】
+    #    Bellamy
+    # 2. 0568 巨鸟
+    elif item == entities_id_list[entities_idx] or item.startswith(entities_id_list[entities_idx]):
+        # print('---------------------------------------')
+        # 第一种形式
+        if item == entities_id_list[entities_idx]:
+            entity_id           = item
+            entity_mention_name = content[idx + 1].strip().strip('【】')
+            entity_english_name = content[idx + 2].strip()
 
+            write_item = entity_id
+            print(0, write_item)
+            f.write(write_item + '\n')
+
+            idx += 2
+        # 第二种形式
+        elif item.startswith(entities_id_list[entities_idx]):
+            id_name_split = re.findall(name_pattern2, item)
+            if len(id_name_split) == 0 or id_name_split[0][-1].strip() == '':
+                print('[Error]: Item should be the format like \'id name\', but now item: {}'.format(item))
+                print('split: {}'.format(id_name_split))
+                exit(-1)
+
+            entity_id           = id_name_split[0][0].strip()
+            entity_mention_name = id_name_split[0][-1].strip()
+            entity_english_name = content[idx + 1].strip()
+
+            write_item = entity_id
+            print(1, write_item)
+            f.write(write_item + '\n')
+
+            idx += 1
+
+        entities_idx += 1
+
+        # 判断是否是英文名
         if entity_english_name[0].encode('UTF-8').isalpha() and entity_english_name[-1].encode('UTF-8').isalpha():
 
             print('entity_english_name: {}'.format(entity_english_name))
@@ -108,10 +165,7 @@ while idx < len(content):
             print(3, write_item)
             f.write(write_item + '\n')
 
-            idx          += 3
-            entities_idx += 1
-            next_item     = content[idx].strip()
-
+            idx          += 1
         else:
             # write_item = entity_id
             # print(4, write_item)
@@ -121,15 +175,11 @@ while idx < len(content):
             print(5, write_item)
             f.write(write_item + '\n')
 
-            idx          += 2
-            entities_idx += 1
-            next_item     = content[idx].strip()
-
-
+        next_item     = content[idx].strip()
 
         # 处理最后一个的特殊情况
         if entities_idx == len(entities_id_list):
-            while idx < len(vivre_card_list):
+            while idx < len(content):
                 next_item = content[idx].strip()
 
                 if '登场篇章' in next_item and '【' not in content[idx + 1]:
@@ -147,11 +197,11 @@ while idx < len(content):
                 else:
                     # print(8, next_item.strip())
                     write_item = next_item.strip()
-                    print(8, write_item)
+                    # print(8, write_item)
                     f.write(write_item + '\n')
                     idx += 1
         else:
-            while next_item != entities_id_list[entities_idx] and idx < len(content) and '【篇章标识符】' not in next_item:
+            while next_item != entities_id_list[entities_idx] and not next_item.startswith(entities_id_list[entities_idx]) and idx < len(content) and '【篇章标识符】' not in next_item:
                 if '登场篇章' in next_item and '【' not in content[idx + 1]:
                     # print(9, next_item.strip().strip('【】') + '：' + content[idx + 1].strip())
                     write_item = next_item.strip().strip('【】') + '：' + content[idx + 1].strip()
@@ -173,9 +223,12 @@ while idx < len(content):
                     f.write(write_item + '\n')
                     idx += 1
                     next_item = content[idx].strip()
-    
-
+        print('---------------------------------------')
     else:
+        write_item = item
+        print(11, write_item)
+        f.write(write_item + '\n')
+
         idx += 1
 
 
