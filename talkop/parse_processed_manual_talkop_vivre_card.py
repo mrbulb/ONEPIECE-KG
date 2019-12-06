@@ -230,7 +230,23 @@ while idx < len(vivre_card_list):
         print()
         print('-----------------------------------------')
         for list_item in entity_avpair_list:
-            entity_avpair_dict[list_item[0]] = list_item[1]
+            if list_item[0] in entity_avpair_dict.keys():
+                avpair_item = entity_avpair_dict[list_item[0]]
+
+                # 之前只加入过一次，还是str
+                if type(avpair_item).__name__ == 'str':
+                    entity_avpair_dict[list_item[0]] = list()
+                    entity_avpair_dict[list_item[0]].append(avpair_item)
+                    entity_avpair_dict[list_item[0]].append(list_item[1])
+                # 之前加入过多次, 已经是list
+                elif type(avpair_item).__name__ == 'list':
+                    entity_avpair_dict[list_item[0]].append(list_item[1])
+                else:
+                    print('[Error]: The type of avpair_item should be either `str` or `list`')
+                    exit(-1)
+            else:
+                entity_avpair_dict[list_item[0]] = list_item[1]
+
             print('{}: {}'.format(list_item[0], list_item[1]))
 
         entities_avpair_results_dict[entity_id] = entity_avpair_dict
