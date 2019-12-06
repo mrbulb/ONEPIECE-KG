@@ -253,6 +253,12 @@ file_type = '-predicate_key_list'
 suffix    = '.txt'
 write_file_name = os.path.join(data_dir, file_name + file_type + suffix)
 
+
+if '' in predicate_set:
+    print('[Error]: There is an empty predicate key \'\' in predicate_set')
+    exit(-1)
+
+
 with open(write_file_name, 'w') as f:
     for item in predicate_set:
         f.write(item + '\n')
