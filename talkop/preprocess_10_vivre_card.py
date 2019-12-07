@@ -3,7 +3,7 @@ import os
 import json
 
 data_dir  = './data/processed_manual_talkop_vivre_card'
-file_name = '9-（201812阿拉巴斯坦+白胡子海贼团）'
+file_name = '10-（201901鱼人岛居民+巴洛克社）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
@@ -32,6 +32,12 @@ quotes_pattern = re.compile(quotes_regex, re.S)
 # `id name`, 例如：0568 巨鸟
 name_regex2 = '([0-9]{4}) (.*)'
 name_pattern2 = re.compile(name_regex2, re.S)
+
+# update: 10.xxxx.txt 来说，id name新增加了一种种类
+# `【id name】`, 例如：【0548 古罗丽奥萨（咋婆婆）】
+# 其实可以和name_pattern2写成一个形式：'[【]?([0-9]{4}) ([^】]*)[】]?'
+name_regex3 = '【?([0-9]{4}) ([^】]*)】?'
+name_pattern3 = re.compile(name_regex3, re.S)
 
 
 with open(vivre_card_path) as f:
@@ -71,12 +77,19 @@ for idx, item in enumerate(vivre_card_list):
 
             print('|{}|{}|{}|'.format(item, next_item, item + ' ' + next_item))
             entities_cnt += 1
-    elif item[:4].isdecimal() and item[4] == ' ':
-        id_name_split = re.findall(name_pattern2, item)
-        if len(id_name_split) == 0 or id_name_split[0][-1].strip() == '':
-            print('[Error]: Item should be the format like \'id name\', but now item: {}'.format(item))
-            print('split: {}'.format(id_name_split))
-            exit(-1)
+    elif (item[:4].isdecimal() and item[4] == ' ') or (item[1:5].isdecimal() and item[5] == ' '):
+        if item[4] == ' ':
+            id_name_split = re.findall(name_pattern2, item)
+            if len(id_name_split) == 0 or id_name_split[0][-1].strip() == '':
+                print('[Error]: Item should be the format like \'id name\', but now item: {}'.format(item))
+                print('split: {}'.format(id_name_split))
+                exit(-1)
+        elif item[5] == ' ':
+            id_name_split = re.findall(name_pattern3, item)
+            if len(id_name_split) == 0 or id_name_split[0][-1].strip() == '':
+                print('[Error]: Item should be the format like \'id name\', but now item: {}'.format(item))
+                print('split: {}'.format(id_name_split))
+                exit(-1)
 
         entity_id           = id_name_split[0][0].strip()
         entity_mention_name = id_name_split[0][-1].strip()
@@ -119,7 +132,7 @@ while idx < len(content):
     # 1. 【贝拉米】
     #    Bellamy
     # 2. 0568 巨鸟
-    elif item == entities_id_list[entities_idx] or item.startswith(entities_id_list[entities_idx]):
+    elif item == entities_id_list[entities_idx] or item.startswith(entities_id_list[entities_idx]) or item.startswith('【' + entities_id_list[entities_idx]):
         # print('---------------------------------------')
         # 第一种形式
         if item == entities_id_list[entities_idx]:
@@ -133,12 +146,19 @@ while idx < len(content):
 
             idx += 2
         # 第二种形式
-        elif item.startswith(entities_id_list[entities_idx]):
-            id_name_split = re.findall(name_pattern2, item)
-            if len(id_name_split) == 0 or id_name_split[0][-1].strip() == '':
-                print('[Error]: Item should be the format like \'id name\', but now item: {}'.format(item))
-                print('split: {}'.format(id_name_split))
-                exit(-1)
+        elif item.startswith(entities_id_list[entities_idx]) or item.startswith('【' + entities_id_list[entities_idx]):
+            if item.startswith(entities_id_list[entities_idx]):
+                id_name_split = re.findall(name_pattern2, item)
+                if len(id_name_split) == 0 or id_name_split[0][-1].strip() == '':
+                    print('[Error]: Item should be the format like \'id name\', but now item: {}'.format(item))
+                    print('split: {}'.format(id_name_split))
+                    exit(-1)
+            elif item.startswith('【' + entities_id_list[entities_idx]):
+                id_name_split = re.findall(name_pattern3, item)
+                if len(id_name_split) == 0 or id_name_split[0][-1].strip() == '':
+                    print('[Error]: Item should be the format like \'id name\', but now item: {}'.format(item))
+                    print('split: {}'.format(id_name_split))
+                    exit(-1)
 
             entity_id           = id_name_split[0][0].strip()
             entity_mention_name = id_name_split[0][-1].strip()
@@ -201,7 +221,7 @@ while idx < len(content):
                     f.write(write_item + '\n')
                     idx += 1
         else:
-            while next_item != entities_id_list[entities_idx] and not next_item.startswith(entities_id_list[entities_idx]) and idx < len(content) and '【篇章标识符】' not in next_item:
+            while next_item != entities_id_list[entities_idx] and not next_item.startswith(entities_id_list[entities_idx]) and not next_item.startswith('【' + entities_id_list[entities_idx]) and idx < len(content) and '【篇章标识符】' not in next_item:
                 if '登场篇章' in next_item and '【' not in content[idx + 1]:
                     # print(9, next_item.strip().strip('【】') + '：' + content[idx + 1].strip())
                     write_item = next_item.strip().strip('【】') + '：' + content[idx + 1].strip()
