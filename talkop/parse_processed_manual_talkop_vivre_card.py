@@ -8,7 +8,7 @@ data_dir  = './data/processed_manual_talkop_vivre_card'
 # 3-（201810东海的猛者们+超新星集结）
 # 4-（201908杰尔马66+大妈团）
 # 5-（201902空岛住民+新鱼人海贼团）
-file_name = '5-（201902空岛住民+新鱼人海贼团）'
+file_name = '6-（201907恐怖船+象岛）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
@@ -32,6 +32,10 @@ reward_pattern = re.compile(reward_regex, re.S)
 # 名言
 quotes_regex = '^“(.*)”$'
 quotes_pattern = re.compile(quotes_regex, re.S)
+
+# 原悬赏金
+orig_reward_regex = '【原悬赏金】(.*)'
+orig_reward_pattern = re.compile(orig_reward_regex, re.S)
 
 
 with open(vivre_card_path) as f:
@@ -83,6 +87,11 @@ def process_avpair(item):
     reward_results = re.findall(reward_pattern, item)
     if len(reward_results) != 0:
         return '悬赏金', reward_results[0]
+
+    # 原悬赏金
+    orig_reward_results = re.findall(orig_reward_pattern, item)
+    if len(orig_reward_results) != 0:
+        return '原悬赏金', orig_reward_results[0]
 
     # 名言
     quotes_results = re.findall(quotes_pattern, item)
@@ -281,7 +290,8 @@ with open(write_file_name, 'w') as f:
         f.write(item + '\n')
         print(item)
 
-print('\nDistinct Entities Number: {}'.format(len(entities_id_name_list)))
+distinct_entities_num = len(entities_id_name_list)
+print('\nDistinct Entities Number: {}'.format(distinct_entities_num))
 
 
 # 3. Vivre Card's Entities avpair
@@ -297,6 +307,14 @@ write_file_name = os.path.join(data_dir, file_name + file_type + suffix)
 with open(write_file_name, 'w', encoding='utf-8') as f:
     json.dump(sorted_entities_avpair_results_dict, f, ensure_ascii=False, indent=4)
 
-print('\nDistinct Avpair Number: {}'.format(len(sorted_entities_avpair_results_dict)))
+distinct_avpair_num = len(sorted_entities_avpair_results_dict)
+print('\nDistinct Avpair Number: {}'.format(distinct_avpair_num))
+
+
+if distinct_entities_num != distinct_avpair_num:
+    print('\n\n')
+    print('[Warning]: Distinct Entities Number != Distinct Avpair Number')
+    print('Distinct Entities Number: {}'.format(distinct_entities_num))
+    print('Distinct Avpair Number:   {}'.format(distinct_avpair_num))
 
 print('\n\n------Finish------\n\n')
