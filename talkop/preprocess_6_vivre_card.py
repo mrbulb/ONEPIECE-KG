@@ -3,7 +3,7 @@ import os
 import json
 
 data_dir  = './data/processed_manual_talkop_vivre_card'
-file_name = '5-（201902空岛住民+新鱼人海贼团）'
+file_name = '6-（201907恐怖船+象岛）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
