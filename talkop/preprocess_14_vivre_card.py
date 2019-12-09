@@ -3,7 +3,7 @@ import os
 import json
 
 data_dir  = './data/processed_manual_talkop_vivre_card'
-file_name = '13-（201811可可亚西村+大监狱）'
+file_name = '14-（201809初始套装+1张追加卡）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
@@ -72,9 +72,14 @@ for idx, item in enumerate(vivre_card_list):
     # Update:
     #   1. 发现了一个特例 `W7`，W7在 item[1:5].isdecimal() 判断为True，但在 item[5] == ' ' 超过了他的长度，所以报错
     #      所以加上一个长度判断
+    # Update:
+    #   1. 在 `14-xxx.txt` 中出现了
+    #       0024、0025 【乔路叔&鸡婶】
+    #       0030、0031、0032 【黑波克、贝波克、波波克】
+    #      需要增加对于这种的识别
     if len(item) < 4:
         continue
-    elif item.isdecimal():
+    elif item.replace('、', '').isdecimal():
         next_item = vivre_card_list[idx + 1]
         if next_item.startswith('【') and next_item.endswith('】'):
             entities_id_list.append(item)
