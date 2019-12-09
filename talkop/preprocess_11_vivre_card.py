@@ -3,7 +3,7 @@ import os
 import json
 
 data_dir  = './data/processed_manual_talkop_vivre_card'
-file_name = '10-（201901鱼人岛居民+巴洛克社）'
+file_name = '11-（201906水之都CP9+德岛竞技场）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
@@ -69,7 +69,12 @@ for idx, item in enumerate(vivre_card_list):
     #      `id name`, 例如：0568 巨鸟
     #   2. 不能用 item[0].isdigit() and item[-1].isdigit() 来判断第一种情况，因为有一些特列
     #      例如 0128 Mr.9
-    if item.isdecimal():
+    # Update:
+    #   1. 发现了一个特例 `W7`，W7在 item[1:5].isdecimal() 判断为True，但在 item[5] == ' ' 超过了他的长度，所以报错
+    #      所以加上一个长度判断
+    if len(item) < 4:
+        continue
+    elif item.isdecimal():
         next_item = vivre_card_list[idx + 1]
         if next_item.startswith('【') and next_item.endswith('】'):
             entities_id_list.append(item)
