@@ -16,7 +16,8 @@ data_dir  = './data/processed_manual_talkop_vivre_card'
 # 11-（201906水之都CP9+德岛竞技场）
 # 12-（201903初始套装Vol2-16张主卡）
 # 13-（201811可可亚西村+大监狱）
-file_name = '13-（201811可可亚西村+大监狱）'
+# 14-（201809初始套装+1张追加卡）
+file_name = '14-（201809初始套装+1张追加卡）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
