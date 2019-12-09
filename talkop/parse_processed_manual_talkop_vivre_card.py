@@ -14,7 +14,8 @@ data_dir  = './data/processed_manual_talkop_vivre_card'
 # 9-（201812阿拉巴斯坦+白胡子海贼团）
 # 10-（201901鱼人岛居民+巴洛克社）
 # 11-（201906水之都CP9+德岛竞技场）
-file_name = '11-（201906水之都CP9+德岛竞技场）'
+# 12-（201903初始套装Vol2-16张主卡）
+file_name = '12-（201903初始套装Vol2-16张主卡）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
@@ -42,6 +43,10 @@ quotes_pattern = re.compile(quotes_regex, re.S)
 # 原悬赏金
 orig_reward_regex = '【原悬赏金】(.*)'
 orig_reward_pattern = re.compile(orig_reward_regex, re.S)
+
+# 贯彻的正义
+justice_regex = '【贯彻的正义】(.*)'
+justice_pattern = re.compile(justice_regex, re.S)
 
 
 with open(vivre_card_path) as f:
@@ -104,6 +109,11 @@ def process_avpair(item):
     if len(quotes_results) != 0:
         return '名言', quotes_results[0]
 
+    # 贯彻的正义
+    justice_results = re.findall(justice_pattern, item)
+    if len(justice_results) != 0:
+        return '贯彻的正义', justice_results[0]
+
     # 和路飞的身高比例
     # e.g. 【身高A类，约1.0个路飞】
     if '个路飞' in item:
@@ -136,6 +146,7 @@ def process_avpair(item):
 
 idx = 0
 entities_idx = 0
+flag_chapter = False
 
 entities_avpair_results_dict = dict() # 所有entities的avpair结果
 entities_id_name_list        = list() # 记录所有解析得到entities的id和对应的mention_name
@@ -154,6 +165,7 @@ while idx < len(vivre_card_list):
             print('[Error]: chapter should be one, but now is {} | chapter: {}'.format(len(chapter_results), chapter_results))
         else:
             chapter = chapter_results[0]
+            flag_chapter = True
 
             print('\nChapter: {}\n'.format(chapter))
             print(re.findall(chapter_split_pattern, chapter))
@@ -171,9 +183,14 @@ while idx < len(vivre_card_list):
         if len(names_list[-1]) != 0:
             foreign_name = names_list[-1]
 
-        predicate_set.update(['ID', '名称', '中文名', '外文名', '登场篇章'])
+        predicate_set.update(['ID', '名称', '中文名', '外文名'])
         entity_avpair_list.extend([('ID', entity_id), ('名称', entity_mention_name), \
-                                   ('中文名', names_list[0]), ('外文名', foreign_name), ('登场篇章', chapter)])
+                                   ('中文名', names_list[0]), ('外文名', foreign_name)])
+
+        # 判断是否有登场篇章标记
+        if flag_chapter == True:
+            predicate_set.update(['登场篇章'])
+            entity_avpair_list.extend([('登场篇章', chapter)])
 
         idx          += 2
         entities_idx += 1
