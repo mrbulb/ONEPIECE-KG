@@ -109,14 +109,14 @@ def whose_nationality_question(x):
 
 if __name__ == "__main__":
     default_questions = [
-        u"璋佹槸鑻戣尩?",
-        u"涓佹椽濂庢槸璋�?",
-        u"鑻忚繘鏈ㄦ潵鑷摢閲�?",
-        u"鑻戣尩鏄摢涓棌鐨�?",
-        u"鑻戣尩鐨勬皯鏃忔槸浠€涔�?",
+        u"谁是苑茵?",
+        u"丁洪奎是谁?",
+        u"苏进木来自哪里?",
+        u"苑茵是哪个族的?",
+        u"苑茵的民族是什么?",
     ]
 
-    suggest_freq(u"鑻忚繘鏈�", True)
+    suggest_freq(u"苏进木", True)
 
     questions = default_questions[0:]
 
@@ -132,15 +132,15 @@ if __name__ == "__main__":
     # some rules for matching
     # TODO: customize your own rules here
     person = (W(pos="nr") | W(pos="x"))
-    ethnic = (W("鏃�") | W("姘戞棌"))
+    ethnic = (W("族") | W("民族"))
     
     rules = [
 
-        Rule(condition=W(pos="r") + W("鏄�") + person | \
-                       person + W("鏄�") + W(pos="r"),
+        Rule(condition=W(pos="r") + W("是") + person | \
+                       person + W("是") + W(pos="r"),
              action=who_is_question),
 
-        Rule(condition=person + W("鏉ヨ嚜") + Star(W("鍝�"), greedy=False),
+        Rule(condition=person + W("来自") + Star(W("哪"), greedy=False),
              action=where_is_from_question),
 
         Rule(condition=person + Star(Any(), greedy=False) + ethnic,
