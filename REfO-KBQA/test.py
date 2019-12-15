@@ -9,7 +9,7 @@ from jieba import suggest_freq
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-sparql_base = SPARQLWrapper("http://localhost:3030/demo/query")
+sparql_base = SPARQLWrapper("http://localhost:3031/demo/query")
 
 # SPARQL config
 SPARQL_PREAMBLE = u"""
@@ -151,6 +151,7 @@ if __name__ == "__main__":
     # matching and querying
     for seg in seg_lists:
         # display question each
+        print('\n\n\n')
         for s in seg:
             print s.token,
         print
