@@ -58,7 +58,7 @@ class Rule(object):
             i, j = m.span()
             matches.extend(sentence[i:j])
         if __name__ == '__main__':
-            print "----------applying %s----------" % self.action.__name__
+            print("----------applying {}----------".format(self.action.__name__))
         return self.action(matches)
 
 
@@ -68,7 +68,7 @@ def who_is_question(x):
     sparql = None
     for w in x:
         if w.pos == "nr" or w.pos == "x":
-            e = u"cns_people:{person} cns:description ?x0".format(person=w.token.decode("utf-8"))
+            e = u"cns_people:{person} cns:description ?x0".format(person=w.token)
 
             sparql = SPARQL_TEM.format(preamble=SPARQL_PREAMBLE,
                                        select=select,
@@ -83,7 +83,7 @@ def where_is_from_question(x):
     sparql = None
     for w in x:
         if w.pos == "nr" or w.pos == "x":
-            e = u"cns_people:{person} cns:birthPlace ?x0".format(person=w.token.decode("utf-8"))
+            e = u"cns_people:{person} cns:birthPlace ?x0".format(person=w.token)
 
             sparql = SPARQL_TEM.format(preamble=SPARQL_PREAMBLE,
                                        select=select,
@@ -98,7 +98,7 @@ def whose_nationality_question(x):
     sparql = None
     for w in x:
         if w.pos == "nr" or w.pos == "x":
-            e = u"cns_people:{person} cns:ethnicity ?x0".format(person=w.token.decode("utf-8"))
+            e = u"cns_people:{person} cns:ethnicity ?x0".format(person=w.token)
 
             sparql = SPARQL_TEM.format(preamble=SPARQL_PREAMBLE,
                                        select=select,
@@ -125,7 +125,7 @@ if __name__ == "__main__":
     # tokenizing questions
     for question in questions:
         words = pseg.cut(question)
-        seg_list = [Word(word.encode("utf-8"), flag) for word, flag in words]
+        seg_list = [Word(word, flag) for word, flag in words]
 
         seg_lists.append(seg_list)
 
@@ -152,18 +152,18 @@ if __name__ == "__main__":
     for seg in seg_lists:
         # display question each
         for s in seg:
-            print s.token,
-        print
+            print(s.token, end=" ")
+        print()
 
         for rule in rules:
             query = rule.apply(seg)
 
             if query is None:
-                print "Query not generated :(\n"
+                print("Query not generated :(\n")
                 continue
             
             # display corresponding query
-            print query
+            print(query)
 
             if query:
                 sparql_base.setQuery(query)
@@ -171,11 +171,11 @@ if __name__ == "__main__":
                 results = sparql_base.query().convert()
 
                 if not results["results"]["bindings"]:
-                    print "No answer found :("
-                    print
+                    print("No answer found :(")
+                    print()
                     continue
 
                 for result in results["results"]["bindings"]:
-                    print "Result: ", result["x0"]["value"]
+                    print("Result: ", result["x0"]["value"])
 
-                    print
+                    print()
