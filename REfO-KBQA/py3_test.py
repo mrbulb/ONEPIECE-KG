@@ -6,6 +6,7 @@ import re
 from refo import finditer, Predicate, Star, Any
 import jieba.posseg as pseg
 from jieba import suggest_freq
+import prettytable as pt
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 
@@ -57,6 +58,12 @@ class Rule(object):
         for m in finditer(self.condition, sentence):
             i, j = m.span()
             matches.extend(sentence[i:j])
+
+        print('matches:')
+        parse_word_list(matches)
+
+        # 当本模块直接执行的时候, __name__ = '__main__'
+        # 如果是被import进来的时候, __name__ = py3_test
         if __name__ == '__main__':
             print("----------applying {}----------".format(self.action.__name__))
         return self.action(matches)
@@ -107,9 +114,49 @@ def whose_nationality_question(x):
     return sparql
 
 
+def parse_word_list(sentence):
+    r"""解析由Word类组成的sentence.
+    Arguments:
+        sentence (list): 由Word类组成的list.
+    Returns:
+        None.
+    Examples::
+        >>> parse_word_list(sentence)
+    """
+    token_list = " ".join((w.token for w in sentence))
+    pos_list   = " ".join((w.pos for w in sentence))
+
+    print('token_list: {}'.format(token_list))
+    print('pos_list:   {}'.format(pos_list))
+
+    tmpl1, tmpl2 = ['token_list'], ['pos_list']
+    tmpl1.extend([w.token for w in sentence])
+    tmpl2.extend([w.pos for w in sentence])
+
+    ## 按行添加数据
+    tb = pt.PrettyTable()
+    tb.add_row(tmpl1)
+    tb.add_row(tmpl2)
+
+    print(tb)
+
+
+def split_line():
+    r"""打印分界线.
+    Arguments:
+        None.
+    Returns:
+        None.
+    Examples::
+        >>> split_line()
+    """
+    print('\n\n------------------------------\n\n')
+
+
 if __name__ == "__main__":
     default_questions = [
         u"谁是苑茵?",
+        u"谁是姚明?",
         u"丁洪奎是谁?",
         u"苏进木来自哪里?",
         u"苑茵是哪个族的?",
@@ -122,12 +169,19 @@ if __name__ == "__main__":
 
     seg_lists = []
 
+    # 对每个句子进行分词，获取词和对应的词性
     # tokenizing questions
     for question in questions:
         words = pseg.cut(question)
         seg_list = [Word(word, flag) for word, flag in words]
 
         seg_lists.append(seg_list)
+
+        words2 = pseg.lcut(question)
+
+        print('\nquestion: {}'.format(question))
+        print(words2)
+        parse_word_list(seg_list)
 
     # some rules for matching
     # TODO: customize your own rules here
@@ -136,23 +190,34 @@ if __name__ == "__main__":
     
     rules = [
 
+        # who_is_question
+        # 谁是xx？
+        # xx是谁
         Rule(condition=W(pos="r") + W("是") + person | \
                        person + W("是") + W(pos="r"),
              action=who_is_question),
 
+        # where_is_from_questio
+        # xxx来自哪？
         Rule(condition=person + W("来自") + Star(W("哪"), greedy=False),
              action=where_is_from_question),
 
+        # whose_nationality_question
+        # xxxAny()族
         Rule(condition=person + Star(Any(), greedy=False) + ethnic,
              action=whose_nationality_question)
 
     ]
 
     # matching and querying
+    split_line()
+    print('Matching and Querying')
+
     for seg in seg_lists:
         # display question each
+        print('\n\n\n')
         for s in seg:
-            print(s.token, end=" ")
+            print(s.token, end=' ')
         print()
 
         for rule in rules:
@@ -170,6 +235,8 @@ if __name__ == "__main__":
                 sparql_base.setReturnFormat(JSON)
                 results = sparql_base.query().convert()
 
+                # results 的格式, e.g.:
+                # {'head': {'vars': ['x0']}, 'results': {'bindings': [{'x0': {'type': 'literal', 'value': '满族'}}]}}
                 if not results["results"]["bindings"]:
                     print("No answer found :(")
                     print()
