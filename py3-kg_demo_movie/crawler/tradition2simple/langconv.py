@@ -24,10 +24,10 @@ else:
     _zh2Hant, _zh2Hans = {}, {}
     for old, new in ((zh2Hant, _zh2Hant), (zh2Hans, _zh2Hans)):
         for k, v in old.items():
-            new[k.decode('utf8')] = v.decode('utf8')
+            new[k] = v
     zh2Hant = _zh2Hant
     zh2Hans = _zh2Hans
-    UEMPTY = ''.decode('utf8')
+    UEMPTY = ''
 
 # states
 (START, END, FAIL, WAIT_TAIL) = list(range(4))
@@ -268,8 +268,7 @@ def run():
     c = Converter(options.encoding)
     for line in file_in:
         # print >> file_out, c.convert(line.rstrip('\n').decode(
-        file_out.write(c.convert(line.rstrip('\n').decode(
-            'utf8')).encode('utf8'))
+        file_out.write(c.convert(line.rstrip('\n')))
 
 
 if __name__ == '__main__':

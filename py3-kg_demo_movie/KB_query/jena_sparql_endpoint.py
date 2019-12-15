@@ -56,18 +56,18 @@ class JenaFuseki:
 
         if query_head is None:
             if query_result is True:
-                print 'Yes'
+                print('Yes')
             else:
-                print 'False'
-            print
+                print('False')
+            print()
         else:
             for h in query_head:
-                print h, ' '*5,
-            print
+                print(h, ' '*5, end=' ')
+            print()
             for qr in query_result:
-                for _, value in qr.iteritems():
-                    print value, ' ',
-                print
+                for _, value in qr.items():
+                    print(value, ' ', end=' ')
+                print()
 
     def get_sparql_result_value(self, query_result):
         """
@@ -81,7 +81,7 @@ class JenaFuseki:
         else:
             values = list()
             for qr in query_result:
-                for _, value in qr.iteritems():
+                for _, value in qr.items():
                     values.append(value)
             return values
 
