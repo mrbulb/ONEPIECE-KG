@@ -85,6 +85,7 @@ class JenaFuseki:
                     values.append(value)
             return values
 
+
 # TODO 用于测试
 if __name__ == '__main__':
     fuseki = JenaFuseki()
