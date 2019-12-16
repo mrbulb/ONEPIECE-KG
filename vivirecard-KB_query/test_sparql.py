@@ -2,22 +2,23 @@
 # coding:utf-8
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-sparql = SPARQLWrapper("http://localhost:3030/kg_demo_movie/query")
+sparql = SPARQLWrapper("http://localhost:3030/talkop-vivre-card/query")
 sparql.setQuery("""
-    PREFIX : <http://www.kgdemo.com#>
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX : <http://kg.course/talkop-vivre-card/>
 
-    SELECT ?n WHERE {
-      ?s rdf:type :Person.
-      ?s :personName '巩俐'.
-      ?s :hasActedIn ?o.
-      ?o :movieTitle ?n.
-      ?o :movieRating ?r.
-    FILTER (?r >= 7)
+    SELECT ?s ?p ?o ?value WHERE {
+        ?s :名称 ?o .
+        ?s ?p ?value .
+        FILTER REGEX(str(?o), '路飞')
     }
+    LIMIT 30
 """)
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 
 for result in results["results"]["bindings"]:
-    print(result["n"]["value"])
+    s = result["s"]["value"]
+    p = result["p"]["value"]
+    o = result["o"]["value"]
+    value = result["value"]["value"]
+    print(s, p, o, value)
