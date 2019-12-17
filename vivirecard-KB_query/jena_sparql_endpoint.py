@@ -19,7 +19,7 @@ from collections import OrderedDict
 
 
 class JenaFuseki:
-    def __init__(self, endpoint_url='http://localhost:3030/kg_demo_movie/query'):
+    def __init__(self, endpoint_url='http://localhost:3030/talkop-vivre-card/query'):
         self.sparql_conn = SPARQLWrapper(endpoint_url)
 
     def get_sparql_result(self, query):
@@ -89,15 +89,16 @@ class JenaFuseki:
 # TODO 用于测试
 if __name__ == '__main__':
     fuseki = JenaFuseki()
-    my_query = """
-PREFIX : <http://www.kgdemo.com#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?x WHERE {
-?s :personName '周星驰'.?s :hasActedIn ?m.?m :movieTitle ?x
+    # 查询测试，查询前50个object中含有'罗杰'的三元组信息
+    my_query = """
+PREFIX : <http://kg.course/talkop-vivre-card/>
+
+SELECT ?s ?p ?o WHERE {
+    ?s ?p ?o .
+    FILTER REGEX(?o, '罗杰',"i")
 }
-limit 1000
+LIMIT 50
     """
     result = fuseki.get_sparql_result(my_query)
     fuseki.print_result_to_string(result)
