@@ -6,7 +6,7 @@
 
 @contact: hsl7698590@gmail.com
 
-@file: jena_sparql_endpoint.py
+@file: csv2txt.py
 
 @time: 2017/12/20 17:42
 
@@ -18,9 +18,9 @@ nr代表人名。
 """
 import pandas as pd
 
-df = pd.read_csv('./movie_title.csv')
-title = df['movie_title'].values
+df = pd.read_csv('./vivre_zhpname.csv')
+title = df['海贼王生命卡人物中文名'].values
 
-with open('./movie_title.txt', 'a') as f:
-    for t in title[1:]:
-        f.write(t + ' ' + 'nz' + '\n')
+with open('./vivre_zhpname.txt', 'w') as f:
+    for t in title:
+        f.write(t + ' ' + 'nr' + '\n')
