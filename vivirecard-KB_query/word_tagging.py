@@ -52,7 +52,8 @@ class Tagger:
 if __name__ == '__main__':
     tagger = Tagger(['./external_dict/movie_title.txt',
                      './external_dict/person_name.txt',
-                     './external_dict/vivre_zhpname.txt'])
+                     './external_dict/vivre_zhpname.txt',
+                     './external_dict/onepiece_place_terminology.txt'])
     while True:
         s = input()
         for i in tagger.get_word_objects(s):

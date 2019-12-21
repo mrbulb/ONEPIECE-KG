@@ -22,7 +22,7 @@ if __name__ == '__main__':
     # TODO 初始化自然语言到SPARQL查询的模块，参数是外部词典列表。
     q2s = question2sparql.Question2Sparql(
         ['./external_dict/movie_title.txt', './external_dict/person_name.txt',
-         './external_dict/vivre_zhpname.txt'])
+         './external_dict/vivre_zhpname.txt', './external_dict/onepiece_place_terminology.txt'])
 
     while True:
         question = input()
