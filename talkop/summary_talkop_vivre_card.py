@@ -111,6 +111,7 @@ print({key:value for key,value in b.items()if value > 1})  #展现重复元素�
 summary_entities_id_name_list_file = os.path.join(data_dir, 'summary_entities_id_name_list.txt')
 print('write predicate set into file, path: {}'.format(summary_entities_id_name_list_file))
 
+entities_list = sorted(entities_list)
 with open(summary_entities_id_name_list_file, 'w') as f:
     for item in entities_list:
         f.write(item + '\n')
