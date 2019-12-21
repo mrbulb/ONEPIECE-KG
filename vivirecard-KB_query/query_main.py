@@ -21,11 +21,14 @@ if __name__ == '__main__':
     fuseki = jena_sparql_endpoint.JenaFuseki()
     # TODO 初始化自然语言到SPARQL查询的模块，参数是外部词典列表。
     q2s = question2sparql.Question2Sparql(
-        ['./external_dict/movie_title.txt', './external_dict/person_name.txt'])
+        ['./external_dict/movie_title.txt', './external_dict/person_name.txt',
+         './external_dict/vivre_zhpname.txt'])
 
     while True:
         question = input()
         my_query = q2s.get_sparql(question)
+        print('最终的查询语句:\n{}'.format(my_query))
+        print('查询结果')
         if my_query is not None:
             result = fuseki.get_sparql_result(my_query)
             value = fuseki.get_sparql_result_value(result)
@@ -52,4 +55,5 @@ if __name__ == '__main__':
             # TODO 自然语言问题无法匹配到已有的正则模板上，回答“无法理解”
             print('I can\'t understand. :(')
 
+        print('\nquestion: {}'.format(question))
         print('#' * 100)
