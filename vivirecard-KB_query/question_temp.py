@@ -31,9 +31,7 @@ import re
 
 # TODO SPARQL前缀和模板
 SPARQL_PREXIX = u"""
-PREFIX : <http://www.kgdemo.com#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://kg.course/talkop-vivre-card/>
 """
 
 SPARQL_SELECT_TEM = u"{prefix}\n" + \
@@ -50,6 +48,8 @@ SPARQL_ASK_TEM = u"{prefix}\n" + \
     u"ASK {{\n" + \
     u"{expression}\n" + \
     u"}}\n"
+
+INDENT = "    "
 
 
 class W(Predicate):
@@ -330,8 +330,15 @@ class QuestionSet:
         sparql = None
         for w in word_objects:
             if w.pos == pos_person:
-                e = u"?s :personName '{person}'." \
-                    u"?s {keyword} ?x.".format(person=w.token, keyword=keyword)
+                if isinstance(keyword, str):
+                    e = u"{indent}?s :中文名 ?o. \n" \
+                        u"{indent}?s {keyword} ?x. \n" \
+                        u"{indent}FILTER REGEX(STR(?o), '{person}').".format(person=w.token, keyword=keyword, indent=INDENT)
+                elif isinstance(keyword, list):
+                    e = u"{indent}?s :中文名 ?o. \n".format(indent=INDENT)
+                    for k in keyword:
+                        e += u"{indent}OPTIONAL {{?s {keyword} ?x.}} \n".format(keyword=k, indent=INDENT)
+                    e += u"{indent}FILTER REGEX(STR(?o), '{person}').".format(person=w.token, indent=INDENT)
 
                 sparql = SPARQL_SELECT_TEM.format(
                     prefix=SPARQL_PREXIX, select=select, expression=e)
@@ -459,19 +466,38 @@ class PropertyValueSet:
 
     @staticmethod
     def return_birth_value():
-        return u':personBirthDay'
+        return u':生日'
 
     @staticmethod
     def return_birth_place_value():
-        return u':personBirthPlace'
+        return list([u':出生地', u':出身', u':出身地'])
 
     @staticmethod
     def return_english_name_value():
-        return u':personEnglishName'
+        return u':外文名'
 
     @staticmethod
     def return_person_introduction_value():
         return u':personBiography'
+
+    # ------
+    # vivire card additional person basic
+    @staticmethod
+    def return_blood_type_value():
+        return u':血型'
+
+    @staticmethod
+    def return_zodiac_sign_value():
+        return u':星座'
+
+    @staticmethod
+    def return_haki_type_value():
+        return u':霸气'
+
+    @staticmethod
+    def return_height_value():
+        return list([u':身高', u':全长', u':全高', u':身长', u':高度'])
+    # ------
 
     @staticmethod
     def return_movie_introduction_value():
@@ -529,11 +555,19 @@ higher = (W("大于") | W("高于"))
 lower = (W("小于") | W("低于"))
 compare = (higher | lower)
 
+# original
 birth = (W("生日") | W("出生") + W("日期") | W("出生"))
 birth_place = (W("出生地") | W("出生"))
-english_name = (W("英文名") | W("英文") + W("名字"))
+english_name = (W("英文名") | W("英文") + W("名字") | W("外文") + W("名") | W("外文") + W("名字"))
 introduction = (W("介绍") | W("是") + W("谁") | W("简介"))
-person_basic = (birth | birth_place | english_name | introduction)
+# ------
+# vivire card additional person basic
+blood_type = W("血型")
+zodiac_sign = W("星座")
+haki_type = W("霸气")
+height = (W("身高") | W("身长") | W("高度") | W("长度") | W("全长") | W("全高"))
+# ------
+person_basic = (birth | birth_place | english_name | introduction | blood_type | zodiac_sign | haki_type | height)
 
 rating = (W("评分") | W("分") | W("分数"))
 release = (W("上映"))
@@ -552,7 +586,7 @@ where = (W("哪里") | W("哪儿") | W("何地") | W("何处") | W("在") + W("�
 6. 某演员出演的XX类型电影有哪些。
 7. 某演员出演了多少部电影。
 8. 某演员是喜剧演员吗。
-9. 某演员的生日/出生地/英文名/简介
+9. 某人的生日/出生地/英文名/简介/血型/星座/霸气/身高
 10. 某电影的简介/上映日期/评分
 """
 rules = [
@@ -635,7 +669,16 @@ person_basic_keyword_rules = [
     KeywordRule(condition=person_entity + Star(Any(), greedy=False) + english_name +
                 Star(Any(), greedy=False), action=PropertyValueSet.return_english_name_value),
     KeywordRule(condition=person_entity + Star(Any(), greedy=False) + introduction +
-                Star(Any(), greedy=False), action=PropertyValueSet.return_person_introduction_value)
+                Star(Any(), greedy=False), action=PropertyValueSet.return_person_introduction_value),
+    # vivire card additional person basic
+    KeywordRule(condition=person_entity + Star(Any(), greedy=False) + blood_type +
+                Star(Any(), greedy=False), action=PropertyValueSet.return_blood_type_value),
+    KeywordRule(condition=person_entity + Star(Any(), greedy=False) + zodiac_sign +
+                Star(Any(), greedy=False), action=PropertyValueSet.return_zodiac_sign_value),
+    KeywordRule(condition=person_entity + Star(Any(), greedy=False) + haki_type +
+                Star(Any(), greedy=False), action=PropertyValueSet.return_haki_type_value),
+    KeywordRule(condition=person_entity + Star(Any(), greedy=False) + height +
+                Star(Any(), greedy=False), action=PropertyValueSet.return_height_value),
 ]
 
 movie_basic_keyword_rules = [
