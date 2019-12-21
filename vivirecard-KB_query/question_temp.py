@@ -21,8 +21,9 @@
 6. 某演员出演的XX类型电影有哪些。
 7. 某演员出演了多少部电影。
 8. 某演员是喜剧演员吗。
-9. 某演员的生日/出生地/英文名/简介
+9. 某人的生日/出生地/英文名/简介/血型/星座/霸气/身高
 10. 某电影的简介/上映日期/评分
+11. 谁出生在xx/出生在xxx的有谁
 
 读者可以自己定义其他的匹配规则。
 """
@@ -375,6 +376,38 @@ class QuestionSet:
 
         return sparql
 
+    @staticmethod
+    def who_born_in_question(word_objects):
+        """
+        谁出生在xx/出生在xxx的有谁
+        :param word_objects:
+        :return:
+        """
+        keyword = PropertyValueSet.return_birth_place_value()
+
+        select = u"?x"
+        sparql = None
+        for w in word_objects:
+            if w.pos == pos_place:
+                if isinstance(keyword, str):
+                    e = u"{indent}?s :中文名 ?x. \n" \
+                        u"{indent}?s {keyword} ?o. \n" \
+                        u"{indent}FILTER REGEX(STR(?o), '{place}').".format(place=w.token, keyword=keyword, indent=INDENT)
+                elif isinstance(keyword, list):
+                    e = u"{indent}?s :中文名 ?x. \n".format(indent=INDENT)
+                    for k in keyword:
+                        e += u"{indent}OPTIONAL {{?s {keyword} ?o.}} \n".format(keyword=k, indent=INDENT)
+                    e += u"{indent}FILTER REGEX(STR(?o), '{place}').".format(place=w.token, indent=INDENT)
+                else:
+                    print('[Error]: the type(keyword) should be either `str` or list, but now is {}'.format(type(keyword)))
+
+                sparql = SPARQL_SELECT_TEM.format(
+                    prefix=SPARQL_PREXIX, select=select, expression=e)
+
+                break
+
+        return sparql
+
 
 class PropertyValueSet:
     def __init__(self):
@@ -516,10 +549,12 @@ class PropertyValueSet:
 pos_person = "nr"
 pos_movie = "nz"
 pos_number = "m"
+pos_place = "ns"
 
 person_entity = (W(pos=pos_person))
 movie_entity = (W(pos=pos_movie))
 number_entity = (W(pos=pos_number))
+place_entity = (W(pos=pos_place))
 
 adventure = W("冒险")
 fantasy = W("奇幻")
@@ -575,6 +610,7 @@ movie_basic = (rating | introduction | release)
 
 when = (W("何时") | W("时候"))
 where = (W("哪里") | W("哪儿") | W("何地") | W("何处") | W("在") + W("哪"))
+who = W("谁")
 
 # TODO 问题模板/匹配规则
 """
@@ -588,6 +624,7 @@ where = (W("哪里") | W("哪儿") | W("何地") | W("何处") | W("在") + W("�
 8. 某演员是喜剧演员吗。
 9. 某人的生日/出生地/英文名/简介/血型/星座/霸气/身高
 10. 某电影的简介/上映日期/评分
+11. 谁出生在xx/出生在xxx的有谁
 """
 rules = [
     Rule(condition_num=2, condition=person_entity + Star(Any(), greedy=False) +
@@ -609,7 +646,9 @@ rules = [
     Rule(condition_num=3, condition=(person_entity + Star(Any(), greedy=False) + (when | where) + person_basic + Star(Any(), greedy=False)) |
          (person_entity + Star(Any(), greedy=False) + person_basic + Star(Any(), greedy=False)), action=QuestionSet.has_basic_person_info_question),
     Rule(condition_num=2, condition=movie_entity + Star(Any(), greedy=False) + movie_basic +
-         Star(Any(), greedy=False), action=QuestionSet.has_basic_movie_info_question)
+         Star(Any(), greedy=False), action=QuestionSet.has_basic_movie_info_question),
+    Rule(condition_num=3, condition=(who + Star(Any(), greedy=False) + birth_place + Star(Any(), greedy=False) + place_entity + Star(Any(), greedy=False)) |
+         (birth_place + Star(Any(), greedy=False) + place_entity + Star(Any(), greedy=False) + who), action=QuestionSet.who_born_in_question),
 ]
 
 # TODO 具体的属性词匹配规则
