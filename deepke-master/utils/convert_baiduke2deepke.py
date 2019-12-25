@@ -48,13 +48,13 @@ relation_header = 'head_type,tail_type,relation,index\nNone,None,None,0'
 # 
 # sentence,relation,head,head_offset,tail,tail_offset
 # 人物简介李谷娜，号晚香女士，祖籍，浙江宁波,祖籍,李谷娜,4,浙江宁波,17
-error_list = []
 def process_baidu_ke(file_path):
 
 	print('\nProcess File: {}'.format(file_path))
 	with open(file_path) as f:
 		content = f.readlines()
 
+	error_list = []
 	deepke_instance_list = []
 	for item in tqdm(content):
 		item = eval(item)
@@ -68,6 +68,8 @@ def process_baidu_ke(file_path):
 
 			head_offset = sentence.find(head)
 			tail_offset = sentence.find(tail)
+			head_offset_end = head_offset + len(head)
+			tail_offset_end = tail_offset + len(tail)
 
 			if head_offset == -1:
 				print('\n[Error] the head [{}] dose not occur in this sentence\nsentence: {}'.format(head, sentence))
@@ -77,12 +79,22 @@ def process_baidu_ke(file_path):
 				print('\n[Error] the tail [{}] dose not occur in this sentence\nsentence: {}'.format(tail, sentence))
 				error_list.append(item)
 				continue
+			# 判定head和tail之间是否有重叠
+			if judge_head_tail_overlap(head_offset, head_offset_end, tail_offset, tail_offset_end) == True:
+				print('\n[Error] the head[{}] and the tail [{}] have overlap in this sentence\nsentence: {}'.format(head, tail, sentence))
+				print_list = ['head_offset', 'head_offset_end', 'tail_offset', 'tail_offset_end']
+				for tmp in print_list:
+					print('{}: {}'.format(tmp, eval(tmp)))
+				error_list.append(item)
+				continue
+
 
 			record_item = '{},{},{},{},{},{}'.format(sentence,relation,head,head_offset,tail,tail_offset)
 			deepke_instance_list.append(record_item)
 
 	print('Sentence Number: {}'.format(len(content)))
 	print('Instance Number: {}'.format(len(deepke_instance_list)))
+	print('Error Number:    {}'.format(len(error_list)))
 
 	return deepke_instance_list
 
@@ -152,6 +164,17 @@ def get_distinct_sentence_instance_number(data):
 
 	print('Sentence Number: {}'.format(len(sentence_set)))
 	print('Instance Number: {}'.format(len(data)))
+
+
+# 判断head和tail之间是否重叠，因为 `preprocess.py` 中不允许有这种情况出现
+# e.g. 南京南站，h是南京，t是南京南站，两个实体之间有重复，这种也很难处理…
+def judge_head_tail_overlap(head_offset_start, head_offset_end, tail_offset_start, tail_offset_end):
+	if head_offset_start >= tail_offset_start and head_offset_start < tail_offset_end:
+		return True
+	elif tail_offset_start >= head_offset_start and tail_offset_start < head_offset_end:
+		return True
+	else:
+		return False
 
 
 trainval_data = process_baidu_ke(train_file)
