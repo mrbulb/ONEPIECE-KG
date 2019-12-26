@@ -87,6 +87,13 @@ def process_baidu_ke(file_path):
 					print('{}: {}'.format(tmp, eval(tmp)))
 				error_list.append(item)
 				continue
+			if judge_in_head_tail(head, tail) == True:
+				print('\n[Error] the head[{}] or the tail [{}] is in \'head\' or \'tail\'] in this sentence\nsentence: {}'.format(head, tail, sentence))
+				print_list = ['head', 'tail']
+				for tmp in print_list:
+					print('{}: {}'.format(tmp, eval(tmp)))
+				error_list.append(item)
+				continue
 
 
 			record_item = '{},{},{},{},{},{}'.format(sentence,relation,head,head_offset,tail,tail_offset)
@@ -172,6 +179,29 @@ def judge_head_tail_overlap(head_offset_start, head_offset_end, tail_offset_star
 	if head_offset_start >= tail_offset_start and head_offset_start < tail_offset_end:
 		return True
 	elif tail_offset_start >= head_offset_start and tail_offset_start < head_offset_end:
+		return True
+	else:
+		return False
+
+# 看head和tail里面是否在字符串 `head` 和 `tail` 里面
+# 改这个是因为一个比较奇葩的数据
+# OrderedDict(
+# 	[('sentence', '《犯罪心理第二季》（criminal minds season 2）是cbs出品的犯罪剧情电视剧，由félix enríquez alcalá和guy norman bee执导，托马斯·吉布森、谢玛·摩尔、马修·格雷·古柏勒、a'), 
+# 	 ('relation', '主演'), 
+# 	 ('head', '犯罪心理第二季'), 
+# 	 ('head_offset', '1'), 
+# 	 ('tail', 'a'), 
+# 	 ('tail_offset', '16'), 
+# 	 ('rel2idx', 48), 
+# 	 ('head_type', '影视作品'), 
+# 	 ('tail_type', '人物')])
+# 比较特别的是 tail 是 'a'
+# 将原句中的 head 和 tail 分别用 `head` 和 tail进行替换后, 替换后的head就不见了
+# 《 he tail d 》（criminal minds season 2）是cbs出品的犯罪剧情电视剧，由félix enríquez alcalá和guy norman bee执导，托马斯·吉布森、谢玛·摩尔、马修·格雷·古柏勒、a
+def judge_in_head_tail(head, tail):
+	if head in 'head' or head in 'tail':
+		return True
+	elif tail in 'head' or tail in 'tail':
 		return True
 	else:
 		return False
