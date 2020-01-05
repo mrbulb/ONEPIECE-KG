@@ -344,6 +344,7 @@ def process_vivrecard_relations(relations_list, entities_list):
 	error_list = []
 	deepke_instance_list = []
 	deepke_relation_set = set()
+	relation_freq_dict = dict()       # 各个关系在数据集中出现的频率
 	annot_relation_sentid_set = set() # 被annot关系的句子集合
 	for item in tqdm(relations_list):
 		if not isinstance(item, dict):
@@ -400,6 +401,10 @@ def process_vivrecard_relations(relations_list, entities_list):
 		record_relation = '{},{},{}'.format(head_type, tail_type, relation)
 		deepke_relation_set.add(record_relation)
 
+		if record_relation not in relation_freq_dict:
+			relation_freq_dict[record_relation] = 0
+		relation_freq_dict[record_relation]  +=  1
+
 	deepke_relation_set = sorted(deepke_relation_set)
 	deepke_relation_list = [relation + ',{}'.format(idx+1) for idx, relation in enumerate(deepke_relation_set)]
 
@@ -408,6 +413,8 @@ def process_vivrecard_relations(relations_list, entities_list):
 	print('Error Number:    {}'.format(len(error_list)))
 	print('Relation Number: {}'.format(len(deepke_relation_list)))
 	print('relations_list:  {}'.format(deepke_relation_list))
+	for relation, freq in sorted(relation_freq_dict.items(), key = lambda x:x[1], reverse = True):
+		print('relation: {}\tfreq: {}'.format(relation, freq))
 
 	return deepke_instance_list, deepke_relation_list, annot_relation_sentid_set
 
