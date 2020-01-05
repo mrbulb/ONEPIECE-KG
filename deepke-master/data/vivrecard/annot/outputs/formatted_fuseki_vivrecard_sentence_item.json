@@ -82,13 +82,7 @@
                     "name": "到过",
                     "to": 19
                 },
-                {
-                    "arg1": "Arg1",
-                    "arg2": "Arg2",
-                    "from": 18,
-                    "name": "战斗",
-                    "to": 20
-                },
+                null,
                 {
                     "arg1": "Arg1",
                     "arg2": "Arg2",
@@ -1190,6 +1184,941 @@
                     "from": 308,
                     "name": "属于",
                     "to": 310
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 312,
+                    "name": "参与",
+                    "to": 313
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 314,
+                    "name": "遇见",
+                    "to": 315
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 316,
+                    "name": "加入",
+                    "to": 317
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 316,
+                    "name": "担任",
+                    "to": 318
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 319,
+                    "name": "担任",
+                    "to": 320
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 323,
+                    "name": "拥有果实",
+                    "to": 324
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 327,
+                    "name": "创建",
+                    "to": 329
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 330,
+                    "name": "参与",
+                    "to": 331
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 332,
+                    "name": "父亲",
+                    "to": 333
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 336,
+                    "name": "父亲",
+                    "to": 337
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 338,
+                    "name": "遇见",
+                    "to": 339
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 339,
+                    "name": "加入",
+                    "to": 340
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 338,
+                    "name": "加入",
+                    "to": 340
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 341,
+                    "name": "战斗",
+                    "to": 342
+                },
+                null,
+                null,
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 343,
+                    "name": "战斗",
+                    "to": 344
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 343,
+                    "name": "战斗",
+                    "to": 345
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 348,
+                    "name": "遇见",
+                    "to": 349
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 346,
+                    "name": "加入",
+                    "to": 347
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 352,
+                    "name": "战斗",
+                    "to": 353
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 354,
+                    "name": "创建",
+                    "to": 355
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 358,
+                    "name": "加入",
+                    "to": 357
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 356,
+                    "name": "属于",
+                    "to": 357
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 359,
+                    "name": "参与",
+                    "to": 360
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 361,
+                    "name": "同盟",
+                    "to": 362
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 362,
+                    "name": "担任",
+                    "to": 363
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 364,
+                    "name": "到过",
+                    "to": 365
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 366,
+                    "name": "到过",
+                    "to": 368
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 366,
+                    "name": "到过",
+                    "to": 370
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 371,
+                    "name": "战斗",
+                    "to": 372
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 373,
+                    "name": "拥有果实",
+                    "to": 374
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 375,
+                    "name": "创建",
+                    "to": 376
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 377,
+                    "name": "遇见",
+                    "to": 378
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 379,
+                    "name": "担任",
+                    "to": 380
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 381,
+                    "name": "战斗",
+                    "to": 382
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 383,
+                    "name": "加入",
+                    "to": 384
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 385,
+                    "name": "遇见",
+                    "to": 386
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 387,
+                    "name": "战斗",
+                    "to": 388
+                },
+                null,
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 389,
+                    "name": "战斗",
+                    "to": 390
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 391,
+                    "name": "加入",
+                    "to": 392
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 393,
+                    "name": "遇见",
+                    "to": 394
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 395,
+                    "name": "遇见",
+                    "to": 396
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 398,
+                    "name": "参与",
+                    "to": 397
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 399,
+                    "name": "遇见",
+                    "to": 400
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 401,
+                    "name": "战斗",
+                    "to": 402
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 403,
+                    "name": "领导",
+                    "to": 404
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 403,
+                    "name": "担任",
+                    "to": 405
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 408,
+                    "name": "担任",
+                    "to": 407
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 406,
+                    "name": "属于",
+                    "to": 409
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 408,
+                    "name": "属于",
+                    "to": 409
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 410,
+                    "name": "战斗",
+                    "to": 411
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 413,
+                    "name": "担任",
+                    "to": 414
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 418,
+                    "name": "遇见",
+                    "to": 419
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 420,
+                    "name": "担任",
+                    "to": 421
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 422,
+                    "name": "加入",
+                    "to": 423
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 424,
+                    "name": "加入",
+                    "to": 425
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 426,
+                    "name": "参与",
+                    "to": 427
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 428,
+                    "name": "到过",
+                    "to": 429
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 428,
+                    "name": "参与",
+                    "to": 430
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 431,
+                    "name": "到过",
+                    "to": 432
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 433,
+                    "name": "担任",
+                    "to": 435
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 433,
+                    "name": "担任",
+                    "to": 434
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 436,
+                    "name": "战斗",
+                    "to": 437
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 438,
+                    "name": "领导",
+                    "to": 439
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 438,
+                    "name": "担任",
+                    "to": 440
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 441,
+                    "name": "战斗",
+                    "to": 442
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 443,
+                    "name": "加入",
+                    "to": 444
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 445,
+                    "name": "担任",
+                    "to": 446
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 445,
+                    "name": "属于",
+                    "to": 447
+                },
+                null,
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 448,
+                    "name": "遇见",
+                    "to": 449
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 450,
+                    "name": "战斗",
+                    "to": 451
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 452,
+                    "name": "加入",
+                    "to": 453
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 454,
+                    "name": "属于",
+                    "to": 456
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 454,
+                    "name": "担任",
+                    "to": 455
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 457,
+                    "name": "遇见",
+                    "to": 458
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 459,
+                    "name": "遇见",
+                    "to": 460
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 459,
+                    "name": "到过",
+                    "to": 461
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 460,
+                    "name": "到过",
+                    "to": 461
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 462,
+                    "name": "到过",
+                    "to": 464
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 465,
+                    "name": "到过",
+                    "to": 466
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 468,
+                    "name": "属于",
+                    "to": 469
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 470,
+                    "name": "到过",
+                    "to": 471
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 472,
+                    "name": "到过",
+                    "to": 476
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 473,
+                    "name": "到过",
+                    "to": 476
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 474,
+                    "name": "到过",
+                    "to": 476
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 475,
+                    "name": "到过",
+                    "to": 476
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 472,
+                    "name": "遇见",
+                    "to": 473
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 472,
+                    "name": "遇见",
+                    "to": 474
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 472,
+                    "name": "遇见",
+                    "to": 475
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 473,
+                    "name": "遇见",
+                    "to": 474
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 473,
+                    "name": "遇见",
+                    "to": 475
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 477,
+                    "name": "遇见",
+                    "to": 478
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 479,
+                    "name": "属于",
+                    "to": 481
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 485,
+                    "name": "参与",
+                    "to": 486
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 487,
+                    "name": "战斗",
+                    "to": 488
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 487,
+                    "name": "到过",
+                    "to": 489
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 491,
+                    "name": "加入",
+                    "to": 490
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 492,
+                    "name": "加入",
+                    "to": 490
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 492,
+                    "name": "遇见",
+                    "to": 493
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 491,
+                    "name": "遇见",
+                    "to": 493
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 493,
+                    "name": "领导",
+                    "to": 490
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 492,
+                    "name": "遇见",
+                    "to": 491
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 494,
+                    "name": "战斗",
+                    "to": 496
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 494,
+                    "name": "到过",
+                    "to": 495
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 496,
+                    "name": "到过",
+                    "to": 495
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 497,
+                    "name": "到过",
+                    "to": 498
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 497,
+                    "name": "参与",
+                    "to": 499
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 500,
+                    "name": "担任",
+                    "to": 501
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 500,
+                    "name": "属于",
+                    "to": 502
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 505,
+                    "name": "遇见",
+                    "to": 506
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 508,
+                    "name": "属于",
+                    "to": 507
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 509,
+                    "name": "到过",
+                    "to": 510
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 511,
+                    "name": "遇见",
+                    "to": 512
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 514,
+                    "name": "战斗",
+                    "to": 515
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 518,
+                    "name": "战斗",
+                    "to": 519
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 521,
+                    "name": "加入",
+                    "to": 522
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 523,
+                    "name": "担任",
+                    "to": 524
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 527,
+                    "name": "战斗",
+                    "to": 528
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 529,
+                    "name": "加入",
+                    "to": 530
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 531,
+                    "name": "到过",
+                    "to": 532
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 533,
+                    "name": "战斗",
+                    "to": 534
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 535,
+                    "name": "战斗",
+                    "to": 536
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 535,
+                    "name": "战斗",
+                    "to": 537
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 536,
+                    "name": "遇见",
+                    "to": 537
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 538,
+                    "name": "到过",
+                    "to": 539
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 540,
+                    "name": "战斗",
+                    "to": 541
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 542,
+                    "name": "担任",
+                    "to": 543
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 544,
+                    "name": "参与",
+                    "to": 545
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 547,
+                    "name": "老师",
+                    "to": 546
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 548,
+                    "name": "战斗",
+                    "to": 549
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 550,
+                    "name": "加入",
+                    "to": 551
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 552,
+                    "name": "遇见",
+                    "to": 553
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 554,
+                    "name": "加入",
+                    "to": 555
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 18,
+                    "name": "战斗",
+                    "to": 556
                 }
             ],
             "T": [
@@ -1365,15 +2294,7 @@
                     "type": "T",
                     "value": "威士忌峰"
                 },
-                {
-                    "attributes": [],
-                    "end": 280,
-                    "id": 20,
-                    "name": "人",
-                    "start": 276,
-                    "type": "T",
-                    "value": "赏金猎人"
-                },
+                null,
                 {
                     "attributes": [],
                     "end": 292,
@@ -3896,10 +4817,2151 @@
                     "start": 3829,
                     "type": "T",
                     "value": "东海"
+                },
+                {
+                    "attributes": [],
+                    "end": 3845,
+                    "id": 312,
+                    "name": "人",
+                    "start": 3843,
+                    "type": "T",
+                    "value": "克比"
+                },
+                {
+                    "attributes": [],
+                    "end": 3851,
+                    "id": 313,
+                    "name": "事件",
+                    "start": 3847,
+                    "type": "T",
+                    "value": "顶上战争"
+                },
+                {
+                    "attributes": [],
+                    "end": 3854,
+                    "id": 314,
+                    "name": "人",
+                    "start": 3852,
+                    "type": "T",
+                    "value": "克比"
+                },
+                {
+                    "attributes": [],
+                    "end": 3859,
+                    "id": 315,
+                    "name": "人",
+                    "start": 3855,
+                    "type": "T",
+                    "value": "亚尔丽塔"
+                },
+                {
+                    "attributes": [],
+                    "end": 3866,
+                    "id": 316,
+                    "name": "人",
+                    "start": 3864,
+                    "type": "T",
+                    "value": "克比"
+                },
+                {
+                    "attributes": [],
+                    "end": 3870,
+                    "id": 317,
+                    "name": "组织",
+                    "start": 3868,
+                    "type": "T",
+                    "value": "海军"
+                },
+                {
+                    "attributes": [],
+                    "end": 3873,
+                    "id": 318,
+                    "name": "职务",
+                    "start": 3871,
+                    "type": "T",
+                    "value": "打杂"
+                },
+                {
+                    "attributes": [],
+                    "end": 3876,
+                    "id": 319,
+                    "name": "人",
+                    "start": 3874,
+                    "type": "T",
+                    "value": "克比"
+                },
+                {
+                    "attributes": [],
+                    "end": 3880,
+                    "id": 320,
+                    "name": "职务",
+                    "start": 3878,
+                    "type": "T",
+                    "value": "上士"
+                },
+                null,
+                null,
+                {
+                    "attributes": [],
+                    "end": 3914,
+                    "id": 323,
+                    "name": "人",
+                    "start": 3910,
+                    "type": "T",
+                    "value": "亚尔丽塔"
+                },
+                {
+                    "attributes": [],
+                    "end": 3920,
+                    "id": 324,
+                    "name": "恶魔果实",
+                    "start": 3916,
+                    "type": "T",
+                    "value": "滑滑果实"
+                },
+                {
+                    "attributes": [],
+                    "end": 3925,
+                    "id": 325,
+                    "name": "人",
+                    "start": 3921,
+                    "type": "T",
+                    "value": "亚尔丽塔"
+                },
+                {
+                    "attributes": [],
+                    "end": 3928,
+                    "id": 326,
+                    "name": "人",
+                    "start": 3926,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                {
+                    "attributes": [],
+                    "end": 3939,
+                    "id": 327,
+                    "name": "人",
+                    "start": 3935,
+                    "type": "T",
+                    "value": "亚尔丽塔"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 3946,
+                    "id": 329,
+                    "name": "组织",
+                    "start": 3939,
+                    "type": "T",
+                    "value": "亚尔丽塔海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 3967,
+                    "id": 330,
+                    "name": "人",
+                    "start": 3963,
+                    "type": "T",
+                    "value": "贝鲁梅伯"
+                },
+                {
+                    "attributes": [],
+                    "end": 3973,
+                    "id": 331,
+                    "name": "事件",
+                    "start": 3969,
+                    "type": "T",
+                    "value": "顶上战争"
+                },
+                {
+                    "attributes": [],
+                    "end": 3978,
+                    "id": 332,
+                    "name": "人",
+                    "start": 3974,
+                    "type": "T",
+                    "value": "贝鲁梅伯"
+                },
+                {
+                    "attributes": [],
+                    "end": 3984,
+                    "id": 333,
+                    "name": "人",
+                    "start": 3982,
+                    "type": "T",
+                    "value": "蒙卡"
+                },
+                {
+                    "attributes": [],
+                    "end": 3991,
+                    "id": 334,
+                    "name": "人",
+                    "start": 3987,
+                    "type": "T",
+                    "value": "贝鲁梅伯"
+                },
+                {
+                    "attributes": [],
+                    "end": 3995,
+                    "id": 335,
+                    "name": "职务",
+                    "start": 3993,
+                    "type": "T",
+                    "value": "中士"
+                },
+                {
+                    "attributes": [],
+                    "end": 4000,
+                    "id": 336,
+                    "name": "人",
+                    "start": 3996,
+                    "type": "T",
+                    "value": "贝鲁梅伯"
+                },
+                {
+                    "attributes": [],
+                    "end": 4009,
+                    "id": 337,
+                    "name": "人",
+                    "start": 4007,
+                    "type": "T",
+                    "value": "蒙卡"
+                },
+                {
+                    "attributes": [],
+                    "end": 4016,
+                    "id": 338,
+                    "name": "人",
+                    "start": 4012,
+                    "type": "T",
+                    "value": "贝鲁梅伯"
+                },
+                {
+                    "attributes": [],
+                    "end": 4021,
+                    "id": 339,
+                    "name": "人",
+                    "start": 4019,
+                    "type": "T",
+                    "value": "克比"
+                },
+                {
+                    "attributes": [],
+                    "end": 4027,
+                    "id": 340,
+                    "name": "组织",
+                    "start": 4025,
+                    "type": "T",
+                    "value": "海军"
+                },
+                {
+                    "attributes": [],
+                    "end": 4030,
+                    "id": 341,
+                    "name": "人",
+                    "start": 4028,
+                    "type": "T",
+                    "value": "蒙卡"
+                },
+                {
+                    "attributes": [],
+                    "end": 4033,
+                    "id": 342,
+                    "name": "人",
+                    "start": 4031,
+                    "type": "T",
+                    "value": "卡普"
+                },
+                {
+                    "attributes": [],
+                    "end": 4058,
+                    "id": 343,
+                    "name": "人",
+                    "start": 4056,
+                    "type": "T",
+                    "value": "蒙卡"
+                },
+                {
+                    "attributes": [],
+                    "end": 4061,
+                    "id": 344,
+                    "name": "人",
+                    "start": 4059,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 4064,
+                    "id": 345,
+                    "name": "人",
+                    "start": 4062,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 4069,
+                    "id": 346,
+                    "name": "人",
+                    "start": 4067,
+                    "type": "T",
+                    "value": "蒙卡"
+                },
+                {
+                    "attributes": [],
+                    "end": 4073,
+                    "id": 347,
+                    "name": "组织",
+                    "start": 4071,
+                    "type": "T",
+                    "value": "海军"
+                },
+                {
+                    "attributes": [],
+                    "end": 4076,
+                    "id": 348,
+                    "name": "人",
+                    "start": 4074,
+                    "type": "T",
+                    "value": "蒙卡"
+                },
+                {
+                    "attributes": [],
+                    "end": 4083,
+                    "id": 349,
+                    "name": "人",
+                    "start": 4079,
+                    "type": "T",
+                    "value": "C·克洛"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 4099,
+                    "id": 351,
+                    "name": "组织",
+                    "start": 4094,
+                    "type": "T",
+                    "value": "黑猫海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 4111,
+                    "id": 352,
+                    "name": "人",
+                    "start": 4108,
+                    "type": "T",
+                    "value": "克伊娜"
+                },
+                {
+                    "attributes": [],
+                    "end": 4114,
+                    "id": 353,
+                    "name": "人",
+                    "start": 4112,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 4218,
+                    "id": 354,
+                    "name": "人",
+                    "start": 4215,
+                    "type": "T",
+                    "value": "耕四郎"
+                },
+                {
+                    "attributes": [],
+                    "end": 4224,
+                    "id": 355,
+                    "name": "组织",
+                    "start": 4220,
+                    "type": "T",
+                    "value": "一心道场"
+                },
+                {
+                    "attributes": [],
+                    "end": 4148,
+                    "id": 356,
+                    "name": "人",
+                    "start": 4145,
+                    "type": "T",
+                    "value": "克伊娜"
+                },
+                {
+                    "attributes": [],
+                    "end": 4156,
+                    "id": 357,
+                    "name": "组织",
+                    "start": 4152,
+                    "type": "T",
+                    "value": "一心道场"
+                },
+                {
+                    "attributes": [],
+                    "end": 4150,
+                    "id": 358,
+                    "name": "人",
+                    "start": 4148,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 4227,
+                    "id": 359,
+                    "name": "人",
+                    "start": 4225,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4233,
+                    "id": 360,
+                    "name": "事件",
+                    "start": 4229,
+                    "type": "T",
+                    "value": "顶上战争"
+                },
+                {
+                    "attributes": [],
+                    "end": 4236,
+                    "id": 361,
+                    "name": "人",
+                    "start": 4234,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4245,
+                    "id": 362,
+                    "name": "人",
+                    "start": 4241,
+                    "type": "T",
+                    "value": "亚尔丽塔"
+                },
+                {
+                    "attributes": [],
+                    "end": 4240,
+                    "id": 363,
+                    "name": "职务",
+                    "start": 4237,
+                    "type": "T",
+                    "value": "女海贼"
+                },
+                {
+                    "attributes": [],
+                    "end": 4252,
+                    "id": 364,
+                    "name": "人",
+                    "start": 4250,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4257,
+                    "id": 365,
+                    "name": "地点",
+                    "start": 4253,
+                    "type": "T",
+                    "value": "因佩尔当"
+                },
+                {
+                    "attributes": [],
+                    "end": 4262,
+                    "id": 366,
+                    "name": "人",
+                    "start": 4260,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 4280,
+                    "id": 368,
+                    "name": "地点",
+                    "start": 4273,
+                    "type": "T",
+                    "value": "因佩尔当大监狱"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 4268,
+                    "id": 370,
+                    "name": "地点",
+                    "start": 4263,
+                    "type": "T",
+                    "value": "海军派出所"
+                },
+                {
+                    "attributes": [],
+                    "end": 4283,
+                    "id": 371,
+                    "name": "人",
+                    "start": 4281,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4286,
+                    "id": 372,
+                    "name": "人",
+                    "start": 4284,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 4297,
+                    "id": 373,
+                    "name": "人",
+                    "start": 4295,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4305,
+                    "id": 374,
+                    "name": "恶魔果实",
+                    "start": 4299,
+                    "type": "T",
+                    "value": "四分五裂果实"
+                },
+                {
+                    "attributes": [],
+                    "end": 4308,
+                    "id": 375,
+                    "name": "人",
+                    "start": 4306,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4313,
+                    "id": 376,
+                    "name": "组织",
+                    "start": 4308,
+                    "type": "T",
+                    "value": "巴基海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 4331,
+                    "id": 377,
+                    "name": "人",
+                    "start": 4326,
+                    "type": "T",
+                    "value": "摩奇&利基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4334,
+                    "id": 378,
+                    "name": "人",
+                    "start": 4332,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4368,
+                    "id": 379,
+                    "name": "人",
+                    "start": 4363,
+                    "type": "T",
+                    "value": "摩奇&利基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4381,
+                    "id": 380,
+                    "name": "职务",
+                    "start": 4378,
+                    "type": "T",
+                    "value": "副船长"
+                },
+                {
+                    "attributes": [],
+                    "end": 4410,
+                    "id": 381,
+                    "name": "人",
+                    "start": 4405,
+                    "type": "T",
+                    "value": "摩奇&利基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4413,
+                    "id": 382,
+                    "name": "人",
+                    "start": 4411,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 4421,
+                    "id": 383,
+                    "name": "人",
+                    "start": 4416,
+                    "type": "T",
+                    "value": "摩奇&利基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4428,
+                    "id": 384,
+                    "name": "组织",
+                    "start": 4423,
+                    "type": "T",
+                    "value": "巴基海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 4511,
+                    "id": 385,
+                    "name": "人",
+                    "start": 4508,
+                    "type": "T",
+                    "value": "卡巴吉"
+                },
+                {
+                    "attributes": [],
+                    "end": 4514,
+                    "id": 386,
+                    "name": "人",
+                    "start": 4512,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4544,
+                    "id": 387,
+                    "name": "人",
+                    "start": 4541,
+                    "type": "T",
+                    "value": "卡巴吉"
+                },
+                {
+                    "attributes": [],
+                    "end": 4559,
+                    "id": 388,
+                    "name": "人",
+                    "start": 4557,
+                    "type": "T",
+                    "value": "利基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4565,
+                    "id": 389,
+                    "name": "人",
+                    "start": 4562,
+                    "type": "T",
+                    "value": "卡巴吉"
+                },
+                {
+                    "attributes": [],
+                    "end": 4568,
+                    "id": 390,
+                    "name": "人",
+                    "start": 4566,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 4574,
+                    "id": 391,
+                    "name": "人",
+                    "start": 4571,
+                    "type": "T",
+                    "value": "卡巴吉"
+                },
+                {
+                    "attributes": [],
+                    "end": 4581,
+                    "id": 392,
+                    "name": "组织",
+                    "start": 4576,
+                    "type": "T",
+                    "value": "巴基海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 4597,
+                    "id": 393,
+                    "name": "人",
+                    "start": 4595,
+                    "type": "T",
+                    "value": "盖蒙"
+                },
+                {
+                    "attributes": [],
+                    "end": 4600,
+                    "id": 394,
+                    "name": "人",
+                    "start": 4598,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 4615,
+                    "id": 395,
+                    "name": "人",
+                    "start": 4613,
+                    "type": "T",
+                    "value": "盖蒙"
+                },
+                {
+                    "attributes": [],
+                    "end": 4618,
+                    "id": 396,
+                    "name": "人",
+                    "start": 4616,
+                    "type": "T",
+                    "value": "巴基"
+                },
+                {
+                    "attributes": [],
+                    "end": 4739,
+                    "id": 397,
+                    "name": "事件",
+                    "start": 4730,
+                    "type": "T",
+                    "value": "斗牛竞技场的擂台赛"
+                },
+                {
+                    "attributes": [],
+                    "end": 4728,
+                    "id": 398,
+                    "name": "人",
+                    "start": 4726,
+                    "type": "T",
+                    "value": "青椒"
+                },
+                {
+                    "attributes": [],
+                    "end": 4742,
+                    "id": 399,
+                    "name": "人",
+                    "start": 4740,
+                    "type": "T",
+                    "value": "青椒"
+                },
+                {
+                    "attributes": [],
+                    "end": 4745,
+                    "id": 400,
+                    "name": "人",
+                    "start": 4743,
+                    "type": "T",
+                    "value": "老蔡"
+                },
+                {
+                    "attributes": [],
+                    "end": 4763,
+                    "id": 401,
+                    "name": "人",
+                    "start": 4761,
+                    "type": "T",
+                    "value": "青椒"
+                },
+                {
+                    "attributes": [],
+                    "end": 4767,
+                    "id": 402,
+                    "name": "人",
+                    "start": 4765,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 4780,
+                    "id": 403,
+                    "name": "人",
+                    "start": 4778,
+                    "type": "T",
+                    "value": "青椒"
+                },
+                {
+                    "attributes": [],
+                    "end": 4787,
+                    "id": 404,
+                    "name": "组织",
+                    "start": 4783,
+                    "type": "T",
+                    "value": "八宝水军"
+                },
+                {
+                    "attributes": [],
+                    "end": 4794,
+                    "id": 405,
+                    "name": "职务",
+                    "start": 4792,
+                    "type": "T",
+                    "value": "栋梁"
+                },
+                {
+                    "attributes": [],
+                    "end": 4797,
+                    "id": 406,
+                    "name": "人",
+                    "start": 4795,
+                    "type": "T",
+                    "value": "青椒"
+                },
+                {
+                    "attributes": [],
+                    "end": 4804,
+                    "id": 407,
+                    "name": "职务",
+                    "start": 4802,
+                    "type": "T",
+                    "value": "栋梁"
+                },
+                {
+                    "attributes": [],
+                    "end": 4811,
+                    "id": 408,
+                    "name": "人",
+                    "start": 4809,
+                    "type": "T",
+                    "value": "老蔡"
+                },
+                {
+                    "attributes": [],
+                    "end": 4802,
+                    "id": 409,
+                    "name": "组织",
+                    "start": 4798,
+                    "type": "T",
+                    "value": "八宝水军"
+                },
+                {
+                    "attributes": [],
+                    "end": 4839,
+                    "id": 410,
+                    "name": "人",
+                    "start": 4837,
+                    "type": "T",
+                    "value": "青椒"
+                },
+                {
+                    "attributes": [],
+                    "end": 4843,
+                    "id": 411,
+                    "name": "人",
+                    "start": 4841,
+                    "type": "T",
+                    "value": "卡普"
+                },
+                {
+                    "attributes": [],
+                    "end": 4859,
+                    "id": 412,
+                    "name": "人",
+                    "start": 4857,
+                    "type": "T",
+                    "value": "克洛"
+                },
+                {
+                    "attributes": [],
+                    "end": 4908,
+                    "id": 413,
+                    "name": "人",
+                    "start": 4906,
+                    "type": "T",
+                    "value": "克洛"
+                },
+                {
+                    "attributes": [],
+                    "end": 4916,
+                    "id": 414,
+                    "name": "职务",
+                    "start": 4914,
+                    "type": "T",
+                    "value": "管家"
+                },
+                {
+                    "attributes": [],
+                    "end": 4919,
+                    "id": 415,
+                    "name": "人",
+                    "start": 4917,
+                    "type": "T",
+                    "value": "可雅"
+                },
+                {
+                    "attributes": [],
+                    "end": 4925,
+                    "id": 416,
+                    "name": "船只",
+                    "start": 4920,
+                    "type": "T",
+                    "value": "前进梅利号"
+                },
+                {
+                    "attributes": [],
+                    "end": 4943,
+                    "id": 417,
+                    "name": "组织",
+                    "start": 4938,
+                    "type": "T",
+                    "value": "黑猫海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 4948,
+                    "id": 418,
+                    "name": "人",
+                    "start": 4946,
+                    "type": "T",
+                    "value": "可雅"
+                },
+                {
+                    "attributes": [],
+                    "end": 4952,
+                    "id": 419,
+                    "name": "人",
+                    "start": 4949,
+                    "type": "T",
+                    "value": "乌索普"
+                },
+                {
+                    "attributes": [],
+                    "end": 4962,
+                    "id": 420,
+                    "name": "人",
+                    "start": 4957,
+                    "type": "T",
+                    "value": "克拉巴特尔"
+                },
+                {
+                    "attributes": [],
+                    "end": 4966,
+                    "id": 421,
+                    "name": "职务",
+                    "start": 4964,
+                    "type": "T",
+                    "value": "管家"
+                },
+                {
+                    "attributes": [],
+                    "end": 4969,
+                    "id": 422,
+                    "name": "人",
+                    "start": 4967,
+                    "type": "T",
+                    "value": "赞高"
+                },
+                {
+                    "attributes": [],
+                    "end": 4981,
+                    "id": 423,
+                    "name": "组织",
+                    "start": 4971,
+                    "type": "T",
+                    "value": "”世界会议”的护卫队"
+                },
+                {
+                    "attributes": [],
+                    "end": 4984,
+                    "id": 424,
+                    "name": "人",
+                    "start": 4982,
+                    "type": "T",
+                    "value": "赞高"
+                },
+                {
+                    "attributes": [],
+                    "end": 4988,
+                    "id": 425,
+                    "name": "组织",
+                    "start": 4986,
+                    "type": "T",
+                    "value": "海军"
+                },
+                {
+                    "attributes": [],
+                    "end": 4991,
+                    "id": 426,
+                    "name": "人",
+                    "start": 4989,
+                    "type": "T",
+                    "value": "赞高"
+                },
+                {
+                    "attributes": [],
+                    "end": 4997,
+                    "id": 427,
+                    "name": "事件",
+                    "start": 4993,
+                    "type": "T",
+                    "value": "顶上战争"
+                },
+                {
+                    "attributes": [],
+                    "end": 5000,
+                    "id": 428,
+                    "name": "人",
+                    "start": 4998,
+                    "type": "T",
+                    "value": "赞高"
+                },
+                {
+                    "attributes": [],
+                    "end": 5005,
+                    "id": 429,
+                    "name": "地点",
+                    "start": 5001,
+                    "type": "T",
+                    "value": "玻璃球岛"
+                },
+                {
+                    "attributes": [],
+                    "end": 5010,
+                    "id": 430,
+                    "name": "事件",
+                    "start": 5006,
+                    "type": "T",
+                    "value": "舞蹈竞赛"
+                },
+                {
+                    "attributes": [],
+                    "end": 5016,
+                    "id": 431,
+                    "name": "人",
+                    "start": 5014,
+                    "type": "T",
+                    "value": "赞高"
+                },
+                {
+                    "attributes": [],
+                    "end": 5024,
+                    "id": 432,
+                    "name": "地点",
+                    "start": 5017,
+                    "type": "T",
+                    "value": "阿拉巴斯坦王国"
+                },
+                {
+                    "attributes": [],
+                    "end": 5046,
+                    "id": 433,
+                    "name": "人",
+                    "start": 5044,
+                    "type": "T",
+                    "value": "赞高"
+                },
+                {
+                    "attributes": [],
+                    "end": 5055,
+                    "id": 434,
+                    "name": "职务",
+                    "start": 5053,
+                    "type": "T",
+                    "value": "海贼"
+                },
+                {
+                    "attributes": [],
+                    "end": 5051,
+                    "id": 435,
+                    "name": "职务",
+                    "start": 5047,
+                    "type": "T",
+                    "value": "流浪舞者"
+                },
+                {
+                    "attributes": [],
+                    "end": 5035,
+                    "id": 436,
+                    "name": "人",
+                    "start": 5033,
+                    "type": "T",
+                    "value": "赞高"
+                },
+                {
+                    "attributes": [],
+                    "end": 5042,
+                    "id": 437,
+                    "name": "组织",
+                    "start": 5038,
+                    "type": "T",
+                    "value": "草帽一伙"
+                },
+                {
+                    "attributes": [],
+                    "end": 5060,
+                    "id": 438,
+                    "name": "人",
+                    "start": 5058,
+                    "type": "T",
+                    "value": "克洛"
+                },
+                {
+                    "attributes": [],
+                    "end": 5073,
+                    "id": 439,
+                    "name": "组织",
+                    "start": 5068,
+                    "type": "T",
+                    "value": "黑猫海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 5075,
+                    "id": 440,
+                    "name": "职务",
+                    "start": 5073,
+                    "type": "T",
+                    "value": "船长"
+                },
+                {
+                    "attributes": [],
+                    "end": 5078,
+                    "id": 441,
+                    "name": "人",
+                    "start": 5076,
+                    "type": "T",
+                    "value": "山姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 5081,
+                    "id": 442,
+                    "name": "人",
+                    "start": 5079,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 5103,
+                    "id": 443,
+                    "name": "人",
+                    "start": 5101,
+                    "type": "T",
+                    "value": "山姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 5110,
+                    "id": 444,
+                    "name": "组织",
+                    "start": 5105,
+                    "type": "T",
+                    "value": "黑猫海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 5113,
+                    "id": 445,
+                    "name": "人",
+                    "start": 5111,
+                    "type": "T",
+                    "value": "山姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 5122,
+                    "id": 446,
+                    "name": "职务",
+                    "start": 5120,
+                    "type": "T",
+                    "value": "干部"
+                },
+                {
+                    "attributes": [],
+                    "end": 5120,
+                    "id": 447,
+                    "name": "组织",
+                    "start": 5115,
+                    "type": "T",
+                    "value": "黑猫海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 5125,
+                    "id": 448,
+                    "name": "人",
+                    "start": 5123,
+                    "type": "T",
+                    "value": "山姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 5128,
+                    "id": 449,
+                    "name": "人",
+                    "start": 5126,
+                    "type": "T",
+                    "value": "布奇"
+                },
+                {
+                    "attributes": [],
+                    "end": 5135,
+                    "id": 450,
+                    "name": "人",
+                    "start": 5133,
+                    "type": "T",
+                    "value": "布奇"
+                },
+                {
+                    "attributes": [],
+                    "end": 5138,
+                    "id": 451,
+                    "name": "人",
+                    "start": 5136,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 5160,
+                    "id": 452,
+                    "name": "人",
+                    "start": 5158,
+                    "type": "T",
+                    "value": "布奇"
+                },
+                {
+                    "attributes": [],
+                    "end": 5167,
+                    "id": 453,
+                    "name": "组织",
+                    "start": 5162,
+                    "type": "T",
+                    "value": "黑猫海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 5170,
+                    "id": 454,
+                    "name": "人",
+                    "start": 5168,
+                    "type": "T",
+                    "value": "布奇"
+                },
+                {
+                    "attributes": [],
+                    "end": 5179,
+                    "id": 455,
+                    "name": "职务",
+                    "start": 5177,
+                    "type": "T",
+                    "value": "干部"
+                },
+                {
+                    "attributes": [],
+                    "end": 5177,
+                    "id": 456,
+                    "name": "组织",
+                    "start": 5172,
+                    "type": "T",
+                    "value": "黑猫海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 5182,
+                    "id": 457,
+                    "name": "人",
+                    "start": 5180,
+                    "type": "T",
+                    "value": "布奇"
+                },
+                {
+                    "attributes": [],
+                    "end": 5185,
+                    "id": 458,
+                    "name": "人",
+                    "start": 5183,
+                    "type": "T",
+                    "value": "布治"
+                },
+                {
+                    "attributes": [],
+                    "end": 5193,
+                    "id": 459,
+                    "name": "人",
+                    "start": 5190,
+                    "type": "T",
+                    "value": "约瑟夫"
+                },
+                {
+                    "attributes": [],
+                    "end": 5196,
+                    "id": 460,
+                    "name": "人",
+                    "start": 5194,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 5206,
+                    "id": 461,
+                    "name": "地点",
+                    "start": 5203,
+                    "type": "T",
+                    "value": "巴拉蒂"
+                },
+                {
+                    "attributes": [],
+                    "end": 5210,
+                    "id": 462,
+                    "name": "人",
+                    "start": 5207,
+                    "type": "T",
+                    "value": "约瑟夫"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 5216,
+                    "id": 464,
+                    "name": "地点",
+                    "start": 5211,
+                    "type": "T",
+                    "value": "可可亚西村"
+                },
+                {
+                    "attributes": [],
+                    "end": 5226,
+                    "id": 465,
+                    "name": "人",
+                    "start": 5223,
+                    "type": "T",
+                    "value": "约瑟夫"
+                },
+                {
+                    "attributes": [],
+                    "end": 5230,
+                    "id": 466,
+                    "name": "地点",
+                    "start": 5226,
+                    "type": "T",
+                    "value": "恶龙乐园"
+                },
+                {
+                    "attributes": [],
+                    "end": 5240,
+                    "id": 467,
+                    "name": "组织",
+                    "start": 5236,
+                    "type": "T",
+                    "value": "草帽一伙"
+                },
+                {
+                    "attributes": [],
+                    "end": 5247,
+                    "id": 468,
+                    "name": "人",
+                    "start": 5244,
+                    "type": "T",
+                    "value": "约瑟夫"
+                },
+                {
+                    "attributes": [],
+                    "end": 5253,
+                    "id": 469,
+                    "name": "组织",
+                    "start": 5249,
+                    "type": "T",
+                    "value": "赏金猎人"
+                },
+                {
+                    "attributes": [],
+                    "end": 5266,
+                    "id": 470,
+                    "name": "人",
+                    "start": 5264,
+                    "type": "T",
+                    "value": "强尼"
+                },
+                {
+                    "attributes": [],
+                    "end": 5272,
+                    "id": 471,
+                    "name": "地点",
+                    "start": 5267,
+                    "type": "T",
+                    "value": "可可亚西村"
+                },
+                {
+                    "attributes": [],
+                    "end": 5281,
+                    "id": 472,
+                    "name": "人",
+                    "start": 5279,
+                    "type": "T",
+                    "value": "强尼"
+                },
+                {
+                    "attributes": [],
+                    "end": 5287,
+                    "id": 473,
+                    "name": "人",
+                    "start": 5285,
+                    "type": "T",
+                    "value": "娜美"
+                },
+                {
+                    "attributes": [],
+                    "end": 5290,
+                    "id": 474,
+                    "name": "人",
+                    "start": 5288,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 5294,
+                    "id": 475,
+                    "name": "人",
+                    "start": 5291,
+                    "type": "T",
+                    "value": "乌索普"
+                },
+                {
+                    "attributes": [],
+                    "end": 5302,
+                    "id": 476,
+                    "name": "地点",
+                    "start": 5298,
+                    "type": "T",
+                    "value": "恶龙公园"
+                },
+                {
+                    "attributes": [],
+                    "end": 5325,
+                    "id": 477,
+                    "name": "人",
+                    "start": 5323,
+                    "type": "T",
+                    "value": "强尼"
+                },
+                {
+                    "attributes": [],
+                    "end": 5330,
+                    "id": 478,
+                    "name": "人",
+                    "start": 5327,
+                    "type": "T",
+                    "value": "约瑟夫"
+                },
+                {
+                    "attributes": [],
+                    "end": 5343,
+                    "id": 479,
+                    "name": "人",
+                    "start": 5341,
+                    "type": "T",
+                    "value": "强尼"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 5349,
+                    "id": 481,
+                    "name": "组织",
+                    "start": 5345,
+                    "type": "T",
+                    "value": "赏金猎人"
+                },
+                {
+                    "attributes": [],
+                    "end": 5363,
+                    "id": 482,
+                    "name": "人",
+                    "start": 5360,
+                    "type": "T",
+                    "value": "芬布迪"
+                },
+                {
+                    "attributes": [],
+                    "end": 5371,
+                    "id": 483,
+                    "name": "组织",
+                    "start": 5365,
+                    "type": "T",
+                    "value": "奈菲鲁塔莉家"
+                },
+                {
+                    "attributes": [],
+                    "end": 5378,
+                    "id": 484,
+                    "name": "事件",
+                    "start": 5374,
+                    "type": "T",
+                    "value": "世界会议"
+                },
+                {
+                    "attributes": [],
+                    "end": 5383,
+                    "id": 485,
+                    "name": "人",
+                    "start": 5380,
+                    "type": "T",
+                    "value": "芬布迪"
+                },
+                {
+                    "attributes": [],
+                    "end": 5389,
+                    "id": 486,
+                    "name": "事件",
+                    "start": 5385,
+                    "type": "T",
+                    "value": "顶上战争"
+                },
+                {
+                    "attributes": [],
+                    "end": 5393,
+                    "id": 487,
+                    "name": "人",
+                    "start": 5390,
+                    "type": "T",
+                    "value": "芬布迪"
+                },
+                {
+                    "attributes": [],
+                    "end": 5399,
+                    "id": 488,
+                    "name": "组织",
+                    "start": 5395,
+                    "type": "T",
+                    "value": "草帽一伙"
+                },
+                {
+                    "attributes": [],
+                    "end": 5406,
+                    "id": 489,
+                    "name": "地点",
+                    "start": 5401,
+                    "type": "T",
+                    "value": "阿拉巴斯坦"
+                },
+                {
+                    "attributes": [],
+                    "end": 5432,
+                    "id": 490,
+                    "name": "组织",
+                    "start": 5428,
+                    "type": "T",
+                    "value": "黑槛部队"
+                },
+                {
+                    "attributes": [],
+                    "end": 5417,
+                    "id": 491,
+                    "name": "人",
+                    "start": 5415,
+                    "type": "T",
+                    "value": "赞高"
+                },
+                {
+                    "attributes": [],
+                    "end": 5414,
+                    "id": 492,
+                    "name": "人",
+                    "start": 5411,
+                    "type": "T",
+                    "value": "芬布迪"
+                },
+                {
+                    "attributes": [],
+                    "end": 5425,
+                    "id": 493,
+                    "name": "人",
+                    "start": 5423,
+                    "type": "T",
+                    "value": "缇娜"
+                },
+                {
+                    "attributes": [],
+                    "end": 5436,
+                    "id": 494,
+                    "name": "人",
+                    "start": 5433,
+                    "type": "T",
+                    "value": "芬布迪"
+                },
+                {
+                    "attributes": [],
+                    "end": 5442,
+                    "id": 495,
+                    "name": "地点",
+                    "start": 5437,
+                    "type": "T",
+                    "value": "巴拉蒂餐厅"
+                },
+                {
+                    "attributes": [],
+                    "end": 5446,
+                    "id": 496,
+                    "name": "人",
+                    "start": 5444,
+                    "type": "T",
+                    "value": "山治"
+                },
+                {
+                    "attributes": [],
+                    "end": 5453,
+                    "id": 497,
+                    "name": "人",
+                    "start": 5450,
+                    "type": "T",
+                    "value": "芬布迪"
+                },
+                {
+                    "attributes": [],
+                    "end": 5457,
+                    "id": 498,
+                    "name": "地点",
+                    "start": 5454,
+                    "type": "T",
+                    "value": "镜球岛"
+                },
+                {
+                    "attributes": [],
+                    "end": 5462,
+                    "id": 499,
+                    "name": "事件",
+                    "start": 5458,
+                    "type": "T",
+                    "value": "舞蹈大赛"
+                },
+                {
+                    "attributes": [],
+                    "end": 5468,
+                    "id": 500,
+                    "name": "人",
+                    "start": 5465,
+                    "type": "T",
+                    "value": "芬布迪"
+                },
+                {
+                    "attributes": [],
+                    "end": 5476,
+                    "id": 501,
+                    "name": "职务",
+                    "start": 5474,
+                    "type": "T",
+                    "value": "大尉"
+                },
+                {
+                    "attributes": [],
+                    "end": 5474,
+                    "id": 502,
+                    "name": "组织",
+                    "start": 5470,
+                    "type": "T",
+                    "value": "海军本部"
+                },
+                {
+                    "attributes": [],
+                    "end": 5479,
+                    "id": 503,
+                    "name": "人",
+                    "start": 5477,
+                    "type": "T",
+                    "value": "哲夫"
+                },
+                {
+                    "attributes": [],
+                    "end": 5486,
+                    "id": 504,
+                    "name": "地点",
+                    "start": 5481,
+                    "type": "T",
+                    "value": "芭拉蒂总店"
+                },
+                {
+                    "attributes": [],
+                    "end": 5489,
+                    "id": 505,
+                    "name": "人",
+                    "start": 5487,
+                    "type": "T",
+                    "value": "哲夫"
+                },
+                {
+                    "attributes": [],
+                    "end": 5492,
+                    "id": 506,
+                    "name": "人",
+                    "start": 5490,
+                    "type": "T",
+                    "value": "山治"
+                },
+                {
+                    "attributes": [],
+                    "end": 5502,
+                    "id": 507,
+                    "name": "组织",
+                    "start": 5497,
+                    "type": "T",
+                    "value": "厨师海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 5497,
+                    "id": 508,
+                    "name": "人",
+                    "start": 5495,
+                    "type": "T",
+                    "value": "哲夫"
+                },
+                {
+                    "attributes": [],
+                    "end": 5507,
+                    "id": 509,
+                    "name": "人",
+                    "start": 5505,
+                    "type": "T",
+                    "value": "哲夫"
+                },
+                {
+                    "attributes": [],
+                    "end": 5513,
+                    "id": 510,
+                    "name": "地点",
+                    "start": 5509,
+                    "type": "T",
+                    "value": "伟大航路"
+                },
+                {
+                    "attributes": [],
+                    "end": 5526,
+                    "id": 511,
+                    "name": "人",
+                    "start": 5524,
+                    "type": "T",
+                    "value": "哲夫"
+                },
+                {
+                    "attributes": [],
+                    "end": 5529,
+                    "id": 512,
+                    "name": "人",
+                    "start": 5527,
+                    "type": "T",
+                    "value": "山治"
+                },
+                {
+                    "attributes": [],
+                    "end": 5571,
+                    "id": 513,
+                    "name": "船只",
+                    "start": 5559,
+                    "type": "T",
+                    "value": "连结式甜点舰“修女安可”"
+                },
+                {
+                    "attributes": [],
+                    "end": 5577,
+                    "id": 514,
+                    "name": "人",
+                    "start": 5575,
+                    "type": "T",
+                    "value": "派迪"
+                },
+                {
+                    "attributes": [],
+                    "end": 5584,
+                    "id": 515,
+                    "name": "组织",
+                    "start": 5578,
+                    "type": "T",
+                    "value": "克利克海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 5589,
+                    "id": 516,
+                    "name": "人",
+                    "start": 5587,
+                    "type": "T",
+                    "value": "派迪"
+                },
+                {
+                    "attributes": [],
+                    "end": 5594,
+                    "id": 517,
+                    "name": "组织",
+                    "start": 5591,
+                    "type": "T",
+                    "value": "芭拉蒂"
+                },
+                {
+                    "attributes": [],
+                    "end": 5599,
+                    "id": 518,
+                    "name": "人",
+                    "start": 5597,
+                    "type": "T",
+                    "value": "阿金"
+                },
+                {
+                    "attributes": [],
+                    "end": 5603,
+                    "id": 519,
+                    "name": "人",
+                    "start": 5601,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 5612,
+                    "id": 520,
+                    "name": "人",
+                    "start": 5610,
+                    "type": "T",
+                    "value": "阿金"
+                },
+                {
+                    "attributes": [],
+                    "end": 5630,
+                    "id": 521,
+                    "name": "人",
+                    "start": 5628,
+                    "type": "T",
+                    "value": "阿金"
+                },
+                {
+                    "attributes": [],
+                    "end": 5638,
+                    "id": 522,
+                    "name": "组织",
+                    "start": 5632,
+                    "type": "T",
+                    "value": "克利克海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 5641,
+                    "id": 523,
+                    "name": "人",
+                    "start": 5639,
+                    "type": "T",
+                    "value": "阿金"
+                },
+                {
+                    "attributes": [],
+                    "end": 5655,
+                    "id": 524,
+                    "name": "职务",
+                    "start": 5650,
+                    "type": "T",
+                    "value": "战斗总队长"
+                },
+                {
+                    "attributes": [],
+                    "end": 5659,
+                    "id": 525,
+                    "name": "人",
+                    "start": 5656,
+                    "type": "T",
+                    "value": "卡尔涅"
+                },
+                {
+                    "attributes": [],
+                    "end": 5676,
+                    "id": 526,
+                    "name": "船只",
+                    "start": 5661,
+                    "type": "T",
+                    "value": "连结式铁板烧舰“纳斯嘉席拉号”"
+                },
+                {
+                    "attributes": [],
+                    "end": 5683,
+                    "id": 527,
+                    "name": "人",
+                    "start": 5680,
+                    "type": "T",
+                    "value": "卡尔涅"
+                },
+                {
+                    "attributes": [],
+                    "end": 5690,
+                    "id": 528,
+                    "name": "组织",
+                    "start": 5684,
+                    "type": "T",
+                    "value": "克利克海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 5696,
+                    "id": 529,
+                    "name": "人",
+                    "start": 5693,
+                    "type": "T",
+                    "value": "卡尔涅"
+                },
+                {
+                    "attributes": [],
+                    "end": 5701,
+                    "id": 530,
+                    "name": "组织",
+                    "start": 5698,
+                    "type": "T",
+                    "value": "芭拉蒂"
+                },
+                {
+                    "attributes": [],
+                    "end": 5707,
+                    "id": 531,
+                    "name": "人",
+                    "start": 5704,
+                    "type": "T",
+                    "value": "克利克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5712,
+                    "id": 532,
+                    "name": "地点",
+                    "start": 5710,
+                    "type": "T",
+                    "value": "东海"
+                },
+                {
+                    "attributes": [],
+                    "end": 5717,
+                    "id": 533,
+                    "name": "人",
+                    "start": 5714,
+                    "type": "T",
+                    "value": "克利克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5722,
+                    "id": 534,
+                    "name": "组织",
+                    "start": 5719,
+                    "type": "T",
+                    "value": "芭拉蒂"
+                },
+                {
+                    "attributes": [],
+                    "end": 5726,
+                    "id": 535,
+                    "name": "人",
+                    "start": 5723,
+                    "type": "T",
+                    "value": "克利克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5730,
+                    "id": 536,
+                    "name": "人",
+                    "start": 5728,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 5733,
+                    "id": 537,
+                    "name": "人",
+                    "start": 5731,
+                    "type": "T",
+                    "value": "山治"
+                },
+                {
+                    "attributes": [],
+                    "end": 5737,
+                    "id": 538,
+                    "name": "人",
+                    "start": 5734,
+                    "type": "T",
+                    "value": "克利克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5744,
+                    "id": 539,
+                    "name": "地点",
+                    "start": 5740,
+                    "type": "T",
+                    "value": "伟大航路"
+                },
+                {
+                    "attributes": [],
+                    "end": 5749,
+                    "id": 540,
+                    "name": "人",
+                    "start": 5746,
+                    "type": "T",
+                    "value": "克利克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5754,
+                    "id": 541,
+                    "name": "人",
+                    "start": 5751,
+                    "type": "T",
+                    "value": "米霍克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5765,
+                    "id": 542,
+                    "name": "人",
+                    "start": 5762,
+                    "type": "T",
+                    "value": "克利克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5783,
+                    "id": 543,
+                    "name": "职务",
+                    "start": 5781,
+                    "type": "T",
+                    "value": "海贼"
+                },
+                {
+                    "attributes": [],
+                    "end": 5792,
+                    "id": 544,
+                    "name": "人",
+                    "start": 5784,
+                    "type": "T",
+                    "value": "乔拉可尔·米霍克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5797,
+                    "id": 545,
+                    "name": "事件",
+                    "start": 5793,
+                    "type": "T",
+                    "value": "顶上战争"
+                },
+                {
+                    "attributes": [],
+                    "end": 5808,
+                    "id": 546,
+                    "name": "人",
+                    "start": 5800,
+                    "type": "T",
+                    "value": "乔拉可尔·米霍克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5817,
+                    "id": 547,
+                    "name": "人",
+                    "start": 5810,
+                    "type": "T",
+                    "value": "罗罗诺亚·索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 5828,
+                    "id": 548,
+                    "name": "人",
+                    "start": 5820,
+                    "type": "T",
+                    "value": "乔拉可尔·米霍克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5842,
+                    "id": 549,
+                    "name": "人",
+                    "start": 5840,
+                    "type": "T",
+                    "value": "红发"
+                },
+                {
+                    "attributes": [],
+                    "end": 5855,
+                    "id": 550,
+                    "name": "人",
+                    "start": 5847,
+                    "type": "T",
+                    "value": "乔拉可尔·米霍克"
+                },
+                {
+                    "attributes": [],
+                    "end": 5863,
+                    "id": 551,
+                    "name": "组织",
+                    "start": 5858,
+                    "type": "T",
+                    "value": "王下七武海"
+                },
+                {
+                    "attributes": [],
+                    "end": 5886,
+                    "id": 552,
+                    "name": "人",
+                    "start": 5884,
+                    "type": "T",
+                    "value": "帕鲁"
+                },
+                {
+                    "attributes": [],
+                    "end": 5890,
+                    "id": 553,
+                    "name": "人",
+                    "start": 5888,
+                    "type": "T",
+                    "value": "阿金"
+                },
+                {
+                    "attributes": [],
+                    "end": 5902,
+                    "id": 554,
+                    "name": "人",
+                    "start": 5900,
+                    "type": "T",
+                    "value": "帕鲁"
+                },
+                {
+                    "attributes": [],
+                    "end": 5910,
+                    "id": 555,
+                    "name": "组织",
+                    "start": 5904,
+                    "type": "T",
+                    "value": "克利克海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 280,
+                    "id": 556,
+                    "name": "组织",
+                    "start": 276,
+                    "type": "T",
+                    "value": "赏金猎人"
                 }
             ]
         }
     },
     "path": "D:\\研究生学习\\知识图谱\\project\\2019-11-27-KG-demo-for-movie-master-学习\\deepke-master\\data\\vivrecard\\annot\\fuseki_vivrecard_sentence_item.txt",
-    "time_labeled": 1578072175246
+    "time_labeled": 1578237797521
 }
