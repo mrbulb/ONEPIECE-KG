@@ -71,6 +71,7 @@
 """
 import os
 import json
+import random
 from tqdm import tqdm
 
 root = './data/vivrecard/annot/outputs'
@@ -95,11 +96,19 @@ summary_annot_relation_sent = os.path.join(summary_output_root, 'annot_relation_
 summary_unannot_entity_sent = os.path.join(summary_output_root, 'unannot_entity_sent.txt')
 summary_unannot_relation_sent = os.path.join(summary_output_root, 'unannot_relation_sent.txt')
 summary_relation_file = os.path.join(summary_output_root, 'relation.csv')
+summary_ntriples_file = os.path.join(summary_output_root, 'vivrecard_ntriples.nt')
 if not os.path.exists(summary_output_root):
 	os.makedirs(summary_output_root)
 
 instance_header = 'sentence,relation,head,head_offset,tail,tail_offset'
 relation_header = 'head_type,tail_type,relation,index\nNone,None,None,0'
+
+relation_triple_template = "<http://kg.course/talkop-vivre-card/deepke/{}/{}> " \
+				  		   "<http://kg.course/talkop-vivre-card/deepke/relation/{}> " \
+				  		   "<http://kg.course/talkop-vivre-card/deepke/{}/{}> ."
+type_triple_template = "<http://kg.course/talkop-vivre-card/deepke/{}/{}> " \
+				  	   "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> " \
+				  	   "<http://kg.course/talkop-vivre-card/deepke/{}> ."
 
 
 def process_vivrecard_content(content):
@@ -338,6 +347,8 @@ def process_vivrecard_relations(relations_list, entities_list):
 	    	be used to train deepke model.
 	    annot_relation_sentid_set (set): The sentence id that 
 	    	has been annotated with relation.
+	    ntriples_list (list): The list that contain N-Triples format
+	    	relation data. Can be used in SPARQL/Neo4j
 	Examples::
 	    >>> entities_dict = process_vivrecard_entities(entities_list)
 	"""
@@ -346,6 +357,7 @@ def process_vivrecard_relations(relations_list, entities_list):
 	deepke_relation_set = set()
 	relation_freq_dict = dict()       # 各个关系在数据集中出现的频率
 	annot_relation_sentid_set = set() # 被annot关系的句子集合
+	ntriples_list = []                # N-Triples List, 可以用于SPARQL或者Neo4j查询
 	for item in tqdm(relations_list):
 		if not isinstance(item, dict):
 			continue
@@ -401,6 +413,18 @@ def process_vivrecard_relations(relations_list, entities_list):
 		record_relation = '{},{},{}'.format(head_type, tail_type, relation)
 		deepke_relation_set.add(record_relation)
 
+		# NOTE: IRI 里面不能有空格，暂时用 `-` 替换掉 ` `
+		# 之后应该要改为编号，然后赋予他们名字，这样才对
+		# e.g. <http://kg.course/talkop-vivre-card/deepke/地点/Water Seven> --->
+		#      <http://kg.course/talkop-vivre-card/deepke/地点/Water-Seven> 
+		triple_head, triple_relation, triple_tail = head.replace(' ', '-'), relation.replace(' ', '-'), tail.replace(' ', '-')
+		relation_triple = relation_triple_template.format(head_type, triple_head, triple_relation, tail_type, triple_tail)
+		head_type_triple = type_triple_template.format(head_type, triple_head, head_type)
+		tail_type_triple = type_triple_template.format(tail_type, triple_tail, tail_type)
+		ntriples_list.append(relation_triple)
+		ntriples_list.append(head_type_triple)
+		ntriples_list.append(tail_type_triple)
+
 		if record_relation not in relation_freq_dict:
 			relation_freq_dict[record_relation] = 0
 		relation_freq_dict[record_relation]  +=  1
@@ -416,7 +440,7 @@ def process_vivrecard_relations(relations_list, entities_list):
 	for relation, freq in sorted(relation_freq_dict.items(), key = lambda x:x[1], reverse = True):
 		print('relation: {}\tfreq: {}'.format(relation, freq))
 
-	return deepke_instance_list, deepke_relation_list, annot_relation_sentid_set
+	return deepke_instance_list, deepke_relation_list, annot_relation_sentid_set, ntriples_list
 
 
 def write_data(data, header, file_path, max_num=None):
@@ -463,7 +487,7 @@ print('entities number: {} {}'.format(len(entities_list), count_valid_item(entit
 print('relations number: {} {}'.format(len(relations_list), count_valid_item(relations_list)))
 
 entities_dict, entities_type_name_dict, annot_entity_sentid_set = process_vivrecard_entities(entities_list)
-all_data, relation_data, annot_relation_sentid_set = process_vivrecard_relations(relations_list, entities_list)
+all_data, relation_data, annot_relation_sentid_set, ntriples_list = process_vivrecard_relations(relations_list, entities_list)
 
 # -----------------------
 # [split/write deepke data]
@@ -471,6 +495,8 @@ all_data, relation_data, annot_relation_sentid_set = process_vivrecard_relations
 # 2. 写入文件中
 
 print('\n\n[split/write deepke data]\n\n')
+
+# random.shuffle(all_data)
 
 data_size = len(all_data)
 train_ratio, test_ratio, valid_ratio = 0.7, 0.2, 0.1
@@ -534,41 +560,17 @@ write_data(data=[content_sentences[item] for item in unannot_entity_sentid_set],
 write_data(data=[content_sentences[item] for item in unannot_relation_sentid_set],
 	header=None, file_path=summary_unannot_relation_sent)
 
+# N-Triples
+write_data(data=ntriples_list, header=None,
+	file_path=summary_ntriples_file)
+
 print('Sentence Number: {}'.format(len(all_sentid_set)))
 print('Sentence be annotated with entity, Number: {}'.format(len(annot_entity_sentid_set)))
 print('Sentence be annotated with relation, Number: {}'.format(len(annot_relation_sentid_set)))
 print('Sentence [not] be annotated with entity, Number: {}'.format(len(unannot_entity_sentid_set)))
 print('Sentence [not] be annotated with relation, Number: {}'.format(len(unannot_relation_sentid_set)))
 
+print('N-Triples Number: {}'.format(len(ntriples_list)))
+
 
 exit(-1)
-
-
-
-trainval_data = process_baidu_ke(train_file)
-test_data     = process_baidu_ke(dev_file)
-relation_data = process_baidu_ke_relation(schema_file)
-
-
-# 将 train_data.json 中的数据划分为 训练集和验证集
-# 将 dev_data.json 中的数据直接作为测试集
-# 目前将验证集大小设置为和测试集一样
-valid_size = len(test_data)
-train_size = len(trainval_data) - valid_size
-test_size  = len(test_data)
-
-# train
-write_data(data=trainval_data[:-valid_size], header=instance_header,
-	file_path=output_train_file)
-
-# valid
-write_data(data=trainval_data[-valid_size:], header=instance_header,
-	file_path=output_valid_file)
-
-# test
-write_data(data=test_data, header=instance_header,
-	file_path=output_test_file)
-
-# relation
-write_data(data=relation_data, header=relation_header,
-	file_path=output_relation_file)
