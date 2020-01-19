@@ -19,10 +19,35 @@
 /*body的样式*/
 body {
     background-color: #272b30;   /*背景颜色*/
-    padding-bottom: 30px, 40 px;
+    padding-bottom: 30px, 40px;
     text-align: center;
     font-family: OpenSans-Light, PingFang SC, Hiragino Sans GB, Microsoft Yahei, Microsoft Jhenghei, sans-serif;
 }
+
+/*indicator的样式*/
+#indicator {
+    position: absolute;
+    left: 60px;
+    bottom: 120px;
+    text-align: left;
+    color: #f2f2f2;
+    font-size: 12px;
+}
+
+/*indicator中每一个小的div/色块/图例的样式*/
+#indicator>div {
+    margin-bottom: 4px; 
+}
+
+#indicator span {
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}
+
 </style>
 
 <body>
@@ -47,7 +72,7 @@ body {
     </div>
 
     <div style="text-align: center;position: relative;">
-        <svg width="960" height="240", id="svg2", style="margin-right: 60px;">
+        <svg width="960" height="240" id="svg2" style="margin-right: 60px;">
             <!-- D3 -->
             <g></g>
         </svg>
@@ -55,4 +80,40 @@ body {
 
 </body>
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<!-- 自定义的js代码 -->
+<script>
+$(document).ready(function() {
+    // 定义svg变量，选出第一个图
+    var svg = d3.select("#svg1"), 
+              width = svg.attr('width'), 
+              height = svg.attr('height');
+
+    var names = ['人', '地点', '组织', '恶魔果实', '职务', '船只', '事件']
+    var colors = ['#6ca46c', '#4e88af', '#ca635f', '#d2907c', '#d6744d', '#ded295', '#7481c3'];
+
+    for (var i = 0; i < names.length; i++) {
+        // 选中indicator，每一种都append一个div，就是前面的小色块
+        $('#indicator').append("<div><span style='background-color:" + colors[i] + "'></span>" + names[i] +"</div>")
+    }
+
+    // 定义D3的simulation是如何展示出来的
+    var simulation = d3.forceSimulation()
+        .force("link", d3.forceLink().id(function(d) {
+            return d.id;
+        }))
+        .force("charge", d3.forceManyBody())
+        .force("center", d3.forceCenter(width / 2, height / 2));
+
+    // 存之后生成的关系图数据
+    var graph;
+
+    d3.json("starwar.json", function(error, data) {
+        if (error) throw error;
+
+        graph = data;
+        console.log(graph)
+    })
+
+});
+</script>
 </html>
