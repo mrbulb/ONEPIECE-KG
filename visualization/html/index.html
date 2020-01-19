@@ -1,19 +1,58 @@
+  
 <!DOCTYPE html>
 <html>
 
 <head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title></title>
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta name="author" content="" />
-<link rel="shortcut icon" href="">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>海贼王知识图谱可视化</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="">
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
+<!-- 定义样式 -->
+<style>
+/*body的样式*/
+body {
+    background-color: #272b30;   /*背景颜色*/
+    padding-bottom: 30px, 40 px;
+    text-align: center;
+    font-family: OpenSans-Light, PingFang SC, Hiragino Sans GB, Microsoft Yahei, Microsoft Jhenghei, sans-serif;
+}
+</style>
+
 <body>
+    <!-- 标题 -->
+    <h1 style="color: #fff;font-size: 32px;margin-bottom: 0px;text-align: left;margin-left: 40px">ONE PIECE</h1>
+
+    <!-- 定义div存放关系图 -->
+    <!-- NOTE: 父元素采用相对定位，里面的元素采用绝对定位 -->
+    <div style="text-align: center;position: relative;">
+        <svg width="800" height="500" style="margin-left: 80px;margin-bottom: -40px" id="svg1"></svg>
+        <!-- 图例 -->
+        <div id="indicator"></div>
+
+        <!-- 模式 -->
+        <div id="mode"></div>
+
+        <!-- 搜索框 -->
+        <div id="search"></div>
+
+        <!-- 每个结点的信息 -->
+        <div id="info"></div>
+    </div>
+
+    <div style="text-align: center;position: relative;">
+        <svg width="960" height="240", id="svg2", style="margin-right: 60px;">
+            <!-- D3 -->
+            <g></g>
+        </svg>
+    </div>
 
 </body>
-
+<script src="https://d3js.org/d3.v4.min.js"></script>
 </html>
