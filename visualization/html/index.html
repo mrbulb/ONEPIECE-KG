@@ -29,15 +29,31 @@ body {
     stroke: rgb(240, 240, 240); /*线的颜色*/
     stroke-opacity: 0.2;        /*线的透明度*/
 }
+.links line.inactive {
+    /*display: none !important;*/
+    stroke-opacity: 0;
+}
 
 .nodes circle {
     stroke: #fff;
     stroke-width: 1.5px;        /*圆的描边宽度*/
 }
+.nodes circle:hover {
+    cursor: pointer;
+}
+.nodes circle.inactive {
+    display: none !important;
+}
 
 /*默认显示所有的圆圈，进入模式切换之后才会显示text*/
 .texts text {
     display: none;
+}
+.texts text:hover {
+    cursor: pointer;
+}
+.texts text.inactive {
+    display: none !important;
 }
 
 /*indicator的样式*/
@@ -64,6 +80,34 @@ body {
     margin-right: 8px;
 }
 
+/*mode-模式切换的style*/
+#mode {
+    position: absolute;
+    top: 160px;
+    left: 60px;
+}
+
+#mode span {
+    display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: color, background-color .3s; /*CSS3中的渐变*/
+    -o-transition: color, background-color .3s;
+    -ms-transition: color, background-color .3s;
+    -moz-transition: color, background-color .3s;
+    -webkit-transition: color, background-color .3s;
+}
+
+/*当按键处于激活或者鼠标悬浮状态的时候*/
+#mode span.active, #mode span:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
 </style>
 
 <body>
@@ -78,7 +122,10 @@ body {
         <div id="indicator"></div>
 
         <!-- 模式 -->
-        <div id="mode"></div>
+        <div id="mode">
+            <span class="active" style="border-top-right-radius: 0;border-bottom-right-radius: 0;">Circles</span>
+            <span style="border-top-left-radius: 0;border-bottom-left-radius: 0;position: relative;left: -5px;">Texts</span>
+        </div>
 
         <!-- 搜索框 -->
         <div id="search"></div>
@@ -230,13 +277,13 @@ $(document).ready(function() {
     })
 
     // 拖动事件函数
-    // var dragging = false;
+    var dragging = false;
 
     function dragstarted(d) {
         if (!d3.event.active) simulation.alphaTarget(0.3).restart();
         d.fx = d.x;
         d.fy = d.y;
-        // dragging = true;
+        dragging = true;
     }
 
     function dragged(d) {
@@ -248,8 +295,114 @@ $(document).ready(function() {
         if (!d3.event.active) simulation.alphaTarget(0);
         d.fx = null;
         d.fy = null;
-        // dragging = false;
+        dragging = false;
     }
+
+    // 处理模式点击后的事件(这些元素页面上本来有)
+    $('#mode span').click(function(event) {
+        // 把mode里面所有span的active全部去掉
+        // 把被点击的这个设置为active
+        $('#mode span').removeClass('active')
+        $(this).addClass('active')
+
+        if ($(this).text() == 'Circles') {
+            // 隐藏所有文本里面的svg元素
+            // 把node里面的显示出来
+            $('.texts text').hide();
+            $('.nodes circle').show();
+        }
+        else {
+            $('.texts text').show();
+            $('.nodes circle').hide ();
+        }
+    });
+
+    // 处理事件：选中结点后只显示选中点及其直接相邻点
+    // 这些元素原来没有，后面添加上去，所以写法和上面不同
+    // 为#svg1中所有的 `.nodes circle` 元素，绑定了 `mouseenter`事件 
+    $('#svg1').on('mouseenter', '.nodes circle', function(event) {
+        // 拖动的时候，如果碰到别的结点，效果会发生变化，看起来很乱
+        // 所以拖动的时候不允许触发鼠标进入事件
+        if (!dragging) {
+            var name = $(this).attr('name');
+
+            d3.select('#svg1 .nodes').selectAll('circle').attr('class', function(d){
+                // 是目前悬浮的那个
+                if (d.id == name) {
+                    return '';
+                }
+
+                // 不是悬浮的那个，需要显示相邻的circle，对其他的圆圈做处理
+                // 遍历图中的所有link
+                for (var i = 0; i < graph.links.length; i++) {
+                    if (graph.links[i]['source'].id == name && graph.links[i]['target'].id == d.id) {
+                        return '';
+                    }
+                    if (graph.links[i]['target'].id == name && graph.links[i]['source'].id == d.id) {
+                        return '';
+                    }
+                }
+
+                return 'inactive';
+            });
+
+            // 处理连接line, 不相连的line不显示
+            d3.select("#svg1 .links").selectAll('line').attr('class', function(d) {
+                if (d.source.id == name || d.target.id == name) {
+                    return '';
+                } else {
+                    return 'inactive';
+                }
+            });
+        }
+    });
+
+    // 处理鼠标移开的事件上
+    $('#svg1').on('mouseleave', '.nodes circle', function(event) {
+        if (!dragging) {
+            // 离开时把nodes和links的inactive去掉
+            d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');
+            d3.select('#svg1 .links').selectAll('line').attr('class', '');
+        }
+    });
+
+    $('#svg1').on('mouseenter', '.texts text', function(event) {
+        if (!dragging) {
+            var name = $(this).attr('name');
+
+            d3.select('#svg1 .texts').selectAll('text').attr('class', function(d){
+                if (d.id == name) {
+                    return '';
+                }
+
+                for (var i = 0; i < graph.links.length; i++) {
+                    if (graph.links[i]['source'].id == name && graph.links[i]['target'].id == d.id) {
+                        return '';
+                    }
+                    if (graph.links[i]['target'].id == name && graph.links[i]['source'].id == d.id) {
+                        return '';
+                    }
+                }
+
+                return 'inactive';
+            });
+
+            d3.select("#svg1 .links").selectAll('line').attr('class', function(d) {
+                if (d.source.id == name || d.target.id == name) {
+                    return '';
+                } else {
+                    return 'inactive';
+                }
+            });
+        }
+    });
+
+    $('#svg1').on('mouseleave', '.texts text', function(event) {
+        if (!dragging) {
+            d3.select('#svg1 .texts').selectAll('text').attr('class', '');
+            d3.select('#svg1 .links').selectAll('line').attr('class', '');
+        }
+    });
 
 });
 </script>
