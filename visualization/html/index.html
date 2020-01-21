@@ -1,4 +1,4 @@
-  
+
 <!DOCTYPE html>
 <html>
 
@@ -108,6 +108,28 @@ body {
     cursor: pointer;
 }
 
+/*info的样式*/
+#info {
+    position: absolute;
+    top: 160px;
+    /*bottom: 40px;*/
+    right: 30px;
+    text-align: right;
+    width: 270px;
+}
+
+#info p {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#info p span {
+    color: #888;
+    margin-right: 10px;
+}
+
 </style>
 
 <body>
@@ -117,7 +139,7 @@ body {
     <!-- 定义div存放关系图 -->
     <!-- NOTE: 父元素采用相对定位，里面的元素采用绝对定位 -->
     <div style="text-align: center;position: relative;">
-        <svg width="800" height="800" style="margin-left: 80px;margin-bottom: -40px" id="svg1"></svg>
+        <svg width="800" height="560" style="margin-left: 80px;margin-bottom: -40px" id="svg1"></svg>
         <!-- 图例 -->
         <div id="indicator"></div>
 
@@ -131,7 +153,9 @@ body {
         <div id="search"></div>
 
         <!-- 每个结点的信息 -->
-        <div id="info"></div>
+        <div id="info">
+            <h4></h4>
+        </div>
     </div>
 
     <div style="text-align: center;position: relative;">
@@ -326,6 +350,34 @@ $(document).ready(function() {
         if (!dragging) {
             var name = $(this).attr('name');
 
+            // 把info标题的颜色改为结点所属类别的颜色
+            $('#info h4').css('color', $(this).attr('fill')).text(name);
+            // 去掉旧的<p></p>
+            $('#info p').remove();
+
+            for (var key in info[name]) {
+                value = info[name][key];
+
+                var flag_none = false;
+                for (var item in value) {
+                    if (value[item] == null || value[item] == 'N/A' || value[item] == '') {
+                        flag_none = true;
+                        break;
+                    }
+                } 
+                if (flag_none == true) {              // 排除为空的属性值
+                    continue;
+                }
+                if (key.indexOf("年前") != -1) { // 排除历史的属性值
+                    continue;
+                }
+                // 排除不想要的字段
+                if (key == '和路飞的身高比例') {
+                    continue;
+                }
+                $('#info').append('<p><span>' + key + '</span>' + info[name][key] + '</p>');
+            }
+
             d3.select('#svg1 .nodes').selectAll('circle').attr('class', function(d){
                 // 是目前悬浮的那个
                 if (d.id == name) {
@@ -370,6 +422,34 @@ $(document).ready(function() {
         if (!dragging) {
             var name = $(this).attr('name');
 
+            // 把info标题的颜色改为结点所属类别的颜色
+            $('#info h4').css('color', $(this).attr('fill')).text(name);
+            // 去掉旧的<p></p>
+            $('#info p').remove();
+
+            for (var key in info[name]) {
+                value = info[name][key];
+
+                var flag_none = false;
+                for (var item in value) {
+                    if (value[item] == null || value[item] == 'N/A' || value[item] == '') {
+                        flag_none = true;
+                        break;
+                    }
+                } 
+                if (flag_none == true) {              // 排除为空的属性值
+                    continue;
+                }
+                if (key.indexOf("年前") != -1) { // 排除历史的属性值
+                    continue;
+                }
+                // 排除不想要的字段
+                if (key == '和路飞的身高比例') {
+                    continue;
+                }
+                $('#info').append('<p><span>' + key + '</span>' + info[name][key] + '</p>');
+            }
+
             d3.select('#svg1 .texts').selectAll('text').attr('class', function(d){
                 if (d.id == name) {
                     return '';
@@ -403,6 +483,12 @@ $(document).ready(function() {
             d3.select('#svg1 .links').selectAll('line').attr('class', '');
         }
     });
+
+    // 结点信息框
+    var info
+    d3.json("vizdata_vivrecard_avpair.json", function(error, data){
+        info = data;
+    })
 
 });
 </script>
