@@ -126,7 +126,7 @@ summary_unannot_entity_sent = os.path.join(summary_output_root, 'unannot_entity_
 summary_unannot_relation_sent = os.path.join(summary_output_root, 'unannot_relation_sent.txt')
 summary_relation_file = os.path.join(summary_output_root, 'relation.csv')
 summary_ntriples_file = os.path.join(summary_output_root, 'vivrecard_ntriples.nt')
-summary_vizdata_file = os.path.join(summary_output_root, 'vivrecard_vizdata.json')
+summary_vizdata_file = os.path.join(summary_output_root, 'vizdata_vivrecard_relation.json')
 if not os.path.exists(summary_output_root):
 	os.makedirs(summary_output_root)
 
@@ -637,7 +637,6 @@ for idx, entity_type in enumerate(entities_type_name_dict):
 		vizdata_node = eval(node_template.format(entity_type, idx, entity_name, nodes_size_dict[entity_type]))
 		nodes_list.append(vizdata_node)
 
-print(nodes_list)
 vizdata_dict['nodes'] = nodes_list
 
 print('Write visualization data file path: {}'.format(summary_vizdata_file))
