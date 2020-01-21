@@ -12,6 +12,7 @@
     <meta name="author" content="" />
     <link rel="shortcut icon" href="">
     <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <!-- 定义样式 -->
@@ -130,6 +131,19 @@ body {
     margin-right: 10px;
 }
 
+/*搜索框的样式*/
+#search input {
+    position: absolute;
+    top: 210px;
+    left: 60px;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 200px;
+    background-color: #666;
+}
+
 </style>
 
 <body>
@@ -150,7 +164,9 @@ body {
         </div>
 
         <!-- 搜索框 -->
-        <div id="search"></div>
+        <div id="search">
+            <input type="text" class="form-control">
+        </div>
 
         <!-- 每个结点的信息 -->
         <div id="info">
@@ -484,8 +500,40 @@ $(document).ready(function() {
         }
     });
 
+    // 搜索框
+    $('#search input').keyup(function(event) {
+        // 如果输入为空，全部显示出来
+        if ($(this).val() == '') {
+            d3.select('#svg1 .texts').selectAll('text').attr('class', '');;
+            d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');;
+            d3.select('#svg1 .links').selectAll('line').attr('class', '');;
+        }
+        else { // 筛选，判断这三个东西里的元素是否包含输入的东西
+            var name = $(this).val();
+            d3.select('#svg1 .nodes').selectAll('circle').attr('class', function(d) {
+                if (d.id.toLowerCase().indexOf(name.toLowerCase()) >= 0) {
+                    return '';
+                } else {
+                    return 'inactive';
+                }
+            });
+            d3.select('#svg1 .texts').selectAll('text').attr('class', function(d) {
+                if (d.id.toLowerCase().indexOf(name.toLowerCase()) >= 0) {
+                    return '';
+                } else {
+                    return 'inactive';
+                }
+            });
+            d3.select("#svg1 .links").selectAll('line').attr('class', function(d) {
+                return 'inactive';
+            });
+        }
+    });
+
+
     // 结点信息框
-    var info
+    var info;
+
     d3.json("vizdata_vivrecard_avpair.json", function(error, data){
         info = data;
     })
