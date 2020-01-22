@@ -11,7 +11,6 @@ data_dir  = './data/processed_manual_talkop_vivre_card'
 prefix_file = 'file_prefix.json'
 
 avpair_suffix                = '-entities_avpair.json'
-entities_id_name_list_suffix = '-entities_id_name_list.txt'
 predicate_key_list_suffix    = '-predicate_key_list.txt'
 
 prefix_file_path = os.path.join(data_dir, prefix_file)
@@ -30,6 +29,7 @@ empty_ntriples_num = 0
 ntriples_list = []
 avpair_list = list()
 avpair_set  = set()
+vizdata_dict = dict()
 for item in prefix_list:
     avpair_list_file_path = os.path.join(data_dir, item + avpair_suffix)
 
@@ -48,11 +48,14 @@ for item in prefix_list:
 
     for ID in content.keys():
         print(ID)
-        entities_item = content[ID]
-        for predicate in entities_item.keys():
-            objects_item = entities_item[predicate]
+        entity_item = content[ID]
+        for predicate in entity_item.keys():
+            objects_item = entity_item[predicate]
 
             ntriples_num += len(objects_item)
+
+            if (len(objects_item) != 1):
+                print(predicate, objects_item)
 
             for object in objects_item:
 
@@ -65,15 +68,20 @@ for item in prefix_list:
                 if object == None or 'N/A' in object:
                     empty_ntriples_num += 1
 
+        # visualization data
+        entity_name = entity_item['中文名'][0].strip().strip('\"')
+        vizdata_dict[entity_name] = entity_item
+
     print('--------------------')
 
 
-print('Avpair number:    {}'.format(avpair_cnt))
-print('List item number: {}'.format(len(avpair_list)))
-print('Set item number:  {}'.format(len(avpair_set)))
+print('Avpair Number:    {}'.format(avpair_cnt))
+print('List Item Number: {}'.format(len(avpair_list)))
+print('Set Item Number:  {}'.format(len(avpair_set)))
 print('Ntriples Number:  {} {}'.format(ntriples_num, len(ntriples_list)))
 print('Empty Ntriples Number:  {}'.format(empty_ntriples_num))
 print('Non-Empty Ntriples Number:  {}'.format(ntriples_num - empty_ntriples_num))
+print('Visualization Avpair Item Number: {}'.format(len(vizdata_dict)))
 
 
 # ----------------------------------
@@ -87,6 +95,16 @@ print('write path: {}'.format(ntriples_talkop_vivre_card_file))
 with open(ntriples_talkop_vivre_card_file, 'w') as f:
     for item in ntriples_list:
         f.write(item + '\n')
+
+
+# ----------------------------------
+print('\n\n------Write Visualization avpair data into Files------\n\n')
+
+vizdata_file = os.path.join(data_dir, 'vizdata_vivrecard_avpair.json')
+print('write path: {}'.format(vizdata_file))
+
+with open(vizdata_file, 'w', encoding='utf-8') as f:
+    json.dump(vizdata_dict, f, ensure_ascii=False, indent=4, sort_keys=True)
 
 print('\n\nFinish\n\n')
 
