@@ -1,8 +1,8 @@
 import re
 
 
-raw_entries_file       = './raw_moegirl_onepiece_entries.txt'
-processed_entries_file = './processed_moegirl_onepiece_entries.txt'
+raw_entries_file       = './cndbpedia/data/raw_moegirl_onepiece_entries.txt'
+processed_entries_file = './cndbpedia/data/processed_moegirl_onepiece_entries.txt'
 
 # read file
 with open(raw_entries_file) as f:
@@ -29,6 +29,8 @@ for item in content.split('\n'):
         		if tuple_item != '':
         			entities_set.add(tuple_item)
 			        entities_num += 1
+
+entities_set = sorted(entities_set)
 
 print('entities_set:\n{}'.format(entities_set))
 print('entities_num: {}'.format(len(entities_set)))

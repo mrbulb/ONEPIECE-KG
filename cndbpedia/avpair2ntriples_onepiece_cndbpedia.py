@@ -5,8 +5,8 @@ import requests
 
 triple_template = "<http://kg.course/onepiece/{}> <http://kg.course/onepiece/{}> \"{}\" ."
 
-avpair_data_dir = './avpair_cndbpedia_onepiece'
-output_dir      = './ntriples_cndbpedia_onepiece'
+avpair_data_dir = './data'
+output_dir      = './data'
 
 query_avpair_cndbpedia_onepiece_results_file = os.path.join(avpair_data_dir, 'query_avpair_cndbpedia_onepiece_results.json')
 ntriples_cndbpedia_onepiece_file             = os.path.join(output_dir, 'ntriples_cndbpedia_onepiece.nt')

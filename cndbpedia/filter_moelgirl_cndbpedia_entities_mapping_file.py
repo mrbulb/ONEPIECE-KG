@@ -2,17 +2,22 @@
 import os
 import json
 import time
-import requests 
+import requests
 
-cndbpedia_data_dir = './cndbpedia_onepiece'
-output_dir = './filter_cndbpedia_onepiece'
+cndbpedia_data_dir = './cndbpedia/data'
+output_dir = './cndbpedia/data'
 
-moelgirl_cndbpedia_entities_mapping_file                 = os.path.join(cndbpedia_data_dir, 'moelgirl_cndbpedia_entities_mapping.json')
+moelgirl_cndbpedia_entities_mapping_file = os.path.join(
+    cndbpedia_data_dir, 'moelgirl_cndbpedia_entities_mapping.json')
 
-moelgirl_cndbpedia_api_no_results_mention_name_list_file = os.path.join(output_dir, 'moelgirl_cndbpedia_api_no_results_mention_name_list.txt')
-filter_out_entities_mapping_file                         = os.path.join(output_dir, 'filter_out_entities_mapping.json')
-query_avpair_entities_list_file                          = os.path.join(output_dir, 'query_avpair_entities_list.txt')
-query_avpair_entities_mapping_file                       = os.path.join(output_dir, 'query_avpair_entities_mapping.json')
+moelgirl_cndbpedia_api_no_results_mention_name_list_file = os.path.join(
+    output_dir, 'moelgirl_cndbpedia_api_no_results_mention_name_list.txt')
+filter_out_entities_mapping_file = os.path.join(
+    output_dir, 'filter_out_entities_mapping.json')
+query_avpair_entities_list_file = os.path.join(
+    output_dir, 'query_avpair_entities_list.txt')
+query_avpair_entities_mapping_file = os.path.join(
+    output_dir, 'query_avpair_entities_mapping.json')
 
 
 # entities_list 不为空
@@ -28,10 +33,11 @@ def filter(mention_name, entities_list):
                     filter_entities_list.append(item)
 
         if mention_name in entities_list:
-                filter_entities_list.append(mention_name)
-                print('\n----------------------------')
-                print('mention_name: {}\nentities_list: {}\nfilter_entities_list: {}'.format(mention_name, entities_list, filter_entities_list))
-                print('----------------------------\n')
+            filter_entities_list.append(mention_name)
+            print('\n----------------------------')
+            print('mention_name: {}\nentities_list: {}\nfilter_entities_list: {}'.format(
+                mention_name, entities_list, filter_entities_list))
+            print('----------------------------\n')
 
     return filter_entities_list
 
@@ -45,13 +51,12 @@ if __name__ == "__main__":
     if not os.path.exists(output_dir):
         print('Output Dictionary {} not exists, Make one\n\n'.format(output_dir))
         os.makedirs(output_dir)
-    
+
     with open(moelgirl_cndbpedia_entities_mapping_file) as f:
-        mapping_dict = json.load(f)        
+        mapping_dict = json.load(f)
 
-
-    no_reslut_mention_name_list = list() # API查询后没有结果的mention_name list
-    filter_out_mapping_dict = dict() # 有 entities_list 但因为不符合条件被filter掉了
+    no_reslut_mention_name_list = list()  # API查询后没有结果的mention_name list
+    filter_out_mapping_dict = dict()      # 有 entities_list 但因为不符合条件被filter掉了
     filter_mapping_dict = dict()
     for mention_name, entities_list in mapping_dict.items():
         # print('mention_name: {} | entities_list: {}'.format(mention_name, entities_list))
@@ -62,7 +67,8 @@ if __name__ == "__main__":
             filter_entities_list = filter(mention_name, entities_list)
             if len(filter_entities_list) != 0:
                 filter_mapping_dict[mention_name] = filter_entities_list
-                print('mention_name: {} | entities_list: {}'.format(mention_name, filter_entities_list))
+                print('mention_name: {} | entities_list: {}'.format(
+                    mention_name, filter_entities_list))
             else:
                 filter_out_mapping_dict[mention_name] = entities_list
 
@@ -71,6 +77,9 @@ if __name__ == "__main__":
     for mention_name, entities_list in filter_mapping_dict.items():
         filter_entities_set.update(entities_list)
 
+    # 排序
+    no_reslut_mention_name_list = sorted(no_reslut_mention_name_list)
+    filter_entities_set = sorted(filter_entities_set)
 
     # print filter results
     print('\nno_reslut_mention_name_list')
@@ -79,7 +88,8 @@ if __name__ == "__main__":
 
     print('\nfilter_out_mapping_dict')
     for mention_name, entities_list in filter_out_mapping_dict.items():
-        print('mention_name: {} | entities_list: {}'.format(mention_name, entities_list))
+        print('mention_name: {} | entities_list: {}'.format(
+            mention_name, entities_list))
     print()
 
     print_list = ['len(mapping_dict)', 'len(no_reslut_mention_name_list)', 'len(filter_mapping_dict)',
@@ -87,14 +97,13 @@ if __name__ == "__main__":
     for item in print_list:
         print('{}: {}'.format(item, eval(item)))
 
-
     # write filter results into files
     with open(moelgirl_cndbpedia_api_no_results_mention_name_list_file, 'w') as f:
-    	for item in no_reslut_mention_name_list:
-    		f.write(item + '\n')
+        for item in no_reslut_mention_name_list:
+            f.write(item + '\n')
 
     with open(filter_out_entities_mapping_file, 'w', encoding='utf-8') as f:
-    	json.dump(filter_out_mapping_dict, f, ensure_ascii=False, indent=4)
+        json.dump(filter_out_mapping_dict, f, ensure_ascii=False, indent=4)
 
     with open(query_avpair_entities_list_file, 'w') as f:
         for item in filter_entities_set:
@@ -102,4 +111,3 @@ if __name__ == "__main__":
 
     with open(query_avpair_entities_mapping_file, 'w', encoding='utf-8') as f:
         json.dump(filter_mapping_dict, f, ensure_ascii=False, indent=4)
-

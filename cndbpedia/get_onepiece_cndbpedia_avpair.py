@@ -5,8 +5,8 @@ import time
 import requests 
 
 
-filter_cndbpedia_data_dir = './filter_cndbpedia_onepiece'
-output_dir                = './avpair_cndbpedia_onepiece'
+filter_cndbpedia_data_dir = './cndbpedia/data'
+output_dir                = './cndbpedia/data'
 
 
 query_avpair_entities_mapping_file           = os.path.join(filter_cndbpedia_data_dir, 'query_avpair_entities_mapping.json')
@@ -45,11 +45,11 @@ def ment2ent(mention_name):
 def ent2avpair(entity_name):
 
     ent2avpair_prefix = 'http://shuyantech.com/api/cndbpedia/avpair?q='
-    url = ent2avpair_prefix + entity_name
+    url = ent2avpair_prefix + entity_name + '&apikey=e9210d0f964182ceeca0827bfdb8373f'
 
     response_flag = False
     while True:
-        time.sleep(1)
+        # time.sleep(1)
         response = requests.get(url, headers=headers)
         if response:
             print('Get response')
@@ -108,6 +108,7 @@ if __name__ == "__main__":
     print('avpair_key_set:\n{}'.format(avpair_key_set))
     print('avpair_key_set number: {}'.format(len(avpair_key_set)))
 
+    avpair_key_set = sorted(avpair_key_set)
 
     # write results into files
     with open(query_avpair_cndbpedia_onepiece_results_file, 'w', encoding='utf-8') as f:
