@@ -542,7 +542,7 @@ all_data, relation_data, annot_relation_sentid_set, ntriples_list, vizdata_dict 
 
 print('\n\n[split/write deepke data]\n\n')
 
-# random.shuffle(all_data)
+random.shuffle(all_data)
 
 data_size = len(all_data)
 train_ratio, test_ratio, valid_ratio = 0.7, 0.2, 0.1
