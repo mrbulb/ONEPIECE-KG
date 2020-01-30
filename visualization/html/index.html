@@ -11,8 +11,8 @@
     <meta name="keywords" content="" />
     <meta name="author" content="" />
     <link rel="shortcut icon" href="">
-    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
-    <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <link href="https://libs.baidu.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <!-- 定义样式 -->
@@ -211,6 +211,7 @@ $(document).ready(function() {
     var graph;
 
     d3.json("vizdata_vivrecard_relation.json", function(error, data) {
+    // d3.json("test_vizdata_vivrecard_relation.json", function(error, data) {
         if (error) throw error;
 
         graph = data;
@@ -218,7 +219,7 @@ $(document).ready(function() {
 
         // D3数据驱动文档
         // 用links去驱动line的线宽
-        var link = svg.append("g")
+        var link = svg.append('g')
             .attr("class", "links")
             .selectAll("line")
             .data(graph.links)
@@ -279,6 +280,17 @@ $(document).ready(function() {
             return d.id;
         })
 
+        // 处理缩放
+        svg.call(d3.zoom()
+            .scaleExtent([1 / 8, 8])
+            .on("zoom", zoomed));
+         
+        function zoomed() {
+            link.attr("transform", d3.event.transform);
+            node.attr("transform", d3.event.transform);
+            text.attr("transform", d3.event.transform);
+        }
+
         simulation
             .nodes(graph.nodes)
             .on("tick", ticked);
@@ -309,10 +321,13 @@ $(document).ready(function() {
                     return d.y;
                 });
 
-            text.
-            attr('transform', function(d) {
-                return 'translate(' + d.x + ',' + (d.y + d.size / 2) + ')';
-            });
+            text
+                .attr("dx", function(d) {
+                    return d.x;
+                })
+                .attr("dy", function(d) {
+                    return d.y;
+                });
         }
     })
 
