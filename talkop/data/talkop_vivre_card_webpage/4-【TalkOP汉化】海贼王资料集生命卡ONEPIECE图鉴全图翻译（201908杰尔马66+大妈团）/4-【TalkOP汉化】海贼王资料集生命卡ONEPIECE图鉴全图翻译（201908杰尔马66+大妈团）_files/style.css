@@ -1,0 +1,56 @@
+.qqregtb {
+    background-color: #E5EDF2;
+    margin-top: 0;
+    padding-top: 5px;
+}
+.rfm .cw_tip {
+    color: red;
+	display: none;
+    font-family: Tahoma,Helvetica,'SimSun',sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+    position: absolute;
+    width: 390px;
+    z-index: 1;
+}
+.dz_wx_link{padding-left:21px;background:url("../images/logo-weixin.png") no-repeat left center}
+.dz_m_donging{position:relative;top:-15px;left:144px}
+.moreBind{margin-left:7px;color:red;}
+.dz_mt_link{position:relative;top:-3px;}
+.dz_m_link {margin-right:3px;padding-left:16px; height:16px;display:inline-block;text-decoration:none;background:url("../images/login_small.gif") no-repeat 0 0}
+.dz_m_qzone{background-position:0 -0px}
+.dz_m_sina{background-position:0 -16px}
+.dz_m_qq{background-position:0 -32px}
+.dz_m_sohu{background-position:0 -48px}
+.dz_m_netease{background-position:0 -64px}
+.dz_m_renren{background-position:0 -80px}
+.dz_m_kaixin001{background-position:0 -96px}
+.dz_m_douban{background-position:0 -112px}
+.dz_m_tianya{background-position:0 -128px}
+.dz_m_twitter{background-position:0 -144px}
+.dz_m_facebook{background-position:0 -160px}
+.dz_m_google{background-position:0 -176px}
+.dz_m_msn{background-position:0 -192px}
+.dz_m_yahoo{background-position:0 -208px}
+.dz_m_alipay{background-position:0 -224px}
+.dz_m_taobao{background-position:0 -240px}
+.dz_m_baidu{background-position:0 -256px}
+.dz_m_360{background-position:0 -272px}
+.dz_m_no_qzone{background-position:-16px -0px}
+.dz_m_no_sina{background-position:-16px -16px}
+.dz_m_no_qq{background-position:-16px -32px}
+.dz_m_no_sohu{background-position:-16px -48px}
+.dz_m_no_netease{background-position:-16px -64px}
+.dz_m_no_renren{background-position:-16px -80px}
+.dz_m_no_kaixin001{background-position:-16px -96px}
+.dz_m_no_douban{background-position:-16px -112px}
+.dz_m_no_tianya{background-position:-16px -128px}
+.dz_m_no_twitter{background-position:-16px -144px}
+.dz_m_no_facebook{background-position:-16px -160px}
+.dz_m_no_google{background-position:-16px -176px}
+.dz_m_no_msn{background-position:-16px -192px}
+.dz_m_no_yahoo{background-position:-16px -208px}
+.dz_m_no_alipay{background-position:-16px -224px}
+.dz_m_no_taobao{background-position:-16px -240px}
+.dz_m_no_baidu{background-position:-16px -256px}
+.dz_m_no_360{background-position:-16px -272px}
