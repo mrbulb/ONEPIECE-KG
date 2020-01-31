@@ -165,7 +165,7 @@ body {
 
         <!-- 搜索框 -->
         <div id="search">
-            <input type="text" class="form-control">
+            <input type="text" autocomplete="off" class="form-control">
         </div>
 
         <!-- 每个结点的信息 -->
@@ -191,7 +191,7 @@ $(document).ready(function() {
               width = svg.attr('width'), 
               height = svg.attr('height');
 
-    var names = ['人', '地点', '组织', '恶魔果实', '职务', '船只', '事件']
+    var names = ['人', '地点', '恶魔果实', '组织', '船只', '职务', '事件']
     var colors = ['#6ca46c', '#4e88af', '#ca635f', '#d2907c', '#d6744d', '#ded295', '#7481c3'];
 
     for (var i = 0; i < names.length; i++) {
@@ -215,7 +215,7 @@ $(document).ready(function() {
         if (error) throw error;
 
         graph = data;
-        console.log(graph)
+        // console.log(graph)
 
         // D3数据驱动文档
         // 用links去驱动line的线宽
@@ -437,15 +437,55 @@ $(document).ready(function() {
                     return 'inactive';
                 }
             });
+
+            // UPDATE: 对于text也同时隐藏
+            d3.select('#svg1 .texts').selectAll('text').attr('class', function(d){
+                if (d.id == name) {
+                    return '';
+                }
+
+                for (var i = 0; i < graph.links.length; i++) {
+                    if (graph.links[i]['source'].id == name && graph.links[i]['target'].id == d.id) {
+                        return '';
+                    }
+                    if (graph.links[i]['target'].id == name && graph.links[i]['source'].id == d.id) {
+                        return '';
+                    }
+                }
+
+                return 'inactive';
+            });
         }
     });
 
     // 处理鼠标移开的事件上
     $('#svg1').on('mouseleave', '.nodes circle', function(event) {
-        if (!dragging) {
-            // 离开时把nodes和links的inactive去掉
-            d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');
-            d3.select('#svg1 .links').selectAll('line').attr('class', '');
+        if (!dragging && $('#search input').val() != '') {
+            // 如果搜索框还有东西，移开鼠标后仍然显示搜索的结果
+            // var name = $('#search input').val();
+            // d3.select('#svg1 .nodes').selectAll('circle').attr('class', function(d) {
+            //     if (d.id.toLowerCase().indexOf(name.toLowerCase()) >= 0) {
+            //         return '';
+            //     } else {
+            //         return 'inactive';
+            //     }
+            // });
+            // d3.select('#svg1 .texts').selectAll('text').attr('class', function(d) {
+            //     if (d.id.toLowerCase().indexOf(name.toLowerCase()) >= 0) {
+            //         return '';
+            //     } else {
+            //         return 'inactive';
+            //     }
+            // });
+            // d3.select("#svg1 .links").selectAll('line').attr('class', function(d) {
+            //     return 'inactive';
+            // });
+        }
+        else if (!dragging && $('#search input').val() == '') {
+            // 否则，离开时把nodes和links的inactive去掉
+            d3.select('#svg1 .texts').selectAll('text').attr('class', '');;
+            d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');;
+            d3.select('#svg1 .links').selectAll('line').attr('class', '');;
         }
     });
 
@@ -505,13 +545,57 @@ $(document).ready(function() {
                     return 'inactive';
                 }
             });
+
+            // UPDATE: 对于circle也同时隐藏
+            d3.select('#svg1 .nodes').selectAll('circle').attr('class', function(d){
+                // 是目前悬浮的那个
+                if (d.id == name) {
+                    return '';
+                }
+
+                // 不是悬浮的那个，需要显示相邻的circle，对其他的圆圈做处理
+                // 遍历图中的所有link
+                for (var i = 0; i < graph.links.length; i++) {
+                    if (graph.links[i]['source'].id == name && graph.links[i]['target'].id == d.id) {
+                        return '';
+                    }
+                    if (graph.links[i]['target'].id == name && graph.links[i]['source'].id == d.id) {
+                        return '';
+                    }
+                }
+
+                return 'inactive';
+            });
         }
     });
 
     $('#svg1').on('mouseleave', '.texts text', function(event) {
-        if (!dragging) {
-            d3.select('#svg1 .texts').selectAll('text').attr('class', '');
-            d3.select('#svg1 .links').selectAll('line').attr('class', '');
+        if (!dragging && $('#search input').val() != '') {
+            // 如果搜索框还有东西，移开鼠标后仍然显示搜索的结果
+            // var name = $('#search input').val();
+            // d3.select('#svg1 .nodes').selectAll('circle').attr('class', function(d) {
+            //     if (d.id.toLowerCase().indexOf(name.toLowerCase()) >= 0) {
+            //         return '';
+            //     } else {
+            //         return 'inactive';
+            //     }
+            // });
+            // d3.select('#svg1 .texts').selectAll('text').attr('class', function(d) {
+            //     if (d.id.toLowerCase().indexOf(name.toLowerCase()) >= 0) {
+            //         return '';
+            //     } else {
+            //         return 'inactive';
+            //     }
+            // });
+            // d3.select("#svg1 .links").selectAll('line').attr('class', function(d) {
+            //     return 'inactive';
+            // });
+        }
+        else if (!dragging && $('#search input').val() == '') {
+            // 否则，离开时把nodes和links的inactive去掉
+            d3.select('#svg1 .texts').selectAll('text').attr('class', '');;
+            d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');;
+            d3.select('#svg1 .links').selectAll('line').attr('class', '');;
         }
     });
 
@@ -544,6 +628,24 @@ $(document).ready(function() {
             });
         }
     });
+
+    // 如果用删除键删除了
+    // 点击到搜索框内
+    $('#search input').bind('click', function(e) { 
+       if ($('#search input').val() == '') {
+           d3.select('#svg1 .texts').selectAll('text').attr('class', '');;
+           d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');;
+           d3.select('#svg1 .links').selectAll('line').attr('class', '');;
+       }
+    })
+    // 点击到搜索框外
+    $('#search input').bind('blur', function(e) { 
+       if ($('#search input').val() == '') {
+           d3.select('#svg1 .texts').selectAll('text').attr('class', '');;
+           d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');;
+           d3.select('#svg1 .links').selectAll('line').attr('class', '');;
+       }
+    })
 
 
     // 结点信息框
