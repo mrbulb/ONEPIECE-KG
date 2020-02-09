@@ -6505,12 +6505,6 @@
             "value": 3
         },
         {
-            "relation": "加入",
-            "source": "妮可•奥尔维亚",
-            "target": "海军",
-            "value": 3
-        },
-        {
             "relation": "到过",
             "source": "妮可•奥尔维亚",
             "target": "奥哈拉",
@@ -6827,6 +6821,408 @@
             "source": "蒙奇·D·卡普",
             "target": "西奇",
             "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "维多利亚•辛朵莉",
+            "target": "傀儡木偶",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "维多利亚•辛朵莉",
+            "target": "士兵僵尸",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "维多利亚•辛朵莉",
+            "target": "舞台女演员",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "维多利亚•辛朵莉",
+            "target": "贵族家庭",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "霍古巴克",
+            "target": "辛朵莉",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "辛朵莉",
+            "target": "僵尸",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "霍古巴克",
+            "target": "恐怖三桅帆船",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "霍古巴克",
+            "target": "外科医生",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "霍古巴克",
+            "target": "布鲁克",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "阿布萨罗姆",
+            "target": "自由撰稿人",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "阿布萨罗姆",
+            "target": "黑胡子海贼团",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "阿布萨罗姆",
+            "target": "霍古巴克",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "阿布萨罗姆",
+            "target": "莫利亚",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "霍古巴克",
+            "target": "莫利亚",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "阿布萨罗姆",
+            "target": "恐怖三桅帆船",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "阿布萨罗姆",
+            "target": "透明果实",
+            "value": 3
+        },
+        {
+            "relation": "部下",
+            "source": "莫利亚",
+            "target": "阿布萨罗姆",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "阿布萨罗姆",
+            "target": "霍古巴克",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "佩罗娜",
+            "target": "香波地群岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "索隆",
+            "target": "米霍克的城堡",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "佩罗娜",
+            "target": "米霍克的城堡",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "佩罗娜",
+            "target": "索隆",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "佩罗娜",
+            "target": "索隆",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "佩罗娜",
+            "target": "乌索普",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "佩罗娜",
+            "target": "希凯阿尔王国遗迹",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "佩罗娜",
+            "target": "莫利亚",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "佩罗娜",
+            "target": "动物僵尸",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "佩罗娜",
+            "target": "吓人僵尸",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "佩罗娜",
+            "target": "指挥官",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "龙马",
+            "target": "索隆",
+            "value": 3
+        },
+        {
+            "relation": "出生地",
+            "source": "龙马",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "出生地",
+            "source": "龙马",
+            "target": "铃后",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "龙马",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "龙马",
+            "target": "莫利亚",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "龙马",
+            "target": "将军僵尸",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•罗拉",
+            "target": "水之都",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•罗拉",
+            "target": "娜美",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特•罗拉",
+            "target": "巧克力大臣",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•罗拉",
+            "target": "可可亚岛",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "夏洛特•罗拉",
+            "target": "翻滚海贼团",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•罗拉",
+            "target": "WCI",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "妮可•奥尔维亚",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "治五郎",
+            "target": "索隆",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "治五郎",
+            "target": "莫利亚",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "月光•莫利亚",
+            "target": "恐怖三桅帆船海贼团",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "月光•莫利亚",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "月光•莫利亚",
+            "target": "七武海",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "月光•莫利亚",
+            "target": "王下七武海",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "月光•莫利亚",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "凯多",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "月光•莫利亚",
+            "target": "凯多",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "月光•莫利亚",
+            "target": "悬赏犯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•罗拉",
+            "target": "莫利亚",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•罗拉",
+            "target": "恐怖三桅帆船",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "莫利亚",
+            "target": "恐怖三桅帆船",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "月光•莫利亚",
+            "target": "海贼船恐怖三桅帆船",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "月光•莫利亚",
+            "target": "哥尔•D•罗杰",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "奥兹",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "奥兹",
+            "target": "僵尸",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "奥兹",
+            "target": "冰之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "莫利亚",
+            "target": "冰之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "奥兹",
+            "target": "冰之国",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "奥兹",
+            "target": "恶棍之国",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "佩罗娜",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "奥兹",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "奥兹",
+            "target": "莫利亚",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "维多利亚•辛朵莉",
+            "target": "霍古巴克",
+            "value": 3
         }
     ],
     "nodes": [
@@ -6971,6 +7367,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "佩罗娜",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "修罗",
             "size": "8"
         },
@@ -7050,6 +7452,12 @@
             "class": "人",
             "group": "0",
             "id": "冰山",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "凯多",
             "size": "8"
         },
         {
@@ -7205,6 +7613,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "夏洛特•罗拉",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "多尔顿",
             "size": "8"
         },
@@ -7236,6 +7650,12 @@
             "class": "人",
             "group": "0",
             "id": "奈菲鲁塔莉•寇布拉",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "奥兹",
             "size": "8"
         },
         {
@@ -7637,6 +8057,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "治五郎",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "波特卡斯•D•艾斯",
             "size": "8"
         },
@@ -7644,6 +8070,12 @@
             "class": "人",
             "group": "0",
             "id": "泰尔斯通",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "洛基",
             "size": "8"
         },
         {
@@ -7793,6 +8225,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "维多利亚•辛朵莉",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "缇娜",
             "size": "8"
         },
@@ -7890,6 +8328,12 @@
             "class": "人",
             "group": "0",
             "id": "莎德利",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "莫利亚",
             "size": "8"
         },
         {
@@ -8087,6 +8531,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "辛朵莉",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "达兹",
             "size": "8"
         },
@@ -8123,6 +8573,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "阿布萨罗姆",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "阿金",
             "size": "8"
         },
@@ -8148,6 +8604,12 @@
             "class": "人",
             "group": "0",
             "id": "雪莉",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "霍古巴克",
             "size": "8"
         },
         {
@@ -8235,9 +8697,21 @@
             "size": "8"
         },
         {
+            "class": "人",
+            "group": "0",
+            "id": "龙马",
+            "size": "8"
+        },
+        {
             "class": "地点",
             "group": "1",
             "id": "Skypea",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "WCI",
             "size": "16"
         },
         {
@@ -8291,6 +8765,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "冰之国",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "加亚岛",
             "size": "16"
         },
@@ -8321,6 +8801,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "可可亚岛",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "可可亚西村",
             "size": "16"
         },
@@ -8328,6 +8814,12 @@
             "class": "地点",
             "group": "1",
             "id": "司法岛",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "和之国",
             "size": "16"
         },
         {
@@ -8417,6 +8909,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "希凯阿尔王国遗迹",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "庞克哈萨德",
             "size": "16"
         },
@@ -8424,6 +8922,12 @@
             "class": "地点",
             "group": "1",
             "id": "德雷斯罗萨",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "恐怖三桅帆船",
             "size": "16"
         },
         {
@@ -8501,6 +9005,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "水之都",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "海军拘留所",
             "size": "16"
         },
@@ -8561,6 +9071,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "米霍克的城堡",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "糊涂温泉",
             "size": "16"
         },
@@ -8615,6 +9131,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "铃后",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "镜球岛",
             "size": "16"
         },
@@ -8652,6 +9174,12 @@
             "class": "地点",
             "group": "1",
             "id": "飞燕岛",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "香波地群岛",
             "size": "16"
         },
         {
@@ -8730,6 +9258,12 @@
             "class": "恶魔果实",
             "group": "2",
             "id": "迟缓果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
+            "id": "透明果实",
             "size": "5"
         },
         {
@@ -8873,6 +9407,12 @@
         {
             "class": "组织",
             "group": "3",
+            "id": "动物僵尸",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
             "id": "医生20",
             "size": "10"
         },
@@ -8916,6 +9456,12 @@
             "class": "组织",
             "group": "3",
             "id": "叛乱军",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "吓人僵尸",
             "size": "10"
         },
         {
@@ -9036,6 +9582,18 @@
             "class": "组织",
             "group": "3",
             "id": "德雷斯罗萨王国",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "恐怖三桅帆船海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "恶棍之国",
             "size": "10"
         },
         {
@@ -9221,6 +9779,12 @@
         {
             "class": "组织",
             "group": "3",
+            "id": "翻滚海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
             "id": "艾尼路军团",
             "size": "10"
         },
@@ -9252,6 +9816,12 @@
             "class": "组织",
             "group": "3",
             "id": "贝拉米海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "贵族家庭",
             "size": "10"
         },
         {
@@ -9437,6 +10007,12 @@
         {
             "class": "船只",
             "group": "4",
+            "id": "海贼船恐怖三桅帆船",
+            "size": "5"
+        },
+        {
+            "class": "船只",
+            "group": "4",
             "id": "罗杰海贼团的船",
             "size": "5"
         },
@@ -9498,6 +10074,18 @@
             "class": "职务",
             "group": "5",
             "id": "佣兵",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "傀儡木偶",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "僵尸",
             "size": "6"
         },
         {
@@ -9587,6 +10175,18 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "士兵僵尸",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "外科医生",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "大将",
             "size": "6"
         },
@@ -9635,6 +10235,12 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "将军僵尸",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "小偷",
             "size": "6"
         },
@@ -9665,6 +10271,12 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "巧克力大臣",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "市长",
             "size": "6"
         },
@@ -9684,6 +10296,12 @@
             "class": "职务",
             "group": "5",
             "id": "御用组合",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "悬赏犯",
             "size": "6"
         },
         {
@@ -9726,6 +10344,12 @@
             "class": "职务",
             "group": "5",
             "id": "拳击手",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "指挥官",
             "size": "6"
         },
         {
@@ -9858,6 +10482,18 @@
             "class": "职务",
             "group": "5",
             "id": "考古学家",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "自由撰稿人",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "舞台女演员",
             "size": "6"
         },
         {

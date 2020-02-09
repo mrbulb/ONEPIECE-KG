@@ -7638,13 +7638,7 @@
                     "name": "遇见",
                     "to": 1876
                 },
-                {
-                    "arg1": "Arg1",
-                    "arg2": "Arg2",
-                    "from": 1874,
-                    "name": "加入",
-                    "to": 1875
-                },
+                null,
                 {
                     "arg1": "Arg1",
                     "arg2": "Arg2",
@@ -8016,6 +8010,478 @@
                     "from": 1917,
                     "name": "战斗",
                     "to": 1918
+                },
+                null,
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1949,
+                    "name": "担任",
+                    "to": 1951
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1952,
+                    "name": "担任",
+                    "to": 1953
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1954,
+                    "name": "担任",
+                    "to": 1955
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1956,
+                    "name": "属于",
+                    "to": 1957
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1958,
+                    "name": "遇见",
+                    "to": 1959
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1959,
+                    "name": "担任",
+                    "to": 1960
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1961,
+                    "name": "到过",
+                    "to": 1962
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1963,
+                    "name": "担任",
+                    "to": 1964
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1965,
+                    "name": "遇见",
+                    "to": 1966
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1967,
+                    "name": "担任",
+                    "to": 1968
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1969,
+                    "name": "战斗",
+                    "to": 1970
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1971,
+                    "name": "遇见",
+                    "to": 1972
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1971,
+                    "name": "遇见",
+                    "to": 1973
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1972,
+                    "name": "遇见",
+                    "to": 1973
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1974,
+                    "name": "到过",
+                    "to": 1975
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1977,
+                    "name": "拥有果实",
+                    "to": 1978
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1979,
+                    "name": "部下",
+                    "to": 1980
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1981,
+                    "name": "遇见",
+                    "to": 1982
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1985,
+                    "name": "到过",
+                    "to": 1987
+                },
+                null,
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1989,
+                    "name": "到过",
+                    "to": 1990
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1988,
+                    "name": "到过",
+                    "to": 1990
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1988,
+                    "name": "遇见",
+                    "to": 1989
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1991,
+                    "name": "遇见",
+                    "to": 1992
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1993,
+                    "name": "战斗",
+                    "to": 1994
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1995,
+                    "name": "到过",
+                    "to": 1996
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1997,
+                    "name": "遇见",
+                    "to": 1998
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1999,
+                    "name": "领导",
+                    "to": 2000
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1999,
+                    "name": "领导",
+                    "to": 2001
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1999,
+                    "name": "担任",
+                    "to": 2002
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2003,
+                    "name": "战斗",
+                    "to": 2004
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2005,
+                    "name": "出生地",
+                    "to": 2007
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2005,
+                    "name": "出生地",
+                    "to": 2006
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2009,
+                    "name": "到过",
+                    "to": 2010
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2011,
+                    "name": "遇见",
+                    "to": 2012
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2011,
+                    "name": "担任",
+                    "to": 2013
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2014,
+                    "name": "到过",
+                    "to": 2015
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2016,
+                    "name": "遇见",
+                    "to": 2017
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2018,
+                    "name": "担任",
+                    "to": 2019
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2018,
+                    "name": "到过",
+                    "to": 2020
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2021,
+                    "name": "创建",
+                    "to": 2022
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2023,
+                    "name": "到过",
+                    "to": 2024
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1874,
+                    "name": "战斗",
+                    "to": 1875
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2027,
+                    "name": "遇见",
+                    "to": 2028
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2029,
+                    "name": "遇见",
+                    "to": 2030
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2032,
+                    "name": "创建",
+                    "to": 2033
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2034,
+                    "name": "参与",
+                    "to": 2037
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2034,
+                    "name": "离开",
+                    "to": 2036
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2038,
+                    "name": "加入",
+                    "to": 2039
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2040,
+                    "name": "到过",
+                    "to": 2041
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2042,
+                    "name": "到过",
+                    "to": 2041
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2040,
+                    "name": "战斗",
+                    "to": 2042
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2043,
+                    "name": "担任",
+                    "to": 2044
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2025,
+                    "name": "遇见",
+                    "to": 2026
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2025,
+                    "name": "到过",
+                    "to": 2046
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2026,
+                    "name": "到过",
+                    "to": 2046
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2045,
+                    "name": "建造",
+                    "to": 2048
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2049,
+                    "name": "遇见",
+                    "to": 2050
+                },
+                null,
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2053,
+                    "name": "遇见",
+                    "to": 2054
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2053,
+                    "name": "担任",
+                    "to": 2055
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2056,
+                    "name": "到过",
+                    "to": 2057
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2058,
+                    "name": "到过",
+                    "to": 2057
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2059,
+                    "name": "到过",
+                    "to": 2060
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2061,
+                    "name": "创建",
+                    "to": 2062
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1985,
+                    "name": "遇见",
+                    "to": 2063
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2051,
+                    "name": "战斗",
+                    "to": 2065
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2056,
+                    "name": "遇见",
+                    "to": 2058
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 1949,
+                    "name": "遇见",
+                    "to": 2066
                 }
             ],
             "T": [
@@ -24950,10 +25416,1001 @@
                     "start": 16548,
                     "type": "T",
                     "value": "海军"
+                },
+                {
+                    "attributes": [],
+                    "end": 17532,
+                    "id": 1948,
+                    "name": "人",
+                    "start": 17524,
+                    "type": "T",
+                    "value": "维多利亚•辛朵莉"
+                },
+                {
+                    "attributes": [],
+                    "end": 17548,
+                    "id": 1949,
+                    "name": "人",
+                    "start": 17540,
+                    "type": "T",
+                    "value": "维多利亚•辛朵莉"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 17565,
+                    "id": 1951,
+                    "name": "职务",
+                    "start": 17561,
+                    "type": "T",
+                    "value": "傀儡木偶"
+                },
+                {
+                    "attributes": [],
+                    "end": 17575,
+                    "id": 1952,
+                    "name": "人",
+                    "start": 17567,
+                    "type": "T",
+                    "value": "维多利亚•辛朵莉"
+                },
+                {
+                    "attributes": [],
+                    "end": 17591,
+                    "id": 1953,
+                    "name": "职务",
+                    "start": 17587,
+                    "type": "T",
+                    "value": "士兵僵尸"
+                },
+                {
+                    "attributes": [],
+                    "end": 17628,
+                    "id": 1954,
+                    "name": "人",
+                    "start": 17620,
+                    "type": "T",
+                    "value": "维多利亚•辛朵莉"
+                },
+                {
+                    "attributes": [],
+                    "end": 17635,
+                    "id": 1955,
+                    "name": "职务",
+                    "start": 17630,
+                    "type": "T",
+                    "value": "舞台女演员"
+                },
+                {
+                    "attributes": [],
+                    "end": 17672,
+                    "id": 1956,
+                    "name": "人",
+                    "start": 17664,
+                    "type": "T",
+                    "value": "维多利亚•辛朵莉"
+                },
+                {
+                    "attributes": [],
+                    "end": 17679,
+                    "id": 1957,
+                    "name": "组织",
+                    "start": 17675,
+                    "type": "T",
+                    "value": "贵族家庭"
+                },
+                {
+                    "attributes": [],
+                    "end": 17697,
+                    "id": 1958,
+                    "name": "人",
+                    "start": 17693,
+                    "type": "T",
+                    "value": "霍古巴克"
+                },
+                {
+                    "attributes": [],
+                    "end": 17701,
+                    "id": 1959,
+                    "name": "人",
+                    "start": 17698,
+                    "type": "T",
+                    "value": "辛朵莉"
+                },
+                {
+                    "attributes": [],
+                    "end": 17705,
+                    "id": 1960,
+                    "name": "职务",
+                    "start": 17703,
+                    "type": "T",
+                    "value": "僵尸"
+                },
+                {
+                    "attributes": [],
+                    "end": 17712,
+                    "id": 1961,
+                    "name": "人",
+                    "start": 17708,
+                    "type": "T",
+                    "value": "霍古巴克"
+                },
+                {
+                    "attributes": [],
+                    "end": 17720,
+                    "id": 1962,
+                    "name": "地点",
+                    "start": 17714,
+                    "type": "T",
+                    "value": "恐怖三桅帆船"
+                },
+                {
+                    "attributes": [],
+                    "end": 17725,
+                    "id": 1963,
+                    "name": "人",
+                    "start": 17721,
+                    "type": "T",
+                    "value": "霍古巴克"
+                },
+                {
+                    "attributes": [],
+                    "end": 17731,
+                    "id": 1964,
+                    "name": "职务",
+                    "start": 17727,
+                    "type": "T",
+                    "value": "外科医生"
+                },
+                {
+                    "attributes": [],
+                    "end": 17757,
+                    "id": 1965,
+                    "name": "人",
+                    "start": 17753,
+                    "type": "T",
+                    "value": "霍古巴克"
+                },
+                {
+                    "attributes": [],
+                    "end": 17766,
+                    "id": 1966,
+                    "name": "人",
+                    "start": 17763,
+                    "type": "T",
+                    "value": "布鲁克"
+                },
+                {
+                    "attributes": [],
+                    "end": 17777,
+                    "id": 1967,
+                    "name": "人",
+                    "start": 17772,
+                    "type": "T",
+                    "value": "阿布萨罗姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 17784,
+                    "id": 1968,
+                    "name": "职务",
+                    "start": 17779,
+                    "type": "T",
+                    "value": "自由撰稿人"
+                },
+                {
+                    "attributes": [],
+                    "end": 17803,
+                    "id": 1969,
+                    "name": "人",
+                    "start": 17798,
+                    "type": "T",
+                    "value": "阿布萨罗姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 17810,
+                    "id": 1970,
+                    "name": "组织",
+                    "start": 17804,
+                    "type": "T",
+                    "value": "黑胡子海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 17824,
+                    "id": 1971,
+                    "name": "人",
+                    "start": 17819,
+                    "type": "T",
+                    "value": "阿布萨罗姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 17829,
+                    "id": 1972,
+                    "name": "人",
+                    "start": 17825,
+                    "type": "T",
+                    "value": "霍古巴克"
+                },
+                {
+                    "attributes": [],
+                    "end": 17836,
+                    "id": 1973,
+                    "name": "人",
+                    "start": 17833,
+                    "type": "T",
+                    "value": "莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 17842,
+                    "id": 1974,
+                    "name": "人",
+                    "start": 17837,
+                    "type": "T",
+                    "value": "阿布萨罗姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 17848,
+                    "id": 1975,
+                    "name": "地点",
+                    "start": 17842,
+                    "type": "T",
+                    "value": "恐怖三桅帆船"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 17863,
+                    "id": 1977,
+                    "name": "人",
+                    "start": 17858,
+                    "type": "T",
+                    "value": "阿布萨罗姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 17870,
+                    "id": 1978,
+                    "name": "恶魔果实",
+                    "start": 17866,
+                    "type": "T",
+                    "value": "透明果实"
+                },
+                {
+                    "attributes": [],
+                    "end": 17888,
+                    "id": 1979,
+                    "name": "人",
+                    "start": 17885,
+                    "type": "T",
+                    "value": "莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 17883,
+                    "id": 1980,
+                    "name": "人",
+                    "start": 17878,
+                    "type": "T",
+                    "value": "阿布萨罗姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 17897,
+                    "id": 1981,
+                    "name": "人",
+                    "start": 17892,
+                    "type": "T",
+                    "value": "阿布萨罗姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 17903,
+                    "id": 1982,
+                    "name": "人",
+                    "start": 17899,
+                    "type": "T",
+                    "value": "霍古巴克"
+                },
+                null,
+                null,
+                {
+                    "attributes": [],
+                    "end": 17928,
+                    "id": 1985,
+                    "name": "人",
+                    "start": 17925,
+                    "type": "T",
+                    "value": "佩罗娜"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 17942,
+                    "id": 1987,
+                    "name": "地点",
+                    "start": 17937,
+                    "type": "T",
+                    "value": "香波地群岛"
+                },
+                {
+                    "attributes": [],
+                    "end": 17948,
+                    "id": 1988,
+                    "name": "人",
+                    "start": 17945,
+                    "type": "T",
+                    "value": "佩罗娜"
+                },
+                {
+                    "attributes": [],
+                    "end": 17951,
+                    "id": 1989,
+                    "name": "人",
+                    "start": 17949,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 17962,
+                    "id": 1990,
+                    "name": "地点",
+                    "start": 17956,
+                    "type": "T",
+                    "value": "米霍克的城堡"
+                },
+                {
+                    "attributes": [],
+                    "end": 17967,
+                    "id": 1991,
+                    "name": "人",
+                    "start": 17964,
+                    "type": "T",
+                    "value": "佩罗娜"
+                },
+                {
+                    "attributes": [],
+                    "end": 17979,
+                    "id": 1992,
+                    "name": "人",
+                    "start": 17977,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 17983,
+                    "id": 1993,
+                    "name": "人",
+                    "start": 17980,
+                    "type": "T",
+                    "value": "佩罗娜"
+                },
+                {
+                    "attributes": [],
+                    "end": 17987,
+                    "id": 1994,
+                    "name": "人",
+                    "start": 17984,
+                    "type": "T",
+                    "value": "乌索普"
+                },
+                {
+                    "attributes": [],
+                    "end": 17993,
+                    "id": 1995,
+                    "name": "人",
+                    "start": 17990,
+                    "type": "T",
+                    "value": "佩罗娜"
+                },
+                {
+                    "attributes": [],
+                    "end": 18005,
+                    "id": 1996,
+                    "name": "地点",
+                    "start": 17997,
+                    "type": "T",
+                    "value": "希凯阿尔王国遗迹"
+                },
+                {
+                    "attributes": [],
+                    "end": 18009,
+                    "id": 1997,
+                    "name": "人",
+                    "start": 18006,
+                    "type": "T",
+                    "value": "佩罗娜"
+                },
+                {
+                    "attributes": [],
+                    "end": 18016,
+                    "id": 1998,
+                    "name": "人",
+                    "start": 18013,
+                    "type": "T",
+                    "value": "莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 18022,
+                    "id": 1999,
+                    "name": "人",
+                    "start": 18019,
+                    "type": "T",
+                    "value": "佩罗娜"
+                },
+                {
+                    "attributes": [],
+                    "end": 18028,
+                    "id": 2000,
+                    "name": "组织",
+                    "start": 18024,
+                    "type": "T",
+                    "value": "动物僵尸"
+                },
+                {
+                    "attributes": [],
+                    "end": 18033,
+                    "id": 2001,
+                    "name": "组织",
+                    "start": 18029,
+                    "type": "T",
+                    "value": "吓人僵尸"
+                },
+                {
+                    "attributes": [],
+                    "end": 18037,
+                    "id": 2002,
+                    "name": "职务",
+                    "start": 18034,
+                    "type": "T",
+                    "value": "指挥官"
+                },
+                {
+                    "attributes": [],
+                    "end": 18040,
+                    "id": 2003,
+                    "name": "人",
+                    "start": 18038,
+                    "type": "T",
+                    "value": "龙马"
+                },
+                {
+                    "attributes": [],
+                    "end": 18043,
+                    "id": 2004,
+                    "name": "人",
+                    "start": 18041,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 18053,
+                    "id": 2005,
+                    "name": "人",
+                    "start": 18051,
+                    "type": "T",
+                    "value": "龙马"
+                },
+                {
+                    "attributes": [],
+                    "end": 18062,
+                    "id": 2006,
+                    "name": "地点",
+                    "start": 18060,
+                    "type": "T",
+                    "value": "铃后"
+                },
+                {
+                    "attributes": [],
+                    "end": 18059,
+                    "id": 2007,
+                    "name": "地点",
+                    "start": 18056,
+                    "type": "T",
+                    "value": "和之国"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 18077,
+                    "id": 2009,
+                    "name": "人",
+                    "start": 18075,
+                    "type": "T",
+                    "value": "龙马"
+                },
+                {
+                    "attributes": [],
+                    "end": 18082,
+                    "id": 2010,
+                    "name": "地点",
+                    "start": 18079,
+                    "type": "T",
+                    "value": "和之国"
+                },
+                {
+                    "attributes": [],
+                    "end": 18093,
+                    "id": 2011,
+                    "name": "人",
+                    "start": 18091,
+                    "type": "T",
+                    "value": "龙马"
+                },
+                {
+                    "attributes": [],
+                    "end": 18097,
+                    "id": 2012,
+                    "name": "人",
+                    "start": 18094,
+                    "type": "T",
+                    "value": "莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 18103,
+                    "id": 2013,
+                    "name": "职务",
+                    "start": 18099,
+                    "type": "T",
+                    "value": "将军僵尸"
+                },
+                {
+                    "attributes": [],
+                    "end": 18126,
+                    "id": 2014,
+                    "name": "人",
+                    "start": 18120,
+                    "type": "T",
+                    "value": "夏洛特•罗拉"
+                },
+                {
+                    "attributes": [],
+                    "end": 18131,
+                    "id": 2015,
+                    "name": "地点",
+                    "start": 18128,
+                    "type": "T",
+                    "value": "水之都"
+                },
+                {
+                    "attributes": [],
+                    "end": 18138,
+                    "id": 2016,
+                    "name": "人",
+                    "start": 18132,
+                    "type": "T",
+                    "value": "夏洛特•罗拉"
+                },
+                {
+                    "attributes": [],
+                    "end": 18142,
+                    "id": 2017,
+                    "name": "人",
+                    "start": 18140,
+                    "type": "T",
+                    "value": "娜美"
+                },
+                {
+                    "attributes": [],
+                    "end": 18210,
+                    "id": 2018,
+                    "name": "人",
+                    "start": 18204,
+                    "type": "T",
+                    "value": "夏洛特•罗拉"
+                },
+                {
+                    "attributes": [],
+                    "end": 18222,
+                    "id": 2019,
+                    "name": "职务",
+                    "start": 18217,
+                    "type": "T",
+                    "value": "巧克力大臣"
+                },
+                {
+                    "attributes": [],
+                    "end": 18216,
+                    "id": 2020,
+                    "name": "地点",
+                    "start": 18212,
+                    "type": "T",
+                    "value": "可可亚岛"
+                },
+                {
+                    "attributes": [],
+                    "end": 18229,
+                    "id": 2021,
+                    "name": "人",
+                    "start": 18223,
+                    "type": "T",
+                    "value": "夏洛特•罗拉"
+                },
+                {
+                    "attributes": [],
+                    "end": 18236,
+                    "id": 2022,
+                    "name": "组织",
+                    "start": 18231,
+                    "type": "T",
+                    "value": "翻滚海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 18243,
+                    "id": 2023,
+                    "name": "人",
+                    "start": 18237,
+                    "type": "T",
+                    "value": "夏洛特•罗拉"
+                },
+                {
+                    "attributes": [],
+                    "end": 18256,
+                    "id": 2024,
+                    "name": "地点",
+                    "start": 18253,
+                    "type": "T",
+                    "value": "WCI"
+                },
+                {
+                    "attributes": [],
+                    "end": 18263,
+                    "id": 2025,
+                    "name": "人",
+                    "start": 18257,
+                    "type": "T",
+                    "value": "夏洛特•罗拉"
+                },
+                {
+                    "attributes": [],
+                    "end": 18269,
+                    "id": 2026,
+                    "name": "人",
+                    "start": 18266,
+                    "type": "T",
+                    "value": "莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 18286,
+                    "id": 2027,
+                    "name": "人",
+                    "start": 18283,
+                    "type": "T",
+                    "value": "治五郎"
+                },
+                {
+                    "attributes": [],
+                    "end": 18290,
+                    "id": 2028,
+                    "name": "人",
+                    "start": 18288,
+                    "type": "T",
+                    "value": "索隆"
+                },
+                {
+                    "attributes": [],
+                    "end": 18299,
+                    "id": 2029,
+                    "name": "人",
+                    "start": 18296,
+                    "type": "T",
+                    "value": "治五郎"
+                },
+                {
+                    "attributes": [],
+                    "end": 18303,
+                    "id": 2030,
+                    "name": "人",
+                    "start": 18300,
+                    "type": "T",
+                    "value": "莫利亚"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 18356,
+                    "id": 2032,
+                    "name": "人",
+                    "start": 18350,
+                    "type": "T",
+                    "value": "月光•莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 18369,
+                    "id": 2033,
+                    "name": "组织",
+                    "start": 18360,
+                    "type": "T",
+                    "value": "恐怖三桅帆船海贼团"
+                },
+                {
+                    "attributes": [],
+                    "end": 18398,
+                    "id": 2034,
+                    "name": "人",
+                    "start": 18392,
+                    "type": "T",
+                    "value": "月光•莫利亚"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 18412,
+                    "id": 2036,
+                    "name": "组织",
+                    "start": 18409,
+                    "type": "T",
+                    "value": "七武海"
+                },
+                {
+                    "attributes": [],
+                    "end": 18402,
+                    "id": 2037,
+                    "name": "事件",
+                    "start": 18398,
+                    "type": "T",
+                    "value": "顶上战争"
+                },
+                {
+                    "attributes": [],
+                    "end": 18423,
+                    "id": 2038,
+                    "name": "人",
+                    "start": 18417,
+                    "type": "T",
+                    "value": "月光•莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 18431,
+                    "id": 2039,
+                    "name": "组织",
+                    "start": 18426,
+                    "type": "T",
+                    "value": "王下七武海"
+                },
+                {
+                    "attributes": [],
+                    "end": 18439,
+                    "id": 2040,
+                    "name": "人",
+                    "start": 18433,
+                    "type": "T",
+                    "value": "月光•莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 18443,
+                    "id": 2041,
+                    "name": "地点",
+                    "start": 18440,
+                    "type": "T",
+                    "value": "和之国"
+                },
+                {
+                    "attributes": [],
+                    "end": 18446,
+                    "id": 2042,
+                    "name": "人",
+                    "start": 18444,
+                    "type": "T",
+                    "value": "凯多"
+                },
+                {
+                    "attributes": [],
+                    "end": 18457,
+                    "id": 2043,
+                    "name": "人",
+                    "start": 18451,
+                    "type": "T",
+                    "value": "月光•莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 18470,
+                    "id": 2044,
+                    "name": "职务",
+                    "start": 18467,
+                    "type": "T",
+                    "value": "悬赏犯"
+                },
+                {
+                    "attributes": [],
+                    "end": 18477,
+                    "id": 2045,
+                    "name": "人",
+                    "start": 18471,
+                    "type": "T",
+                    "value": "月光•莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 18282,
+                    "id": 2046,
+                    "name": "地点",
+                    "start": 18276,
+                    "type": "T",
+                    "value": "恐怖三桅帆船"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 18491,
+                    "id": 2048,
+                    "name": "船只",
+                    "start": 18482,
+                    "type": "T",
+                    "value": "海贼船恐怖三桅帆船"
+                },
+                {
+                    "attributes": [],
+                    "end": 18498,
+                    "id": 2049,
+                    "name": "人",
+                    "start": 18492,
+                    "type": "T",
+                    "value": "月光•莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 18507,
+                    "id": 2050,
+                    "name": "人",
+                    "start": 18500,
+                    "type": "T",
+                    "value": "哥尔•D•罗杰"
+                },
+                {
+                    "attributes": [],
+                    "end": 18513,
+                    "id": 2051,
+                    "name": "人",
+                    "start": 18511,
+                    "type": "T",
+                    "value": "奥兹"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 18525,
+                    "id": 2053,
+                    "name": "人",
+                    "start": 18523,
+                    "type": "T",
+                    "value": "奥兹"
+                },
+                {
+                    "attributes": [],
+                    "end": 18530,
+                    "id": 2054,
+                    "name": "人",
+                    "start": 18528,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 18538,
+                    "id": 2055,
+                    "name": "职务",
+                    "start": 18536,
+                    "type": "T",
+                    "value": "僵尸"
+                },
+                {
+                    "attributes": [],
+                    "end": 18543,
+                    "id": 2056,
+                    "name": "人",
+                    "start": 18541,
+                    "type": "T",
+                    "value": "奥兹"
+                },
+                {
+                    "attributes": [],
+                    "end": 18549,
+                    "id": 2057,
+                    "name": "地点",
+                    "start": 18546,
+                    "type": "T",
+                    "value": "冰之国"
+                },
+                {
+                    "attributes": [],
+                    "end": 18553,
+                    "id": 2058,
+                    "name": "人",
+                    "start": 18550,
+                    "type": "T",
+                    "value": "莫利亚"
+                },
+                {
+                    "attributes": [],
+                    "end": 18558,
+                    "id": 2059,
+                    "name": "人",
+                    "start": 18556,
+                    "type": "T",
+                    "value": "奥兹"
+                },
+                {
+                    "attributes": [],
+                    "end": 18566,
+                    "id": 2060,
+                    "name": "地点",
+                    "start": 18563,
+                    "type": "T",
+                    "value": "冰之国"
+                },
+                {
+                    "attributes": [],
+                    "end": 18573,
+                    "id": 2061,
+                    "name": "人",
+                    "start": 18571,
+                    "type": "T",
+                    "value": "奥兹"
+                },
+                {
+                    "attributes": [],
+                    "end": 18591,
+                    "id": 2062,
+                    "name": "组织",
+                    "start": 18587,
+                    "type": "T",
+                    "value": "恶棍之国"
+                },
+                {
+                    "attributes": [],
+                    "end": 17935,
+                    "id": 2063,
+                    "name": "组织",
+                    "start": 17931,
+                    "type": "T",
+                    "value": "草帽一伙"
+                },
+                {
+                    "attributes": [],
+                    "end": 18248,
+                    "id": 2064,
+                    "name": "人",
+                    "start": 18246,
+                    "type": "T",
+                    "value": "洛基"
+                },
+                {
+                    "attributes": [],
+                    "end": 18519,
+                    "id": 2065,
+                    "name": "组织",
+                    "start": 18515,
+                    "type": "T",
+                    "value": "草帽一伙"
+                },
+                {
+                    "attributes": [],
+                    "end": 17555,
+                    "id": 2066,
+                    "name": "人",
+                    "start": 17551,
+                    "type": "T",
+                    "value": "霍古巴克"
                 }
             ]
         }
     },
     "path": "D:\\研究生学习\\知识图谱\\project\\2019-11-27-KG-demo-for-movie-master-学习\\deepke-master\\data\\vivrecard\\annot\\fuseki_vivrecard_sentence_item.txt",
-    "time_labeled": 1580820212745
+    "time_labeled": 1581220598847
 }
