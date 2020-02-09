@@ -1093,12 +1093,6 @@
             "value": 3
         },
         {
-            "relation": "遇见",
-            "source": "蒙卡",
-            "target": "C·克洛",
-            "value": 3
-        },
-        {
             "relation": "加入",
             "source": "蒙卡",
             "target": "海军",
@@ -2596,12 +2590,6 @@
             "relation": "战斗",
             "source": "加尔帝诺（Mr.3）",
             "target": "路飞",
-            "value": 3
-        },
-        {
-            "relation": "遇见",
-            "source": "加尔帝诺（Mr.3）",
-            "target": "缇娜",
             "value": 3
         },
         {
@@ -5123,6 +5111,1722 @@
             "source": "蒙布朗·诺兰度",
             "target": "加亚岛",
             "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "东吉特",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "东吉特",
+            "target": "青雉",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "雪莉",
+            "target": "福克西",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "福克西",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "福克西",
+            "target": "Davy Back Fight",
+            "value": 3
+        },
+        {
+            "relation": "辞任",
+            "source": "福克西",
+            "target": "拳击手",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "福克西",
+            "target": "迟缓果实",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "库赞",
+            "target": "斯摩格",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "库赞",
+            "target": "庞克哈萨德",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "斯摩格",
+            "target": "庞克哈萨德",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "库赞",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "库赞",
+            "target": "萨卡斯基",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "库赞",
+            "target": "妮可·罗宾",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "库赞",
+            "target": "大将",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "库赞",
+            "target": "海军本部",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "库赞",
+            "target": "妮可·罗宾",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "库赞",
+            "target": "奥哈拉",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "妮可·罗宾",
+            "target": "奥哈拉",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "库赞",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "齐蒙尼",
+            "target": "站长",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "齐蒙尼",
+            "target": "西夫特车站",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "齐蒙尼",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "齐蒙尼",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "汤姆",
+            "target": "罗杰海贼团的船",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "可可罗",
+            "target": "罗杰海贼团的船",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "可可罗",
+            "target": "汤姆",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "可可罗",
+            "target": "汤姆",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "可可罗",
+            "target": "鱼人岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "可可罗",
+            "target": "Water Seven",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "可可罗",
+            "target": "美人秘书",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "可可罗",
+            "target": "汤姆工作室",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "赞拜",
+            "target": "卡雷拉公司",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "赞拜",
+            "target": "御用组合",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "赞拜",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "赞拜",
+            "target": "乌索普",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "赞拜",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "卡库",
+            "target": "CP0",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "卡库",
+            "target": "世界会议",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "卡库",
+            "target": "索隆",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "卡库",
+            "target": "长颈鹿形态的牛牛果实",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "卡库",
+            "target": "冠昊岛",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "卡库",
+            "target": "世界政府",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "卡库",
+            "target": "圣波布拉",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "赞拜",
+            "target": "弗兰奇一家",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "卡库",
+            "target": "天龙人",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "卡库",
+            "target": "CP9",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "卡库",
+            "target": "谍报成员",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "卡库",
+            "target": "卡雷拉公司",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "弗兰奇",
+            "target": "桑尼号",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "冰山",
+            "target": "桑尼号",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "冰山",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "冰山",
+            "target": "CP9",
+            "value": 3
+        },
+        {
+            "relation": "老师",
+            "source": "冰山",
+            "target": "汤姆",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "冰山",
+            "target": "卡雷拉公司",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "冰山",
+            "target": "Water Seven",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "冰山",
+            "target": "市长",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "卡莉法",
+            "target": "世界政府",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "卡莉法",
+            "target": "圣波布拉",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "卡莉法",
+            "target": "冰山",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "卡莉法",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "卡莉法",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "弗兰奇",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "卡莉法",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "弗兰奇",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗宾",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "卡莉法",
+            "target": "泡泡果实",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "卡莉法",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "卡莉法",
+            "target": "娜美",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "卡莉法",
+            "target": "CP9",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "卡莉法",
+            "target": "谍报成员",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "卡莉法",
+            "target": "秘书",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "卡莉法",
+            "target": "冰山",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "卡莉法",
+            "target": "卡雷拉公司",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "冰山",
+            "target": "卡雷拉公司",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "巴里",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "巴里",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "巴里",
+            "target": "千阳号",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "巴里",
+            "target": "卡雷拉公司",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "巴里",
+            "target": "副社长",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "巴里",
+            "target": "卡雷拉公司一号船坞",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "巴里",
+            "target": "“索具、船帆”职长",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "巴里",
+            "target": "卡雷拉公司",
+            "value": 3
+        },
+        {
+            "relation": "出生地",
+            "source": "巴里",
+            "target": "Water Seven",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "罗布·路奇",
+            "target": "天龙人",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "罗布·路奇",
+            "target": "世界会议",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗布·路奇",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "罗布·路奇",
+            "target": "冰山",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "罗布·路奇",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "罗布·路奇",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗布·路奇",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗宾",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "弗兰奇",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "弗兰奇",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "罗布·路奇",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "罗布·路奇",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "罗布·路奇",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗布·路奇",
+            "target": "冠昊岛",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "罗布·路奇",
+            "target": "CP9",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "罗布·路奇",
+            "target": "谍报成员",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "罗布·路奇",
+            "target": "CP0",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "罗布·路奇",
+            "target": "1号船坞",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "罗布·路奇",
+            "target": "工头",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "罗布·路奇",
+            "target": "卡雷拉公司",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "毕普利·露露",
+            "target": "巴利",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "巴利",
+            "target": "2号海上列车",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "毕普利·露露",
+            "target": "2号海上列车",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "弗兰奇",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "毕普利·露露",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "毕普利·露露",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "毕普利·露露",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "毕普利·露露",
+            "target": "桑尼号",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "毕普利·露露",
+            "target": "1号船坞",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "毕普利·露露",
+            "target": "领班",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "毕普利·露露",
+            "target": "卡雷拉公司",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "基维",
+            "target": "W7的酒馆",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "基维",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "基维",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "基维",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "基维",
+            "target": "弗兰奇一家",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "摩兹",
+            "target": "W7的酒馆",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "摩兹",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "摩兹",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "摩兹",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "摩兹",
+            "target": "弗兰奇一家",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "巴利",
+            "target": "2号海上列车",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "泰尔斯通",
+            "target": "2号海上列车",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "泰尔斯通",
+            "target": "巴利",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "泰尔斯通",
+            "target": "桑尼号",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "泰尔斯通",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "泰尔斯通",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "泰尔斯通",
+            "target": "卡雷拉公司",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "泰尔斯通",
+            "target": "1号船坞",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "泰尔斯通",
+            "target": "负责细木器、缝帆的领班",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "齐蒙尼",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "可可罗",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "布鲁诺",
+            "target": "圣波布拉",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "布鲁诺",
+            "target": "世界政府",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "布鲁诺",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "布鲁诺",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "弗兰奇",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "布鲁诺",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "弗兰奇",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗宾",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "布鲁诺",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "布鲁诺",
+            "target": "路奇",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "布鲁诺",
+            "target": "谍报成员",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "布鲁诺",
+            "target": "CP9",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "布鲁诺",
+            "target": "店主",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "布鲁诺",
+            "target": "Water 7的酒吧",
+            "value": 3
+        },
+        {
+            "relation": "老师",
+            "source": "冰山",
+            "target": "汤姆",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "汤姆",
+            "target": "奥尔•杰克逊号",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "汤姆",
+            "target": "CP5",
+            "value": 3
+        },
+        {
+            "relation": "老师",
+            "source": "弗兰奇",
+            "target": "汤姆",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "斯潘达姆",
+            "target": "CP0",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "斯潘达姆",
+            "target": "CP5",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "斯潘达姆",
+            "target": "主管",
+            "value": 3
+        },
+        {
+            "relation": "部下",
+            "source": "斯潘达姆",
+            "target": "路奇",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "杰利",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "杰利",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "杰利",
+            "target": "CP6",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "杰利",
+            "target": "拳击冠军",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "杰利",
+            "target": "空手道岛",
+            "value": 3
+        },
+        {
+            "relation": "出生地",
+            "source": "杰利",
+            "target": "空手道岛",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "T骨",
+            "target": "世界会议",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "T骨",
+            "target": "玛丽乔亚",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "T骨",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "T骨",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "T骨",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "T骨",
+            "target": "王国骑士",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "T骨",
+            "target": "海军本部",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "T骨",
+            "target": "上校",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "旺泽",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "旺泽",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "旺泽",
+            "target": "厨师长",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "旺泽",
+            "target": "CP7",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "内罗",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "内罗",
+            "target": "CP9",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "内罗",
+            "target": "路奇",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "内罗",
+            "target": "海列车护卫任务",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "加布拉",
+            "target": "冠昊岛",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "加布拉",
+            "target": "世界政府",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "加布拉",
+            "target": "圣波布拉",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "加布拉",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "加布拉",
+            "target": "谍报成员",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "加布拉",
+            "target": "CP9",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "枭（猫头鹰）",
+            "target": "世界政府",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "枭（猫头鹰）",
+            "target": "圣波布拉",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "枭（猫头鹰）",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "枭（猫头鹰）",
+            "target": "加布拉",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "枭（猫头鹰）",
+            "target": "隈取",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "加布拉",
+            "target": "隈取",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "枭（猫头鹰）",
+            "target": "弗兰奇",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "枭（猫头鹰）",
+            "target": "CP9",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "枭（猫头鹰）",
+            "target": "谍报成员",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "偎取",
+            "target": "世界政府",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "偎取",
+            "target": "圣波布拉",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "偎取",
+            "target": "乔巴",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "偎取",
+            "target": "CP9",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "偎取",
+            "target": "谍报成员",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "卡西",
+            "target": "Water Seven",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "卡西",
+            "target": "艾尔巴夫",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "卡西",
+            "target": "乌索普",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "卡西",
+            "target": "巨兵海贼团",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "卡西",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "卡西",
+            "target": "守门人",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "卡西",
+            "target": "艾尔巴夫",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "欧伊莫",
+            "target": "Water Seven",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "欧伊莫",
+            "target": "艾尔巴夫",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "欧伊莫",
+            "target": "乌索普",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "欧伊莫",
+            "target": "巨兵海贼团",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "欧伊莫",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "欧伊莫",
+            "target": "守门人",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "巴斯卡比尔",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "巴斯卡比尔",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "巴斯卡比尔",
+            "target": "审判长",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "库洛巴",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "哈格瓦尔•D•萨乌罗",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "哈格瓦尔•D•萨乌罗",
+            "target": "中将",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "哈格瓦尔•D•萨乌罗",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "哈格瓦尔•D•萨乌罗",
+            "target": "奥尔维",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "哈格瓦尔•D•萨乌罗",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "哈格瓦尔•D•萨乌罗",
+            "target": "西海",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "哈格瓦尔•D•萨乌罗",
+            "target": "奥哈拉",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗宾",
+            "target": "西海",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗宾",
+            "target": "奥哈拉",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "哈格瓦尔•D•萨乌罗",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "哈格瓦尔•D•萨乌罗",
+            "target": "库赞",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "斯潘达因",
+            "target": "路奇",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "斯潘达因",
+            "target": "奥哈拉",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "妮可•奥尔维亚",
+            "target": "考古学家",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "妮可•奥尔维亚",
+            "target": "罗宾",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "妮可•奥尔维亚",
+            "target": "萨龙",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "妮可•奥尔维亚",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "妮可•奥尔维亚",
+            "target": "奥哈拉",
+            "value": 3
+        },
+        {
+            "relation": "出生地",
+            "source": "妮可•奥尔维亚",
+            "target": "奥哈拉",
+            "value": 3
+        },
+        {
+            "relation": "出生地",
+            "source": "妮可•奥尔维亚",
+            "target": "西海",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "鼯鼠",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "鼯鼠",
+            "target": "汉库克",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "鼯鼠",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "鼯鼠",
+            "target": "汉库克",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "鼯鼠",
+            "target": "因佩尔大监狱",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "汉库克",
+            "target": "因佩尔大监狱",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "鼯鼠",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "鼯鼠",
+            "target": "基地长",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "鼯鼠",
+            "target": "海军GL第1支部（G1）",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "鼯鼠",
+            "target": "中将",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "鼯鼠",
+            "target": "海军本部",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "蒙奇·D·卡普",
+            "target": "世界会议",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙奇·D·卡普",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙奇·D·卡普",
+            "target": "达旦",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "路飞",
+            "target": "达旦",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "蒙奇·D·卡普",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "部下",
+            "source": "蒙奇·D·卡普",
+            "target": "克比",
+            "value": 3
+        },
+        {
+            "relation": "部下",
+            "source": "蒙奇·D·卡普",
+            "target": "贝鲁梅伯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "克比",
+            "target": "贝鲁梅伯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙奇·D·卡普",
+            "target": "艾斯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙奇·D·卡普",
+            "target": "露玖",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙奇·D·卡普",
+            "target": "达旦",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙奇·D·卡普",
+            "target": "罗杰",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙奇·D·卡普",
+            "target": "艾斯",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "蒙奇·D·卡普",
+            "target": "青椒",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "马尔科",
+            "target": "斯芬克斯",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "白胡子",
+            "target": "斯芬克斯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "马尔科",
+            "target": "香克斯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "马尔科",
+            "target": "白胡子",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "马尔科",
+            "target": "艾斯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "香克斯",
+            "target": "白胡子",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "香克斯",
+            "target": "艾斯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "白胡子",
+            "target": "艾斯",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "马尔科",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "艾斯",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "马尔科",
+            "target": "艾斯",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "马尔科",
+            "target": "白胡子海贼团",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "马尔科",
+            "target": "了断之战",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "马尔科",
+            "target": "黑胡子海贼团",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "乔兹",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "乔兹",
+            "target": "白胡子海贼团",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "乔兹",
+            "target": "3番队",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "乔兹",
+            "target": "队长",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "乔兹",
+            "target": "了断之战",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "蒙卡",
+            "target": "C·克洛",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "加尔帝诺（Mr.3）",
+            "target": "巴洛克工作室",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "加尔帝诺（Mr.3）",
+            "target": "缇娜",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "卡西",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "欧伊莫",
+            "target": "海军",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "蒙奇·D·卡普",
+            "target": "西奇",
+            "value": 3
         }
     ],
     "nodes": [
@@ -5177,6 +6881,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "T骨",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "一本松",
             "size": "8"
         },
@@ -5189,7 +6899,19 @@
         {
             "class": "人",
             "group": "0",
+            "id": "东吉特",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "乌索普",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "乔兹",
             "size": "8"
         },
         {
@@ -5255,6 +6977,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "偎取",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "克伊娜",
             "size": "8"
         },
@@ -5315,6 +7043,18 @@
         {
             "class": "人",
             "group": "0",
+            "id": "内罗",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "冰山",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "利基",
             "size": "8"
         },
@@ -5328,6 +7068,12 @@
             "class": "人",
             "group": "0",
             "id": "加尔帝诺（Mr.3）",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "加布拉",
             "size": "8"
         },
         {
@@ -5351,7 +7097,25 @@
         {
             "class": "人",
             "group": "0",
+            "id": "卡库",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "卡普",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "卡莉法",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "卡西",
             "size": "8"
         },
         {
@@ -5375,6 +7139,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "可可罗",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "可雅",
             "size": "8"
         },
@@ -5382,6 +7152,12 @@
             "class": "人",
             "group": "0",
             "id": "吉萨斯·巴杰斯",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "哈格瓦尔•D•萨乌罗",
             "size": "8"
         },
         {
@@ -5423,6 +7199,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "基维",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "多尔顿",
             "size": "8"
         },
@@ -5459,7 +7241,19 @@
         {
             "class": "人",
             "group": "0",
+            "id": "奥尔维",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "妮可·罗宾",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "妮可•奥尔维亚",
             "size": "8"
         },
         {
@@ -5513,7 +7307,19 @@
         {
             "class": "人",
             "group": "0",
+            "id": "巴利",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "巴基",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "巴斯卡比尔",
             "size": "8"
         },
         {
@@ -5526,6 +7332,12 @@
             "class": "人",
             "group": "0",
             "id": "巴索罗缪•熊",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "巴里",
             "size": "8"
         },
         {
@@ -5567,6 +7379,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "布鲁诺",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "希流",
             "size": "8"
         },
@@ -5586,6 +7404,12 @@
             "class": "人",
             "group": "0",
             "id": "库洛卡斯",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "库洛巴",
             "size": "8"
         },
         {
@@ -5616,6 +7440,12 @@
             "class": "人",
             "group": "0",
             "id": "战国",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "戴维•琼斯",
             "size": "8"
         },
         {
@@ -5663,6 +7493,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "摩兹",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "摩奇&利基",
             "size": "8"
         },
@@ -5670,6 +7506,24 @@
             "class": "人",
             "group": "0",
             "id": "斯摩格",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "斯潘达因",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "斯潘达姆",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "旺泽",
             "size": "8"
         },
         {
@@ -5705,6 +7559,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "杰利",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "杰姆（Mr.5）",
             "size": "8"
         },
@@ -5712,6 +7572,12 @@
             "class": "人",
             "group": "0",
             "id": "杰斯",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "枭（猫头鹰）",
             "size": "8"
         },
         {
@@ -5735,6 +7601,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "欧伊莫",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "欧姆",
             "size": "8"
         },
@@ -5747,6 +7619,18 @@
         {
             "class": "人",
             "group": "0",
+            "id": "毕普利·露露",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "汉库克",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "汤姆",
             "size": "8"
         },
@@ -5754,6 +7638,12 @@
             "class": "人",
             "group": "0",
             "id": "波特卡斯•D•艾斯",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "泰尔斯通",
             "size": "8"
         },
         {
@@ -5855,6 +7745,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "福克西",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "穆丝",
             "size": "8"
         },
@@ -5916,6 +7812,12 @@
             "class": "人",
             "group": "0",
             "id": "罗宾",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "罗布·路奇",
             "size": "8"
         },
         {
@@ -5999,6 +7901,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "萨卡斯基",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "萨奇",
             "size": "8"
         },
@@ -6018,6 +7926,12 @@
             "class": "人",
             "group": "0",
             "id": "萨波",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "萨龙",
             "size": "8"
         },
         {
@@ -6048,6 +7962,12 @@
             "class": "人",
             "group": "0",
             "id": "蒙卡",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "蒙奇·D·卡普",
             "size": "8"
         },
         {
@@ -6143,7 +8063,19 @@
         {
             "class": "人",
             "group": "0",
+            "id": "赞拜",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "赞高",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "路奇",
             "size": "8"
         },
         {
@@ -6173,6 +8105,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "达旦",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "酋长",
             "size": "8"
         },
@@ -6191,6 +8129,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "隈取",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "雅玛",
             "size": "8"
         },
@@ -6198,6 +8142,12 @@
             "class": "人",
             "group": "0",
             "id": "雅索普",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "雪莉",
             "size": "8"
         },
         {
@@ -6227,6 +8177,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "青雉",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "韦帕",
             "size": "8"
         },
@@ -6240,6 +8196,12 @@
             "class": "人",
             "group": "0",
             "id": "香克斯",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "马尔科",
             "size": "8"
         },
         {
@@ -6261,9 +8223,27 @@
             "size": "8"
         },
         {
+            "class": "人",
+            "group": "0",
+            "id": "鼯鼠",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "齐蒙尼",
+            "size": "8"
+        },
+        {
             "class": "地点",
             "group": "1",
             "id": "Skypea",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "Water 7",
             "size": "16"
         },
         {
@@ -6300,6 +8280,12 @@
             "class": "地点",
             "group": "1",
             "id": "伟大航路",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "冠昊岛",
             "size": "16"
         },
         {
@@ -6366,6 +8352,12 @@
             "class": "地点",
             "group": "1",
             "id": "圣地玛丽乔亚",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "圣波布拉",
             "size": "16"
         },
         {
@@ -6563,6 +8555,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "空手道岛",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "糊涂温泉",
             "size": "16"
         },
@@ -6582,6 +8580,12 @@
             "class": "地点",
             "group": "1",
             "id": "罗格镇",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "艾尔巴夫",
             "size": "16"
         },
         {
@@ -6701,6 +8705,12 @@
         {
             "class": "恶魔果实",
             "group": "2",
+            "id": "泡泡果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
             "id": "滑滑果实",
             "size": "5"
         },
@@ -6719,8 +8729,32 @@
         {
             "class": "恶魔果实",
             "group": "2",
+            "id": "迟缓果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
+            "id": "长颈鹿形态的牛牛果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
             "id": "黄泉果实",
             "size": "5"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "1号船坞",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "3番队",
+            "size": "10"
         },
         {
             "class": "组织",
@@ -6737,7 +8771,49 @@
         {
             "class": "组织",
             "group": "3",
+            "id": "CP0",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "CP5",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "CP6",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "CP7",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "CP9",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
             "id": "G-5",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "W7的酒馆",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "Water 7的酒吧",
             "size": "10"
         },
         {
@@ -6810,6 +8886,18 @@
             "class": "组织",
             "group": "3",
             "id": "南瓜咖啡店",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "卡雷拉公司",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "卡雷拉公司一号船坞",
             "size": "10"
         },
         {
@@ -7019,7 +9107,19 @@
         {
             "class": "组织",
             "group": "3",
+            "id": "汤姆工作室",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
             "id": "海军",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "海军GL第1支部（G1）",
             "size": "10"
         },
         {
@@ -7134,6 +9234,12 @@
             "class": "组织",
             "group": "3",
             "id": "草帽一伙",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "西夫特车站",
             "size": "10"
         },
         {
@@ -7259,6 +9365,18 @@
         {
             "class": "船只",
             "group": "4",
+            "id": "2号海上列车",
+            "size": "5"
+        },
+        {
+            "class": "船只",
+            "group": "4",
+            "id": "Puffing Tom",
+            "size": "5"
+        },
+        {
+            "class": "船只",
+            "group": "4",
             "id": "前进梅利号",
             "size": "5"
         },
@@ -7277,6 +9395,12 @@
         {
             "class": "船只",
             "group": "4",
+            "id": "奥尔•杰克逊号",
+            "size": "5"
+        },
+        {
+            "class": "船只",
+            "group": "4",
             "id": "奥比特号",
             "size": "5"
         },
@@ -7289,7 +9413,31 @@
         {
             "class": "船只",
             "group": "4",
+            "id": "桑尼号",
+            "size": "5"
+        },
+        {
+            "class": "船只",
+            "group": "4",
             "id": "梅里号",
+            "size": "5"
+        },
+        {
+            "class": "船只",
+            "group": "4",
+            "id": "海列车",
+            "size": "5"
+        },
+        {
+            "class": "船只",
+            "group": "4",
+            "id": "海列车火箭人",
+            "size": "5"
+        },
+        {
+            "class": "船只",
+            "group": "4",
+            "id": "罗杰海贼团的船",
             "size": "5"
         },
         {
@@ -7308,6 +9456,12 @@
             "class": "职务",
             "group": "5",
             "id": "2番队队长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "“索具、船帆”职长",
             "size": "6"
         },
         {
@@ -7337,6 +9491,12 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "主管",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "佣兵",
             "size": "6"
         },
@@ -7356,6 +9516,12 @@
             "class": "职务",
             "group": "5",
             "id": "副厨师长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "副社长",
             "size": "6"
         },
         {
@@ -7385,6 +9551,12 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "厨师长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "售票员",
             "size": "6"
         },
@@ -7403,7 +9575,19 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "基地长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "堂主",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "大将",
             "size": "6"
         },
         {
@@ -7439,6 +9623,18 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "守门人",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "审判长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "小偷",
             "size": "6"
         },
@@ -7463,6 +9659,18 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "工头",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "市长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "干部",
             "size": "6"
         },
@@ -7470,6 +9678,12 @@
             "class": "职务",
             "group": "5",
             "id": "店主",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "御用组合",
             "size": "6"
         },
         {
@@ -7500,6 +9714,18 @@
             "class": "职务",
             "group": "5",
             "id": "护卫队队长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "拳击冠军",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "拳击手",
             "size": "6"
         },
         {
@@ -7547,6 +9773,12 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "王国骑士",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "环境大臣",
             "size": "6"
         },
@@ -7589,6 +9821,12 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "秘书",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "租赁奴隶",
             "size": "6"
         },
@@ -7601,7 +9839,25 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "站长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "管家",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "美人秘书",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "考古学家",
             "size": "6"
         },
         {
@@ -7626,6 +9882,18 @@
             "class": "职务",
             "group": "5",
             "id": "船长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "谍报成员",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "负责细木器、缝帆的领班",
             "size": "6"
         },
         {
@@ -7673,8 +9941,20 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "领班",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "高级特务",
             "size": "6"
+        },
+        {
+            "class": "事件",
+            "group": "6",
+            "id": "Davy Back Fight",
+            "size": "20"
         },
         {
             "class": "事件",
@@ -7697,6 +9977,12 @@
         {
             "class": "事件",
             "group": "6",
+            "id": "了断之战",
+            "size": "20"
+        },
+        {
+            "class": "事件",
+            "group": "6",
             "id": "巴纳罗岛的决斗",
             "size": "20"
         },
@@ -7710,6 +9996,12 @@
             "class": "事件",
             "group": "6",
             "id": "斗牛竞技场的擂台赛",
+            "size": "20"
+        },
+        {
+            "class": "事件",
+            "group": "6",
+            "id": "海列车护卫任务",
             "size": "20"
         },
         {
