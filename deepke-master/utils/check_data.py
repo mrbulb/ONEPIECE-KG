@@ -16,7 +16,7 @@
 import os
 import re
 
-root = '/home/zenghao/ZJU_study/Knowledge_Graph/deepke/data/origin/'
+root = '~/ZJU_study/Knowledge_Graph/deepke/data/origin/'
 # relation.csv  test.csv  train.csv  valid.csv
 train_file = os.path.join(root, 'train.csv')
 valid_file = os.path.join(root, 'valid.csv')
