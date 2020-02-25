@@ -994,9 +994,9 @@ python query_main.py
 
 #### 7.2. 知识图谱可视化
 
-在这部分中，我们参考别人的工作[^20]，利用D3[^21]对之前构建的实体关系知识图谱提供可视化交互功能，包括结点连接关系可视化、查询相关结点信息。同时在这部分也整合了之间构建的人物属性知识图谱，提供了信息框的展示过程，相关的数据和代码存放在 `visualization` 目录下。整个可视化页面的交互过程如下面的gif图所示：
+在这部分中，我们参考别人的工作[^20]，利用D3[^21]对之前构建的实体关系知识图谱提供可视化交互功能，包括结点连接关系可视化、查询相关结点信息。同时在这部分也整合了之间构建的人物属性知识图谱，提供了信息框的展示过程，相关的数据和代码存放在 `visualization` 目录下。整个可视化页面的交互过程如下面的[gif图](https://github.com/mrbulb/ONEPIECE-KG/blob/master/docs/images/soogif-5m.gif)所示：
 
-![](D:\研究生学习\知识图谱\project\2019-11-27-KG-demo-for-movie-master-学习\docs\images\soogif-5m.gif)
+<img src="D:\研究生学习\知识图谱\project\2019-11-27-KG-demo-for-movie-master-学习\docs\images\soogif-5m.gif" style="zoom:150%;" />
 
 可视化网页存放于 `visualization/html/index.html`，可以通过 **Microsoft Edge** 浏览器直接打开
 
@@ -1004,15 +1004,15 @@ python query_main.py
 
 打开后可视化界面如下所示，不同的颜色代表不同类型的实体，具有关系的实体会用白色的细线连接，可以明显的看到有些实体与其他实体存在大量的连接
 
-![](.\images\viz1.jpg)
+<img src=".\images\viz1.jpg" style="zoom:100%;" />
 
 点击左上角的模式切换按钮，我们可以把结点展示从圆圈模式变换为文本模式，能够进行更加细致的观察
 
-![](.\images\viz2.jpg)
+<img src=".\images\viz2.jpg" style="zoom:100%;" />
 
 选中某个结点后，将只会显示该节点以及与其直接相连接的结点。特别的，如果该节点类型是人物，还会在页面右侧显示该人物的信息框
 
-![](.\images\viz3.jpg)
+<img src=".\images\viz3.jpg" style="zoom:100%;" />
 
 此外左侧还提供了搜索框的功能，可以方便我们查找结点信息
 
