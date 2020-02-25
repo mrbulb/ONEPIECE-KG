@@ -32,4 +32,4 @@ ONEPICE-KG 是一个面向《海贼王》领域数据的知识图谱项目。
 
 
 
-各个部分的具体内容和使用方法，可以参见 `docs` 文件夹下的[项目文档](https://github.com/mrbulb/ONEPIECE-KG/docs/report.md)
+各个部分的具体内容和使用方法，可以参见 `docs` 文件夹下的[项目文档](https://github.com/mrbulb/ONEPIECE-KG/blob/master/docs/report.md)
