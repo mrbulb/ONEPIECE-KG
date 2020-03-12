@@ -1172,13 +1172,7 @@
                     "name": "到过",
                     "to": 311
                 },
-                {
-                    "arg1": "Arg1",
-                    "arg2": "Arg2",
-                    "from": 308,
-                    "name": "属于",
-                    "to": 310
-                },
+                null,
                 {
                     "arg1": "Arg1",
                     "arg2": "Arg2",
@@ -10655,6 +10649,297 @@
                     "from": 2596,
                     "name": "战斗",
                     "to": 2597
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2598,
+                    "name": "战斗",
+                    "to": 2599
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2601,
+                    "name": "母亲",
+                    "to": 2600
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2602,
+                    "name": "遇见",
+                    "to": 2603
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2604,
+                    "name": "到过",
+                    "to": 2605
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2604,
+                    "name": "担任",
+                    "to": 2606
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2608,
+                    "name": "母亲",
+                    "to": 2607
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2610,
+                    "name": "到过",
+                    "to": 2609
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2611,
+                    "name": "到过",
+                    "to": 2609
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2610,
+                    "name": "遇见",
+                    "to": 2611
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2612,
+                    "name": "到过",
+                    "to": 2613
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2612,
+                    "name": "拥有果实",
+                    "to": 2614
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2615,
+                    "name": "参与",
+                    "to": 2616
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2617,
+                    "name": "遇见",
+                    "to": 2618
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2619,
+                    "name": "遇见",
+                    "to": 2620
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2621,
+                    "name": "到过",
+                    "to": 2622
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2626,
+                    "name": "遇见",
+                    "to": 2627
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2628,
+                    "name": "遇见",
+                    "to": 2629
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2630,
+                    "name": "遇见",
+                    "to": 2631
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2632,
+                    "name": "战斗",
+                    "to": 2633
+                },
+                null,
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2635,
+                    "name": "参与",
+                    "to": 2636
+                },
+                null,
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2623,
+                    "name": "兄弟",
+                    "to": 2624
+                },
+                null,
+                null,
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2623,
+                    "name": "兄弟",
+                    "to": 2625
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2624,
+                    "name": "遇见",
+                    "to": 2625
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2632,
+                    "name": "战斗",
+                    "to": 2634
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2637,
+                    "name": "遇见",
+                    "to": 2638
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2639,
+                    "name": "战斗",
+                    "to": 2640
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2641,
+                    "name": "遇见",
+                    "to": 2642
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2643,
+                    "name": "遇见",
+                    "to": 2644
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2645,
+                    "name": "战斗",
+                    "to": 2646
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2647,
+                    "name": "遇见",
+                    "to": 2648
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2647,
+                    "name": "战斗",
+                    "to": 2649
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2650,
+                    "name": "战斗",
+                    "to": 2651
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2650,
+                    "name": "战斗",
+                    "to": 2652
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2651,
+                    "name": "遇见",
+                    "to": 2652
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2653,
+                    "name": "担任",
+                    "to": 2654
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2656,
+                    "name": "遇见",
+                    "to": 2657
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2658,
+                    "name": "夫妻",
+                    "to": 2659
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2653,
+                    "name": "领导",
+                    "to": 2660
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2662,
+                    "name": "属于",
+                    "to": 2661
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 2656,
+                    "name": "担任",
+                    "to": 2663
+                },
+                {
+                    "arg1": "Arg1",
+                    "arg2": "Arg2",
+                    "from": 308,
+                    "name": "担任",
+                    "to": 2664
                 }
             ],
             "T": [
@@ -13336,15 +13621,7 @@
                     "value": "西格"
                 },
                 null,
-                {
-                    "attributes": [],
-                    "end": 3840,
-                    "id": 310,
-                    "name": "组织",
-                    "start": 3838,
-                    "type": "T",
-                    "value": "山贼"
-                },
+                null,
                 {
                     "attributes": [],
                     "end": 3831,
@@ -33087,10 +33364,605 @@
                     "start": 22704,
                     "type": "T",
                     "value": "霍金斯"
+                },
+                {
+                    "attributes": [],
+                    "end": 22720,
+                    "id": 2598,
+                    "name": "人",
+                    "start": 22715,
+                    "type": "T",
+                    "value": "卡利•达旦"
+                },
+                {
+                    "attributes": [],
+                    "end": 22728,
+                    "id": 2599,
+                    "name": "组织",
+                    "start": 22722,
+                    "type": "T",
+                    "value": "布鲁杰姆一伙"
+                },
+                {
+                    "attributes": [],
+                    "end": 22734,
+                    "id": 2600,
+                    "name": "人",
+                    "start": 22729,
+                    "type": "T",
+                    "value": "卡利•达旦"
+                },
+                {
+                    "attributes": [],
+                    "end": 22738,
+                    "id": 2601,
+                    "name": "人",
+                    "start": 22736,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 22763,
+                    "id": 2602,
+                    "name": "人",
+                    "start": 22758,
+                    "type": "T",
+                    "value": "卡利•达旦"
+                },
+                {
+                    "attributes": [],
+                    "end": 22766,
+                    "id": 2603,
+                    "name": "人",
+                    "start": 22764,
+                    "type": "T",
+                    "value": "卡普"
+                },
+                {
+                    "attributes": [],
+                    "end": 22774,
+                    "id": 2604,
+                    "name": "人",
+                    "start": 22769,
+                    "type": "T",
+                    "value": "卡利•达旦"
+                },
+                {
+                    "attributes": [],
+                    "end": 22779,
+                    "id": 2605,
+                    "name": "地点",
+                    "start": 22775,
+                    "type": "T",
+                    "value": "戈尔波山"
+                },
+                {
+                    "attributes": [],
+                    "end": 22783,
+                    "id": 2606,
+                    "name": "职务",
+                    "start": 22781,
+                    "type": "T",
+                    "value": "山贼"
+                },
+                {
+                    "attributes": [],
+                    "end": 22789,
+                    "id": 2607,
+                    "name": "人",
+                    "start": 22784,
+                    "type": "T",
+                    "value": "卡利•达旦"
+                },
+                {
+                    "attributes": [],
+                    "end": 22793,
+                    "id": 2608,
+                    "name": "人",
+                    "start": 22791,
+                    "type": "T",
+                    "value": "艾斯"
+                },
+                {
+                    "attributes": [],
+                    "end": 22821,
+                    "id": 2609,
+                    "name": "地点",
+                    "start": 22816,
+                    "type": "T",
+                    "value": "德雷斯罗萨"
+                },
+                {
+                    "attributes": [],
+                    "end": 22815,
+                    "id": 2610,
+                    "name": "人",
+                    "start": 22813,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 22824,
+                    "id": 2611,
+                    "name": "人",
+                    "start": 22822,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 22829,
+                    "id": 2612,
+                    "name": "人",
+                    "start": 22827,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 22835,
+                    "id": 2613,
+                    "name": "地点",
+                    "start": 22830,
+                    "type": "T",
+                    "value": "德雷斯罗萨"
+                },
+                {
+                    "attributes": [],
+                    "end": 22842,
+                    "id": 2614,
+                    "name": "恶魔果实",
+                    "start": 22838,
+                    "type": "T",
+                    "value": "烧烧果实"
+                },
+                {
+                    "attributes": [],
+                    "end": 22846,
+                    "id": 2615,
+                    "name": "人",
+                    "start": 22844,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 22853,
+                    "id": 2616,
+                    "name": "事件",
+                    "start": 22849,
+                    "type": "T",
+                    "value": "世界会议"
+                },
+                {
+                    "attributes": [],
+                    "end": 22875,
+                    "id": 2617,
+                    "name": "人",
+                    "start": 22873,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 22878,
+                    "id": 2618,
+                    "name": "人",
+                    "start": 22876,
+                    "type": "T",
+                    "value": "哈克"
+                },
+                {
+                    "attributes": [],
+                    "end": 22883,
+                    "id": 2619,
+                    "name": "人",
+                    "start": 22881,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 22886,
+                    "id": 2620,
+                    "name": "人",
+                    "start": 22884,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 22891,
+                    "id": 2621,
+                    "name": "人",
+                    "start": 22889,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 22896,
+                    "id": 2622,
+                    "name": "地点",
+                    "start": 22892,
+                    "type": "T",
+                    "value": "哥亚王国"
+                },
+                {
+                    "attributes": [],
+                    "end": 22901,
+                    "id": 2623,
+                    "name": "人",
+                    "start": 22899,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 22904,
+                    "id": 2624,
+                    "name": "人",
+                    "start": 22902,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 22907,
+                    "id": 2625,
+                    "name": "人",
+                    "start": 22905,
+                    "type": "T",
+                    "value": "艾斯"
+                },
+                {
+                    "attributes": [],
+                    "end": 22983,
+                    "id": 2626,
+                    "name": "人",
+                    "start": 22981,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 22987,
+                    "id": 2627,
+                    "name": "人",
+                    "start": 22984,
+                    "type": "T",
+                    "value": "克尔拉"
+                },
+                {
+                    "attributes": [],
+                    "end": 22964,
+                    "id": 2628,
+                    "name": "人",
+                    "start": 22962,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 22967,
+                    "id": 2629,
+                    "name": "人",
+                    "start": 22965,
+                    "type": "T",
+                    "value": "艾斯"
+                },
+                {
+                    "attributes": [],
+                    "end": 22935,
+                    "id": 2630,
+                    "name": "人",
+                    "start": 22933,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 22944,
+                    "id": 2631,
+                    "name": "组织",
+                    "start": 22941,
+                    "type": "T",
+                    "value": "革命军"
+                },
+                {
+                    "attributes": [],
+                    "end": 22994,
+                    "id": 2632,
+                    "name": "人",
+                    "start": 22990,
+                    "type": "T",
+                    "value": "伯尔杰米"
+                },
+                {
+                    "attributes": [],
+                    "end": 22997,
+                    "id": 2633,
+                    "name": "人",
+                    "start": 22995,
+                    "type": "T",
+                    "value": "艾斯"
+                },
+                {
+                    "attributes": [],
+                    "end": 23000,
+                    "id": 2634,
+                    "name": "人",
+                    "start": 22998,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 23139,
+                    "id": 2635,
+                    "name": "人",
+                    "start": 23136,
+                    "type": "T",
+                    "value": "史提利"
+                },
+                {
+                    "attributes": [],
+                    "end": 23146,
+                    "id": 2636,
+                    "name": "事件",
+                    "start": 23142,
+                    "type": "T",
+                    "value": "世界会议"
+                },
+                {
+                    "attributes": [],
+                    "end": 23027,
+                    "id": 2637,
+                    "name": "人",
+                    "start": 23023,
+                    "type": "T",
+                    "value": "伯尔杰米"
+                },
+                {
+                    "attributes": [],
+                    "end": 23030,
+                    "id": 2638,
+                    "name": "人",
+                    "start": 23028,
+                    "type": "T",
+                    "value": "路飞"
+                },
+                {
+                    "attributes": [],
+                    "end": 23039,
+                    "id": 2639,
+                    "name": "人",
+                    "start": 23035,
+                    "type": "T",
+                    "value": "伯尔杰米"
+                },
+                {
+                    "attributes": [],
+                    "end": 23044,
+                    "id": 2640,
+                    "name": "人",
+                    "start": 23040,
+                    "type": "T",
+                    "value": "布尔杰姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 23051,
+                    "id": 2641,
+                    "name": "人",
+                    "start": 23047,
+                    "type": "T",
+                    "value": "布尔杰姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 23057,
+                    "id": 2642,
+                    "name": "人",
+                    "start": 23052,
+                    "type": "T",
+                    "value": "哥亚国国王"
+                },
+                {
+                    "attributes": [],
+                    "end": 23076,
+                    "id": 2643,
+                    "name": "人",
+                    "start": 23072,
+                    "type": "T",
+                    "value": "布尔杰姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 23082,
+                    "id": 2644,
+                    "name": "人",
+                    "start": 23077,
+                    "type": "T",
+                    "value": "哥亚国国王"
+                },
+                {
+                    "attributes": [],
+                    "end": 23093,
+                    "id": 2645,
+                    "name": "人",
+                    "start": 23089,
+                    "type": "T",
+                    "value": "布尔杰姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 23099,
+                    "id": 2646,
+                    "name": "人",
+                    "start": 23095,
+                    "type": "T",
+                    "value": "伯尔杰米"
+                },
+                {
+                    "attributes": [],
+                    "end": 23104,
+                    "id": 2647,
+                    "name": "人",
+                    "start": 23100,
+                    "type": "T",
+                    "value": "布尔杰姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 23110,
+                    "id": 2648,
+                    "name": "人",
+                    "start": 23106,
+                    "type": "T",
+                    "value": "萨波父亲"
+                },
+                {
+                    "attributes": [],
+                    "end": 23117,
+                    "id": 2649,
+                    "name": "人",
+                    "start": 23115,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 23122,
+                    "id": 2650,
+                    "name": "人",
+                    "start": 23118,
+                    "type": "T",
+                    "value": "布尔杰姆"
+                },
+                {
+                    "attributes": [],
+                    "end": 23125,
+                    "id": 2651,
+                    "name": "人",
+                    "start": 23123,
+                    "type": "T",
+                    "value": "艾斯"
+                },
+                {
+                    "attributes": [],
+                    "end": 23128,
+                    "id": 2652,
+                    "name": "人",
+                    "start": 23126,
+                    "type": "T",
+                    "value": "达旦"
+                },
+                {
+                    "attributes": [],
+                    "end": 23169,
+                    "id": 2653,
+                    "name": "人",
+                    "start": 23166,
+                    "type": "T",
+                    "value": "史提利"
+                },
+                {
+                    "attributes": [],
+                    "end": 23178,
+                    "id": 2654,
+                    "name": "职务",
+                    "start": 23176,
+                    "type": "T",
+                    "value": "国王"
+                },
+                null,
+                {
+                    "attributes": [],
+                    "end": 23196,
+                    "id": 2656,
+                    "name": "人",
+                    "start": 23193,
+                    "type": "T",
+                    "value": "史提利"
+                },
+                {
+                    "attributes": [],
+                    "end": 23200,
+                    "id": 2657,
+                    "name": "人",
+                    "start": 23198,
+                    "type": "T",
+                    "value": "萨波"
+                },
+                {
+                    "attributes": [],
+                    "end": 23182,
+                    "id": 2658,
+                    "name": "人",
+                    "start": 23179,
+                    "type": "T",
+                    "value": "史提利"
+                },
+                {
+                    "attributes": [],
+                    "end": 23190,
+                    "id": 2659,
+                    "name": "人",
+                    "start": 23183,
+                    "type": "T",
+                    "value": "哥亚王国的公主"
+                },
+                {
+                    "attributes": [],
+                    "end": 23176,
+                    "id": 2660,
+                    "name": "组织",
+                    "start": 23173,
+                    "type": "T",
+                    "value": "哥亚国"
+                },
+                {
+                    "attributes": [],
+                    "end": 23217,
+                    "id": 2661,
+                    "name": "组织",
+                    "start": 23213,
+                    "type": "T",
+                    "value": "贵族家庭"
+                },
+                {
+                    "attributes": [],
+                    "end": 23208,
+                    "id": 2662,
+                    "name": "人",
+                    "start": 23205,
+                    "type": "T",
+                    "value": "史提利"
+                },
+                {
+                    "attributes": [],
+                    "end": 23204,
+                    "id": 2663,
+                    "name": "职务",
+                    "start": 23202,
+                    "type": "T",
+                    "value": "养子"
+                },
+                {
+                    "attributes": [],
+                    "end": 3840,
+                    "id": 2664,
+                    "name": "职务",
+                    "start": 3838,
+                    "type": "T",
+                    "value": "山贼"
                 }
             ]
         }
     },
     "path": "D:\\研究生学习\\知识图谱\\project\\2019-11-27-KG-demo-for-movie-master-学习\\deepke-master\\data\\vivrecard\\annot\\fuseki_vivrecard_sentence_item.txt",
-    "time_labeled": 1583654132945
+    "time_labeled": 1584005224194
 }
