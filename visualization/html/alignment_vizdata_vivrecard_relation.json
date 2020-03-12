@@ -15,7 +15,7 @@
         {
             "relation": "遇见",
             "source": "蒙其·D·路飞",
-            "target": "艾斯",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
@@ -26,7 +26,7 @@
         },
         {
             "relation": "遇见",
-            "source": "艾斯",
+            "source": "波特卡斯•D•艾斯",
             "target": "萨波",
             "value": 3
         },
@@ -69,7 +69,7 @@
         {
             "relation": "战斗",
             "source": "罗罗诺亚·索隆",
-            "target": "达兹",
+            "target": "达兹·波尼斯 (Mr.1)",
             "value": 3
         },
         {
@@ -99,7 +99,7 @@
         {
             "relation": "遇见",
             "source": "娜美",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -111,7 +111,7 @@
         {
             "relation": "到过",
             "source": "娜美",
-            "target": "维萨利亚",
+            "target": "维沙利亚",
             "value": 3
         },
         {
@@ -129,13 +129,13 @@
         {
             "relation": "离开",
             "source": "娜美",
-            "target": "恶龙麾下",
+            "target": "恶龙一伙",
             "value": 3
         },
         {
             "relation": "离开",
             "source": "娜美",
-            "target": "恶龙手下",
+            "target": "恶龙一伙",
             "value": 3
         },
         {
@@ -237,7 +237,7 @@
         {
             "relation": "到过",
             "source": "乌索普",
-            "target": "Water Seven",
+            "target": "七水之都",
             "value": 3
         },
         {
@@ -285,7 +285,7 @@
         {
             "relation": "遇见",
             "source": "山治",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -344,25 +344,25 @@
         },
         {
             "relation": "到过",
-            "source": "托尼托尼·乔巴",
+            "source": "托尼托尼•乔巴",
             "target": "德雷斯罗萨",
             "value": 3
         },
         {
             "relation": "加入",
-            "source": "托尼托尼·乔巴",
+            "source": "托尼托尼•乔巴",
             "target": "草帽一伙",
             "value": 3
         },
         {
             "relation": "战斗",
-            "source": "托尼托尼·乔巴",
-            "target": "路飞",
+            "source": "托尼托尼•乔巴",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "到过",
-            "source": "托尼托尼·乔巴",
+            "source": "托尼托尼•乔巴",
             "target": "托里诺王国",
             "value": 3
         },
@@ -374,50 +374,50 @@
         },
         {
             "relation": "属于",
-            "source": "托尼托尼·乔巴",
+            "source": "托尼托尼•乔巴",
             "target": "草帽一伙",
             "value": 3
         },
         {
             "relation": "担任",
-            "source": "托尼托尼·乔巴",
+            "source": "托尼托尼•乔巴",
             "target": "船医",
             "value": 3
         },
         {
             "relation": "到过",
-            "source": "托尼托尼·乔巴",
+            "source": "托尼托尼•乔巴",
             "target": "司法岛",
             "value": 3
         },
         {
             "relation": "拥有果实",
-            "source": "托尼托尼·乔巴",
+            "source": "托尼托尼•乔巴",
             "target": "人人果实",
             "value": 3
         },
         {
             "relation": "拥有果实",
-            "source": "托尼托尼·乔巴",
+            "source": "托尼托尼•乔巴",
             "target": "人人果实",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "托尼托尼·乔巴",
-            "target": "西尔尔克",
+            "source": "托尼托尼•乔巴",
+            "target": "Dr.西尔尔克",
             "value": 3
         },
         {
             "relation": "老师",
-            "source": "托尼托尼·乔巴",
+            "source": "托尼托尼•乔巴",
             "target": "朵丽尔医娘",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "托尼托尼·乔巴",
-            "target": "西尔尔克",
+            "source": "托尼托尼•乔巴",
+            "target": "Dr.西尔尔克",
             "value": 3
         },
         {
@@ -567,7 +567,7 @@
         {
             "relation": "建造",
             "source": "弗兰奇",
-            "target": "千阳号",
+            "target": "千里阳光号",
             "value": 3
         },
         {
@@ -585,7 +585,7 @@
         {
             "relation": "建造",
             "source": "弗兰奇",
-            "target": "千阳号",
+            "target": "千里阳光号",
             "value": 3
         },
         {
@@ -603,7 +603,7 @@
         {
             "relation": "到过",
             "source": "弗兰奇",
-            "target": "Water Seven",
+            "target": "七水之都",
             "value": 3
         },
         {
@@ -818,20 +818,20 @@
         },
         {
             "relation": "参与",
-            "source": "西奇",
+            "source": "金狮子西奇",
             "target": "爱特·沃尔海战",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "香克斯",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "哥尔·D·罗杰",
-            "target": "西奇",
+            "target": "金狮子西奇",
             "value": 3
         },
         {
@@ -854,13 +854,13 @@
         },
         {
             "relation": "拥有果实",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "橡胶果实",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "拉基·路",
             "value": 3
         },
@@ -951,7 +951,7 @@
         {
             "relation": "遇见",
             "source": "玛琪诺",
-            "target": "艾斯",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
@@ -962,14 +962,14 @@
         },
         {
             "relation": "老师",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "玛琪诺",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "玛琪诺",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -1077,19 +1077,19 @@
         {
             "relation": "战斗",
             "source": "蒙卡",
-            "target": "卡普",
+            "target": "蒙奇·D·卡普",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "蒙卡",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "蒙卡",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -1101,7 +1101,7 @@
         {
             "relation": "战斗",
             "source": "克伊娜",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -1112,7 +1112,7 @@
         },
         {
             "relation": "加入",
-            "source": "索隆",
+            "source": "罗罗诺亚·索隆",
             "target": "一心道场",
             "value": 3
         },
@@ -1143,7 +1143,7 @@
         {
             "relation": "到过",
             "source": "巴基",
-            "target": "因佩尔当",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -1155,13 +1155,13 @@
         {
             "relation": "到过",
             "source": "巴基",
-            "target": "海军派出所",
+            "target": "海军拘留所",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "巴基",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -1191,7 +1191,7 @@
         {
             "relation": "战斗",
             "source": "摩奇&利基",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -1209,13 +1209,13 @@
         {
             "relation": "战斗",
             "source": "卡巴吉",
-            "target": "利基",
+            "target": "摩奇&利基",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "卡巴吉",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -1227,7 +1227,7 @@
         {
             "relation": "遇见",
             "source": "盖蒙",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -1251,7 +1251,7 @@
         {
             "relation": "战斗",
             "source": "青椒",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -1287,7 +1287,7 @@
         {
             "relation": "战斗",
             "source": "青椒",
-            "target": "卡普",
+            "target": "蒙奇·D·卡普",
             "value": 3
         },
         {
@@ -1335,7 +1335,7 @@
         {
             "relation": "参与",
             "source": "赞高",
-            "target": "舞蹈竞赛",
+            "target": "舞蹈大赛",
             "value": 3
         },
         {
@@ -1371,7 +1371,7 @@
         {
             "relation": "战斗",
             "source": "山姆",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -1401,7 +1401,7 @@
         {
             "relation": "战斗",
             "source": "布奇",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -1431,19 +1431,19 @@
         {
             "relation": "遇见",
             "source": "约瑟夫",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "约瑟夫",
-            "target": "巴拉蒂",
+            "target": "巴拉蒂餐厅",
             "value": 3
         },
         {
             "relation": "到过",
-            "source": "索隆",
-            "target": "巴拉蒂",
+            "source": "罗罗诺亚·索隆",
+            "target": "巴拉蒂餐厅",
             "value": 3
         },
         {
@@ -1455,7 +1455,7 @@
         {
             "relation": "到过",
             "source": "约瑟夫",
-            "target": "恶龙乐园",
+            "target": "恶龙公园",
             "value": 3
         },
         {
@@ -1484,7 +1484,7 @@
         },
         {
             "relation": "到过",
-            "source": "索隆",
+            "source": "罗罗诺亚·索隆",
             "target": "恶龙公园",
             "value": 3
         },
@@ -1503,7 +1503,7 @@
         {
             "relation": "遇见",
             "source": "强尼",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -1515,7 +1515,7 @@
         {
             "relation": "遇见",
             "source": "娜美",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -1611,7 +1611,7 @@
         {
             "relation": "到过",
             "source": "芬布迪",
-            "target": "镜球岛",
+            "target": "玻璃球岛",
             "value": 3
         },
         {
@@ -1665,7 +1665,7 @@
         {
             "relation": "战斗",
             "source": "阿金",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -1707,7 +1707,7 @@
         {
             "relation": "战斗",
             "source": "克利克",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -1718,7 +1718,7 @@
         },
         {
             "relation": "遇见",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "山治",
             "value": 3
         },
@@ -1731,7 +1731,7 @@
         {
             "relation": "战斗",
             "source": "克利克",
-            "target": "米霍克",
+            "target": "乔拉可尔·米霍克",
             "value": 3
         },
         {
@@ -1809,7 +1809,7 @@
         {
             "relation": "到过",
             "source": "恶龙",
-            "target": "恶龙乐园",
+            "target": "恶龙公园",
             "value": 3
         },
         {
@@ -1839,7 +1839,7 @@
         {
             "relation": "加入",
             "source": "甚平",
-            "target": "七武海",
+            "target": "王下七武海",
             "value": 3
         },
         {
@@ -1887,7 +1887,7 @@
         {
             "relation": "属于",
             "source": "小八",
-            "target": "恶龙派阀",
+            "target": "恶龙一伙",
             "value": 3
         },
         {
@@ -2007,7 +2007,7 @@
         {
             "relation": "属于",
             "source": "啾",
-            "target": "恶龙派阀",
+            "target": "恶龙一伙",
             "value": 3
         },
         {
@@ -2055,7 +2055,7 @@
         {
             "relation": "属于",
             "source": "克罗欧比",
-            "target": "恶龙派阀",
+            "target": "恶龙一伙",
             "value": 3
         },
         {
@@ -2096,7 +2096,7 @@
         },
         {
             "relation": "战斗",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "海军本部",
             "value": 3
         },
@@ -2121,7 +2121,7 @@
         {
             "relation": "遇见",
             "source": "一本松",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -2157,7 +2157,7 @@
         {
             "relation": "遇见",
             "source": "斯摩格",
-            "target": "哥尔•D•罗杰",
+            "target": "哥尔·D·罗杰",
             "value": 3
         },
         {
@@ -2210,14 +2210,14 @@
         },
         {
             "relation": "父亲",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "蒙奇•D•龙",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "蒙奇•D•龙",
-            "target": "卡普",
+            "target": "蒙奇·D·卡普",
             "value": 3
         },
         {
@@ -2307,7 +2307,7 @@
         {
             "relation": "参与",
             "source": "库洛卡斯",
-            "target": "艾特•沃尔海战",
+            "target": "爱特·沃尔海战",
             "value": 3
         },
         {
@@ -2324,7 +2324,7 @@
         },
         {
             "relation": "参与",
-            "source": "寇布拉•薇薇",
+            "source": "奈菲鲁塔丽•薇薇",
             "target": "世界会议",
             "value": 3
         },
@@ -2343,7 +2343,7 @@
         {
             "relation": "遇见",
             "source": "伊卡莱姆",
-            "target": "薇薇",
+            "target": "奈菲鲁塔丽•薇薇",
             "value": 3
         },
         {
@@ -2361,7 +2361,7 @@
         {
             "relation": "遇见",
             "source": "伊卡莱姆",
-            "target": "薇薇",
+            "target": "奈菲鲁塔丽•薇薇",
             "value": 3
         },
         {
@@ -2372,14 +2372,14 @@
         },
         {
             "relation": "属于",
-            "source": "薇薇",
+            "source": "奈菲鲁塔丽•薇薇",
             "target": "巴洛克工作室",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "杰姆（Mr.5）",
-            "target": "Miss.黄金周",
+            "target": "玛莉安（Miss.黄金周）",
             "value": 3
         },
         {
@@ -2391,7 +2391,7 @@
         {
             "relation": "创建",
             "source": "杰姆（Mr.5）",
-            "target": "新蜘蛛人咖啡店",
+            "target": "新蜘蛛人咖啡厅",
             "value": 3
         },
         {
@@ -2421,13 +2421,13 @@
         {
             "relation": "遇见",
             "source": "米琪塔（Miss.情人节）",
-            "target": "Miss.黄金周",
+            "target": "玛莉安（Miss.黄金周）",
             "value": 3
         },
         {
             "relation": "创建",
             "source": "米琪塔（Miss.情人节）",
-            "target": "新蜘蛛人咖啡店",
+            "target": "新蜘蛛人咖啡厅",
             "value": 3
         },
         {
@@ -2469,7 +2469,7 @@
         {
             "relation": "遇见",
             "source": "布洛基",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -2505,7 +2505,7 @@
         {
             "relation": "遇见",
             "source": "东利",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -2552,20 +2552,20 @@
         },
         {
             "relation": "遇见",
-            "source": "路飞",
-            "target": "艾斯",
+            "source": "蒙其·D·路飞",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "加尔帝诺（Mr.3）",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "加尔帝诺（Mr.3）",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -2589,7 +2589,7 @@
         {
             "relation": "战斗",
             "source": "加尔帝诺（Mr.3）",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -2619,7 +2619,7 @@
         {
             "relation": "创建",
             "source": "玛莉安（Miss.黄金周）",
-            "target": "新蜘蛛人咖啡店",
+            "target": "新蜘蛛人咖啡厅",
             "value": 3
         },
         {
@@ -2661,7 +2661,7 @@
         {
             "relation": "战斗",
             "source": "瓦波尔",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -2672,7 +2672,7 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "磁鼓岛",
             "value": 3
         },
@@ -2762,14 +2762,14 @@
         },
         {
             "relation": "参与",
-            "source": "薇薇",
+            "source": "奈菲鲁塔丽•薇薇",
             "target": "世界会议",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "多尔顿",
-            "target": "薇薇",
+            "target": "奈菲鲁塔丽•薇薇",
             "value": 3
         },
         {
@@ -2793,12 +2793,12 @@
         {
             "relation": "遇见",
             "source": "Dr.古蕾娃",
-            "target": "乔巴",
+            "target": "托尼托尼•乔巴",
             "value": 3
         },
         {
             "relation": "老师",
-            "source": "乔巴",
+            "source": "托尼托尼•乔巴",
             "target": "Dr.古蕾娃",
             "value": 3
         },
@@ -2871,13 +2871,13 @@
         {
             "relation": "遇见",
             "source": "Dr.西尔尔克",
-            "target": "乔巴",
+            "target": "托尼托尼•乔巴",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "Dr.西尔尔克",
-            "target": "旧磁鼓王国",
+            "target": "磁鼓岛",
             "value": 3
         },
         {
@@ -2913,12 +2913,12 @@
         {
             "relation": "遇见",
             "source": "奈菲鲁塔莉•寇布拉",
-            "target": "薇薇",
+            "target": "奈菲鲁塔丽•薇薇",
             "value": 3
         },
         {
             "relation": "参与",
-            "source": "薇薇",
+            "source": "奈菲鲁塔丽•薇薇",
             "target": "世界会议",
             "value": 3
         },
@@ -2931,7 +2931,7 @@
         {
             "relation": "遇见",
             "source": "本萨姆（Mr.2·冯·克雷）",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -2984,14 +2984,14 @@
         },
         {
             "relation": "到过",
-            "source": "人妖王伊万科夫",
+            "source": "安布里奥•伊万科夫",
             "target": "推进城",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "本萨姆（Mr.2·冯·克雷）",
-            "target": "人妖王伊万科夫",
+            "target": "安布里奥•伊万科夫",
             "value": 3
         },
         {
@@ -3045,7 +3045,7 @@
         {
             "relation": "创建",
             "source": "克洛克达尔",
-            "target": "巴洛克工作社",
+            "target": "巴洛克工作室",
             "value": 3
         },
         {
@@ -3057,7 +3057,7 @@
         {
             "relation": "遇见",
             "source": "克洛克达尔",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -3087,7 +3087,7 @@
         {
             "relation": "遇见",
             "source": "波特卡斯•D•艾斯",
-            "target": "蒂奇",
+            "target": "马歇尔·D·蒂奇",
             "value": 3
         },
         {
@@ -3104,14 +3104,14 @@
         },
         {
             "relation": "夫妻",
-            "source": "罗杰",
+            "source": "哥尔·D·罗杰",
             "target": "露玖",
             "value": 3
         },
         {
             "relation": "父亲",
             "source": "波特卡斯•D•艾斯",
-            "target": "罗杰",
+            "target": "哥尔·D·罗杰",
             "value": 3
         },
         {
@@ -3123,13 +3123,13 @@
         {
             "relation": "创建",
             "source": "多萝菲（Miss.圣诞快乐）",
-            "target": "新蜘蛛人咖啡店",
+            "target": "新蜘蛛人咖啡厅",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "多萝菲（Miss.圣诞快乐）",
-            "target": "Miss.黄金周",
+            "target": "玛莉安（Miss.黄金周）",
             "value": 3
         },
         {
@@ -3140,7 +3140,7 @@
         },
         {
             "relation": "到过",
-            "source": "Miss.黄金周",
+            "source": "玛莉安（Miss.黄金周）",
             "target": "海军拘留所",
             "value": 3
         },
@@ -3170,7 +3170,7 @@
         },
         {
             "relation": "到过",
-            "source": "Miss黄金周",
+            "source": "玛莉安（Miss.黄金周）",
             "target": "海军拘留所",
             "value": 3
         },
@@ -3183,7 +3183,7 @@
         {
             "relation": "属于",
             "source": "贝布 (Mr.4) 和拉苏",
-            "target": "BW",
+            "target": "巴洛克工作室",
             "value": 3
         },
         {
@@ -3206,14 +3206,14 @@
         },
         {
             "relation": "到过",
-            "source": "Miss黄金周",
+            "source": "玛莉安（Miss.黄金周）",
             "target": "海军拘留所",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "萨拉 （Miss. 双手指）",
-            "target": "Miss黄金周",
+            "target": "玛莉安（Miss.黄金周）",
             "value": 3
         },
         {
@@ -3225,13 +3225,13 @@
         {
             "relation": "加入",
             "source": "萨拉 （Miss. 双手指）",
-            "target": "BW",
+            "target": "巴洛克工作室",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "达兹·波尼斯 (Mr.1)",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -3267,7 +3267,7 @@
         {
             "relation": "属于",
             "source": "达兹·波尼斯 (Mr.1)",
-            "target": "BW",
+            "target": "巴洛克工作室",
             "value": 3
         },
         {
@@ -3279,7 +3279,7 @@
         {
             "relation": "遇见",
             "source": "睫毛",
-            "target": "路飞一伙",
+            "target": "草帽一伙",
             "value": 3
         },
         {
@@ -3308,7 +3308,7 @@
         },
         {
             "relation": "属于",
-            "source": "薇薇",
+            "source": "奈菲鲁塔丽•薇薇",
             "target": "砂砂团",
             "value": 3
         },
@@ -3320,7 +3320,7 @@
         },
         {
             "relation": "担任",
-            "source": "薇薇",
+            "source": "奈菲鲁塔丽•薇薇",
             "target": "副首领",
             "value": 3
         },
@@ -3357,7 +3357,7 @@
         {
             "relation": "遇见",
             "source": "贝尔",
-            "target": "薇薇",
+            "target": "奈菲鲁塔丽•薇薇",
             "value": 3
         },
         {
@@ -3387,7 +3387,7 @@
         {
             "relation": "战斗",
             "source": "加卡",
-            "target": "叛乱军",
+            "target": "反叛军",
             "value": 3
         },
         {
@@ -3417,7 +3417,7 @@
         {
             "relation": "战斗",
             "source": "国王军",
-            "target": "叛乱军",
+            "target": "反叛军",
             "value": 3
         },
         {
@@ -3441,13 +3441,13 @@
         {
             "relation": "遇见",
             "source": "缇娜",
-            "target": "Mr. 2",
+            "target": "本萨姆（Mr.2·冯·克雷）",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "缇娜",
-            "target": "Mr. 3",
+            "target": "加尔帝诺（Mr.3）",
             "value": 3
         },
         {
@@ -3458,13 +3458,13 @@
         },
         {
             "relation": "到过",
-            "source": "Mr. 2",
+            "source": "本萨姆（Mr.2·冯·克雷）",
             "target": "休假岛",
             "value": 3
         },
         {
             "relation": "到过",
-            "source": "Mr. 3",
+            "source": "加尔帝诺（Mr.3）",
             "target": "休假岛",
             "value": 3
         },
@@ -3495,19 +3495,19 @@
         {
             "relation": "遇见",
             "source": "人猿",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "人猿",
-            "target": "库利凯",
+            "target": "蒙布朗·库利凯",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "贝拉米",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -3518,7 +3518,7 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "德雷斯罗萨",
             "value": 3
         },
@@ -3537,13 +3537,13 @@
         {
             "relation": "战斗",
             "source": "贝拉米",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "贝拉米",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -3554,7 +3554,7 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "魔谷镇",
             "value": 3
         },
@@ -3579,13 +3579,13 @@
         {
             "relation": "战斗",
             "source": "萨奇斯",
-            "target": "多弗朗明戈",
+            "target": "唐吉诃德•多弗朗明哥",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "萨奇斯",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -3596,14 +3596,14 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "魔谷镇",
             "value": 3
         },
         {
             "relation": "加入",
             "source": "萨奇斯",
-            "target": "多弗朗明哥旗下",
+            "target": "多弗朗明戈旗下",
             "value": 3
         },
         {
@@ -3633,7 +3633,7 @@
         {
             "relation": "遇见",
             "source": "睫毛",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -3657,13 +3657,13 @@
         {
             "relation": "遇见",
             "source": "猩猩",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "猩猩",
-            "target": "库利凯",
+            "target": "蒙布朗·库利凯",
             "value": 3
         },
         {
@@ -3693,7 +3693,7 @@
         {
             "relation": "遇见",
             "source": "鹤",
-            "target": "多弗朗明戈",
+            "target": "唐吉诃德•多弗朗明哥",
             "value": 3
         },
         {
@@ -3711,7 +3711,7 @@
         {
             "relation": "战斗",
             "source": "鹤",
-            "target": "多弗朗明戈",
+            "target": "唐吉诃德•多弗朗明哥",
             "value": 3
         },
         {
@@ -3722,7 +3722,7 @@
         },
         {
             "relation": "到过",
-            "source": "多弗朗明戈",
+            "source": "唐吉诃德•多弗朗明哥",
             "target": "飞燕岛",
             "value": 3
         },
@@ -3734,7 +3734,7 @@
         },
         {
             "relation": "加入",
-            "source": "卡普",
+            "source": "蒙奇·D·卡普",
             "target": "海军",
             "value": 3
         },
@@ -3765,25 +3765,25 @@
         {
             "relation": "遇见",
             "source": "战国",
-            "target": "艾斯",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "战国",
-            "target": "西奇",
+            "target": "金狮子西奇",
             "value": 3
         },
         {
             "relation": "到过",
-            "source": "西奇",
-            "target": "因佩尔大监狱",
+            "source": "金狮子西奇",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "参与",
             "source": "战国",
-            "target": "艾特·沃尔海战",
+            "target": "爱特·沃尔海战",
             "value": 3
         },
         {
@@ -3819,19 +3819,19 @@
         {
             "relation": "战斗",
             "source": "唐吉诃德•多弗朗明哥",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "唐吉诃德•多弗朗明哥",
-            "target": "罗",
+            "target": "特拉法尔加·罗",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "路飞",
-            "target": "罗",
+            "source": "蒙其·D·路飞",
+            "target": "特拉法尔加·罗",
             "value": 3
         },
         {
@@ -3891,7 +3891,7 @@
         {
             "relation": "到过",
             "source": "巴索罗缪•熊",
-            "target": "香波地诸岛",
+            "target": "香波地群岛",
             "value": 3
         },
         {
@@ -3921,13 +3921,13 @@
         {
             "relation": "到过",
             "source": "拉菲特",
-            "target": "玛丽乔亚",
+            "target": "圣地玛丽乔亚",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "拉菲特",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -3999,7 +3999,7 @@
         {
             "relation": "遇见",
             "source": "爱德华•纽盖特",
-            "target": "蒂奇",
+            "target": "马歇尔·D·蒂奇",
             "value": 3
         },
         {
@@ -4052,7 +4052,7 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "加雅",
             "value": 3
         },
@@ -4077,13 +4077,13 @@
         {
             "relation": "到过",
             "source": "吉萨斯·巴杰斯",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "战国",
-            "target": "萨乌罗",
+            "target": "哈格瓦尔•D•萨乌罗",
             "value": 3
         },
         {
@@ -4101,7 +4101,7 @@
         {
             "relation": "到过",
             "source": "范·奥卡",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -4130,7 +4130,7 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "加雅",
             "value": 3
         },
@@ -4172,20 +4172,20 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "加亚岛",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "马歇尔·D·蒂奇",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "马歇尔·D·蒂奇",
-            "target": "艾斯",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
@@ -4196,7 +4196,7 @@
         },
         {
             "relation": "到过",
-            "source": "艾斯",
+            "source": "波特卡斯•D•艾斯",
             "target": "巴那罗岛",
             "value": 3
         },
@@ -4298,14 +4298,14 @@
         },
         {
             "relation": "战斗",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "瓦夷帕",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "甘·福尔",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -4317,13 +4317,13 @@
         {
             "relation": "遇见",
             "source": "甘·福尔",
-            "target": "罗杰",
+            "target": "哥尔·D·罗杰",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "甘·福尔",
-            "target": "香迪亚",
+            "target": "香狄亚",
             "value": 3
         },
         {
@@ -4527,7 +4527,7 @@
         {
             "relation": "遇见",
             "source": "爱莎",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -4538,7 +4538,7 @@
         },
         {
             "relation": "参与",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "“神之岛”生存战",
             "value": 3
         },
@@ -4587,7 +4587,7 @@
         {
             "relation": "遇见",
             "source": "卡马奇力",
-            "target": "甘•福尔",
+            "target": "甘·福尔",
             "value": 3
         },
         {
@@ -4617,7 +4617,7 @@
         {
             "relation": "遇见",
             "source": "韦帕",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -4628,14 +4628,14 @@
         },
         {
             "relation": "遇见",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "艾尼路",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "韦帕",
-            "target": "甘•福尔",
+            "target": "甘·福尔",
             "value": 3
         },
         {
@@ -4665,7 +4665,7 @@
         {
             "relation": "遇见",
             "source": "捷宝",
-            "target": "甘•福尔",
+            "target": "甘·福尔",
             "value": 3
         },
         {
@@ -4683,13 +4683,13 @@
         {
             "relation": "战斗",
             "source": "布拉哈姆",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "布拉哈姆",
-            "target": "甘•福尔",
+            "target": "甘·福尔",
             "value": 3
         },
         {
@@ -4701,13 +4701,13 @@
         {
             "relation": "属于",
             "source": "柯妮斯",
-            "target": "南瓜咖啡店",
+            "target": "南瓜咖啡厅",
             "value": 3
         },
         {
             "relation": "属于",
             "source": "拉琪",
-            "target": "南瓜咖啡店",
+            "target": "南瓜咖啡厅",
             "value": 3
         },
         {
@@ -4731,19 +4731,19 @@
         {
             "relation": "战斗",
             "source": "欧姆",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
             "relation": "参与",
-            "source": "索隆",
-            "target": "“神域岛”上的淘汰战",
+            "source": "罗罗诺亚·索隆",
+            "target": "“神之岛”生存战",
             "value": 3
         },
         {
             "relation": "参与",
             "source": "欧姆",
-            "target": "“神域岛”上的淘汰战",
+            "target": "“神之岛”生存战",
             "value": 3
         },
         {
@@ -4779,19 +4779,19 @@
         {
             "relation": "战斗",
             "source": "葛达茨",
-            "target": "乔巴",
+            "target": "托尼托尼•乔巴",
             "value": 3
         },
         {
             "relation": "参与",
             "source": "葛达茨",
-            "target": "“神域岛”上的淘汰战",
+            "target": "“神之岛”生存战",
             "value": 3
         },
         {
             "relation": "参与",
-            "source": "乔巴",
-            "target": "“神域岛”上的淘汰战",
+            "source": "托尼托尼•乔巴",
+            "target": "“神之岛”生存战",
             "value": 3
         },
         {
@@ -4803,7 +4803,7 @@
         {
             "relation": "领导",
             "source": "葛达茨",
-            "target": "大意温泉",
+            "target": "糊涂温泉",
             "value": 3
         },
         {
@@ -4851,7 +4851,7 @@
         {
             "relation": "战斗",
             "source": "雅玛",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -4869,7 +4869,7 @@
         {
             "relation": "参与",
             "source": "雅玛",
-            "target": "生存淘汰赛",
+            "target": "“神之岛”生存战",
             "value": 3
         },
         {
@@ -4881,7 +4881,7 @@
         {
             "relation": "到过",
             "source": "艾尼路",
-            "target": "古代都市“毕尔卡”",
+            "target": "毕尔卡",
             "value": 3
         },
         {
@@ -4905,7 +4905,7 @@
         {
             "relation": "战斗",
             "source": "艾尼路",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -4923,7 +4923,7 @@
         {
             "relation": "战斗",
             "source": "克托力",
-            "target": "甘•福尔",
+            "target": "甘·福尔",
             "value": 3
         },
         {
@@ -4989,18 +4989,18 @@
         {
             "relation": "遇见",
             "source": "酋长",
-            "target": "甘•福尔",
+            "target": "甘·福尔",
             "value": 3
         },
         {
             "relation": "担任",
-            "source": "甘•福尔",
+            "source": "甘·福尔",
             "target": "神",
             "value": 3
         },
         {
             "relation": "战斗",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "艾尼路",
             "value": 3
         },
@@ -5061,7 +5061,7 @@
         {
             "relation": "遇见",
             "source": "卡尔加拉",
-            "target": "蒙布朗•罗兰度",
+            "target": "蒙布朗·诺兰度",
             "value": 3
         },
         {
@@ -5103,7 +5103,7 @@
         {
             "relation": "遇见",
             "source": "东吉特",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -5121,7 +5121,7 @@
         {
             "relation": "遇见",
             "source": "福克西",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -5271,7 +5271,7 @@
         {
             "relation": "到过",
             "source": "可可罗",
-            "target": "Water Seven",
+            "target": "七水之都",
             "value": 3
         },
         {
@@ -5331,7 +5331,7 @@
         {
             "relation": "战斗",
             "source": "卡库",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -5391,13 +5391,13 @@
         {
             "relation": "建造",
             "source": "弗兰奇",
-            "target": "桑尼号",
+            "target": "千里阳光号",
             "value": 3
         },
         {
             "relation": "建造",
             "source": "冰山",
-            "target": "桑尼号",
+            "target": "千里阳光号",
             "value": 3
         },
         {
@@ -5427,7 +5427,7 @@
         {
             "relation": "到过",
             "source": "冰山",
-            "target": "Water Seven",
+            "target": "七水之都",
             "value": 3
         },
         {
@@ -5463,13 +5463,13 @@
         {
             "relation": "遇见",
             "source": "卡莉法",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "弗兰奇",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -5486,7 +5486,7 @@
         },
         {
             "relation": "到过",
-            "source": "罗宾",
+            "source": "妮可·罗宾",
             "target": "司法岛",
             "value": 3
         },
@@ -5559,7 +5559,7 @@
         {
             "relation": "建造",
             "source": "巴里",
-            "target": "千阳号",
+            "target": "千里阳光号",
             "value": 3
         },
         {
@@ -5595,7 +5595,7 @@
         {
             "relation": "出生地",
             "source": "巴里",
-            "target": "Water Seven",
+            "target": "七水之都",
             "value": 3
         },
         {
@@ -5631,7 +5631,7 @@
         {
             "relation": "遇见",
             "source": "罗布·路奇",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -5642,7 +5642,7 @@
         },
         {
             "relation": "到过",
-            "source": "罗宾",
+            "source": "妮可·罗宾",
             "target": "司法岛",
             "value": 3
         },
@@ -5655,7 +5655,7 @@
         {
             "relation": "遇见",
             "source": "弗兰奇",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -5673,7 +5673,7 @@
         {
             "relation": "战斗",
             "source": "罗布·路奇",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -5703,7 +5703,7 @@
         {
             "relation": "属于",
             "source": "罗布·路奇",
-            "target": "1号船坞",
+            "target": "卡雷拉公司一号船坞",
             "value": 3
         },
         {
@@ -5763,13 +5763,13 @@
         {
             "relation": "建造",
             "source": "毕普利·露露",
-            "target": "桑尼号",
+            "target": "千里阳光号",
             "value": 3
         },
         {
             "relation": "属于",
             "source": "毕普利·露露",
-            "target": "1号船坞",
+            "target": "卡雷拉公司一号船坞",
             "value": 3
         },
         {
@@ -5865,7 +5865,7 @@
         {
             "relation": "建造",
             "source": "泰尔斯通",
-            "target": "桑尼号",
+            "target": "千里阳光号",
             "value": 3
         },
         {
@@ -5889,7 +5889,7 @@
         {
             "relation": "属于",
             "source": "泰尔斯通",
-            "target": "1号船坞",
+            "target": "卡雷拉公司一号船坞",
             "value": 3
         },
         {
@@ -5931,13 +5931,13 @@
         {
             "relation": "遇见",
             "source": "布鲁诺",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "弗兰奇",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -5954,20 +5954,20 @@
         },
         {
             "relation": "到过",
-            "source": "罗宾",
+            "source": "妮可·罗宾",
             "target": "司法岛",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "布鲁诺",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "布鲁诺",
-            "target": "路奇",
+            "target": "罗布·路奇",
             "value": 3
         },
         {
@@ -5991,7 +5991,7 @@
         {
             "relation": "领导",
             "source": "布鲁诺",
-            "target": "Water 7的酒吧",
+            "target": "W7的酒馆",
             "value": 3
         },
         {
@@ -6039,13 +6039,13 @@
         {
             "relation": "部下",
             "source": "斯潘达姆",
-            "target": "路奇",
+            "target": "罗布·路奇",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "杰利",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -6087,7 +6087,7 @@
         {
             "relation": "到过",
             "source": "T骨",
-            "target": "玛丽乔亚",
+            "target": "圣地玛丽乔亚",
             "value": 3
         },
         {
@@ -6099,7 +6099,7 @@
         {
             "relation": "遇见",
             "source": "T骨",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -6135,7 +6135,7 @@
         {
             "relation": "遇见",
             "source": "旺泽",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -6165,7 +6165,7 @@
         {
             "relation": "战斗",
             "source": "内罗",
-            "target": "路奇",
+            "target": "罗布·路奇",
             "value": 3
         },
         {
@@ -6279,7 +6279,7 @@
         {
             "relation": "战斗",
             "source": "偎取",
-            "target": "乔巴",
+            "target": "托尼托尼•乔巴",
             "value": 3
         },
         {
@@ -6297,7 +6297,7 @@
         {
             "relation": "到过",
             "source": "卡西",
-            "target": "Water Seven",
+            "target": "七水之都",
             "value": 3
         },
         {
@@ -6339,7 +6339,7 @@
         {
             "relation": "到过",
             "source": "欧伊莫",
-            "target": "Water Seven",
+            "target": "七水之都",
             "value": 3
         },
         {
@@ -6393,7 +6393,7 @@
         {
             "relation": "遇见",
             "source": "库洛巴",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -6417,7 +6417,7 @@
         {
             "relation": "遇见",
             "source": "哈格瓦尔•D•萨乌罗",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -6434,20 +6434,20 @@
         },
         {
             "relation": "到过",
-            "source": "罗宾",
+            "source": "妮可·罗宾",
             "target": "西海",
             "value": 3
         },
         {
             "relation": "到过",
-            "source": "罗宾",
+            "source": "妮可·罗宾",
             "target": "奥哈拉",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "哈格瓦尔•D•萨乌罗",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
@@ -6459,7 +6459,7 @@
         {
             "relation": "战斗",
             "source": "斯潘达因",
-            "target": "路奇",
+            "target": "罗布·路奇",
             "value": 3
         },
         {
@@ -6477,13 +6477,13 @@
         {
             "relation": "遇见",
             "source": "妮可•奥尔维亚",
-            "target": "罗宾",
+            "target": "妮可·罗宾",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "妮可•奥尔维亚",
-            "target": "萨龙",
+            "target": "哈格瓦尔•D•萨乌罗",
             "value": 3
         },
         {
@@ -6513,7 +6513,7 @@
         {
             "relation": "遇见",
             "source": "鼯鼠",
-            "target": "汉库克",
+            "target": "波雅•汉库克",
             "value": 3
         },
         {
@@ -6525,19 +6525,19 @@
         {
             "relation": "遇见",
             "source": "鼯鼠",
-            "target": "汉库克",
+            "target": "波雅•汉库克",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "鼯鼠",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "到过",
-            "source": "汉库克",
-            "target": "因佩尔大监狱",
+            "source": "波雅•汉库克",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -6579,7 +6579,7 @@
         {
             "relation": "遇见",
             "source": "蒙奇·D·卡普",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -6590,7 +6590,7 @@
         },
         {
             "relation": "遇见",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "达旦",
             "value": 3
         },
@@ -6621,7 +6621,7 @@
         {
             "relation": "遇见",
             "source": "蒙奇·D·卡普",
-            "target": "艾斯",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
@@ -6639,13 +6639,13 @@
         {
             "relation": "遇见",
             "source": "蒙奇·D·卡普",
-            "target": "罗杰",
+            "target": "哥尔·D·罗杰",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "蒙奇·D·卡普",
-            "target": "艾斯",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
@@ -6681,7 +6681,7 @@
         {
             "relation": "遇见",
             "source": "马尔科",
-            "target": "艾斯",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
@@ -6693,13 +6693,13 @@
         {
             "relation": "遇见",
             "source": "香克斯",
-            "target": "艾斯",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "白胡子",
-            "target": "艾斯",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
@@ -6710,14 +6710,14 @@
         },
         {
             "relation": "参与",
-            "source": "艾斯",
+            "source": "波特卡斯•D•艾斯",
             "target": "顶上战争",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "马尔科",
-            "target": "艾斯",
+            "target": "波特卡斯•D•艾斯",
             "value": 3
         },
         {
@@ -6771,7 +6771,7 @@
         {
             "relation": "战斗",
             "source": "蒙卡",
-            "target": "C·克洛",
+            "target": "克洛",
             "value": 3
         },
         {
@@ -6801,7 +6801,7 @@
         {
             "relation": "战斗",
             "source": "蒙奇·D·卡普",
-            "target": "西奇",
+            "target": "金狮子西奇",
             "value": 3
         },
         {
@@ -6831,12 +6831,12 @@
         {
             "relation": "遇见",
             "source": "霍古巴克",
-            "target": "辛朵莉",
+            "target": "维多利亚•辛朵莉",
             "value": 3
         },
         {
             "relation": "担任",
-            "source": "辛朵莉",
+            "source": "维多利亚•辛朵莉",
             "target": "僵尸",
             "value": 3
         },
@@ -6879,13 +6879,13 @@
         {
             "relation": "遇见",
             "source": "阿布萨罗姆",
-            "target": "莫利亚",
+            "target": "月光•莫利亚",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "霍古巴克",
-            "target": "莫利亚",
+            "target": "月光•莫利亚",
             "value": 3
         },
         {
@@ -6902,7 +6902,7 @@
         },
         {
             "relation": "部下",
-            "source": "莫利亚",
+            "source": "月光•莫利亚",
             "target": "阿布萨罗姆",
             "value": 3
         },
@@ -6920,7 +6920,7 @@
         },
         {
             "relation": "到过",
-            "source": "索隆",
+            "source": "罗罗诺亚·索隆",
             "target": "米霍克的城堡",
             "value": 3
         },
@@ -6933,13 +6933,13 @@
         {
             "relation": "遇见",
             "source": "佩罗娜",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "佩罗娜",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -6957,7 +6957,7 @@
         {
             "relation": "遇见",
             "source": "佩罗娜",
-            "target": "莫利亚",
+            "target": "月光•莫利亚",
             "value": 3
         },
         {
@@ -6981,7 +6981,7 @@
         {
             "relation": "战斗",
             "source": "龙马",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
@@ -7005,7 +7005,7 @@
         {
             "relation": "遇见",
             "source": "龙马",
-            "target": "莫利亚",
+            "target": "月光•莫利亚",
             "value": 3
         },
         {
@@ -7017,7 +7017,7 @@
         {
             "relation": "到过",
             "source": "夏洛特•罗拉",
-            "target": "水之都",
+            "target": "七水之都",
             "value": 3
         },
         {
@@ -7059,13 +7059,13 @@
         {
             "relation": "遇见",
             "source": "治五郎",
-            "target": "索隆",
+            "target": "罗罗诺亚·索隆",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "治五郎",
-            "target": "莫利亚",
+            "target": "月光•莫利亚",
             "value": 3
         },
         {
@@ -7083,7 +7083,7 @@
         {
             "relation": "离开",
             "source": "月光•莫利亚",
-            "target": "七武海",
+            "target": "王下七武海",
             "value": 3
         },
         {
@@ -7119,7 +7119,7 @@
         {
             "relation": "遇见",
             "source": "夏洛特•罗拉",
-            "target": "莫利亚",
+            "target": "月光•莫利亚",
             "value": 3
         },
         {
@@ -7130,7 +7130,7 @@
         },
         {
             "relation": "到过",
-            "source": "莫利亚",
+            "source": "月光•莫利亚",
             "target": "恐怖三桅帆船",
             "value": 3
         },
@@ -7143,13 +7143,13 @@
         {
             "relation": "遇见",
             "source": "月光•莫利亚",
-            "target": "哥尔•D•罗杰",
+            "target": "哥尔·D·罗杰",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "奥兹",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -7166,7 +7166,7 @@
         },
         {
             "relation": "到过",
-            "source": "莫利亚",
+            "source": "月光•莫利亚",
             "target": "冰之国",
             "value": 3
         },
@@ -7197,7 +7197,7 @@
         {
             "relation": "遇见",
             "source": "奥兹",
-            "target": "莫利亚",
+            "target": "月光•莫利亚",
             "value": 3
         },
         {
@@ -7353,7 +7353,7 @@
         {
             "relation": "战斗",
             "source": "夏尔莉亚宫",
-            "target": "雷利",
+            "target": "西尔巴斯·雷利",
             "value": 3
         },
         {
@@ -7364,14 +7364,14 @@
         },
         {
             "relation": "担任",
-            "source": "大熊",
+            "source": "巴索罗缪•熊",
             "target": "奴隶",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "罗兹瓦德圣",
-            "target": "大熊",
+            "target": "巴索罗缪•熊",
             "value": 3
         },
         {
@@ -7395,19 +7395,19 @@
         {
             "relation": "遇见",
             "source": "夏琪（芍姨）",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "夏琪（芍姨）",
-            "target": "雷利",
+            "target": "西尔巴斯·雷利",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "路飞",
-            "target": "雷利",
+            "source": "蒙其·D·路飞",
+            "target": "西尔巴斯·雷利",
             "value": 3
         },
         {
@@ -7485,13 +7485,13 @@
         {
             "relation": "加入",
             "source": "卡彭·贝基",
-            "target": "Big Mom海贼团",
+            "target": "BIG MOM海贼团",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "乔艾莉·波妮",
-            "target": "圣地“玛丽乔亚”",
+            "target": "圣地玛丽乔亚",
             "value": 3
         },
         {
@@ -7503,7 +7503,7 @@
         {
             "relation": "战斗",
             "source": "乔艾莉·波妮",
-            "target": "黑胡子",
+            "target": "马歇尔·D·蒂奇",
             "value": 3
         },
         {
@@ -7514,7 +7514,7 @@
         },
         {
             "relation": "遇见",
-            "source": "黑胡子",
+            "source": "马歇尔·D·蒂奇",
             "target": "萨卡斯基",
             "value": 3
         },
@@ -7677,13 +7677,13 @@
         {
             "relation": "到过",
             "source": "打碟音·阿普",
-            "target": "香波地诸岛",
+            "target": "香波地群岛",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "打碟音·阿普",
-            "target": "黄猿",
+            "target": "波鲁萨利诺",
             "value": 3
         },
         {
@@ -7887,7 +7887,7 @@
         {
             "relation": "遇见",
             "source": "贝波",
-            "target": "罗",
+            "target": "特拉法尔加·罗",
             "value": 3
         },
         {
@@ -7904,13 +7904,13 @@
         },
         {
             "relation": "遇见",
-            "source": "罗",
+            "source": "特拉法尔加·罗",
             "target": "夏其",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "罗",
+            "source": "特拉法尔加·罗",
             "target": "佩金",
             "value": 3
         },
@@ -7935,13 +7935,13 @@
         {
             "relation": "到过",
             "source": "查尔罗斯圣",
-            "target": "圣地“玛丽乔亚”",
+            "target": "圣地玛丽乔亚",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "白星",
-            "target": "圣地“玛丽乔亚”",
+            "target": "圣地玛丽乔亚",
             "value": 3
         },
         {
@@ -7965,7 +7965,7 @@
         {
             "relation": "战斗",
             "source": "查尔罗斯圣",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -7982,7 +7982,7 @@
         },
         {
             "relation": "老师",
-            "source": "蒙奇·D·路飞",
+            "source": "蒙其·D·路飞",
             "target": "西尔巴斯·雷利",
             "value": 3
         },
@@ -8031,13 +8031,13 @@
         {
             "relation": "遇见",
             "source": "Dr.贝加庞克",
-            "target": "熊",
+            "target": "巴索罗缪•熊",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "和平主义者",
-            "target": "熊",
+            "target": "巴索罗缪•熊",
             "value": 3
         },
         {
@@ -8055,7 +8055,7 @@
         {
             "relation": "战斗",
             "source": "波鲁萨利诺",
-            "target": "雷利",
+            "target": "西尔巴斯·雷利",
             "value": 3
         },
         {
@@ -8066,7 +8066,7 @@
         },
         {
             "relation": "到过",
-            "source": "雷利",
+            "source": "西尔巴斯·雷利",
             "target": "香波地群岛",
             "value": 3
         },
@@ -8150,32 +8150,32 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "露斯卡伊那岛",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "玛格丽特",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "玛格丽特",
-            "target": "汉库克",
+            "target": "波雅•汉库克",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "路飞",
-            "target": "汉库克",
+            "source": "蒙其·D·路飞",
+            "target": "波雅•汉库克",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "玛格丽特",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -8186,14 +8186,14 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "香波地群岛",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "波雅•汉库克",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -8205,19 +8205,19 @@
         {
             "relation": "到过",
             "source": "波雅•汉库克",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "到过",
-            "source": "路飞",
-            "target": "因佩尔大监狱",
+            "source": "蒙其·D·路飞",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "波雅•汉库克",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -8228,7 +8228,7 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "女儿岛",
             "value": 3
         },
@@ -8271,13 +8271,13 @@
         {
             "relation": "遇见",
             "source": "哈格瓦尔•D•萨乌罗",
-            "target": "奥尔维压",
+            "target": "妮可•奥尔维亚",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "波雅•桑达索尼娅",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -8288,32 +8288,32 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "香波地群岛",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "波雅•桑达索尼娅",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "波雅•桑达索尼娅",
-            "target": "雷利",
+            "target": "西尔巴斯·雷利",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "波雅•桑达索尼娅",
-            "target": "雷利",
+            "target": "西尔巴斯·雷利",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "波雅•桑达索尼娅",
-            "target": "夏琪",
+            "target": "夏琪（芍姨）",
             "value": 3
         },
         {
@@ -8343,13 +8343,13 @@
         {
             "relation": "战斗",
             "source": "波雅•玛丽戈尔德",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "波雅•玛丽戈尔德",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
@@ -8360,44 +8360,44 @@
         },
         {
             "relation": "到过",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "香波地群岛",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "波雅•玛丽戈尔德",
-            "target": "雷利",
+            "target": "西尔巴斯·雷利",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "雷利",
-            "target": "夏琪",
+            "source": "西尔巴斯·雷利",
+            "target": "夏琪（芍姨）",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "雷利",
+            "source": "西尔巴斯·雷利",
             "target": "咋婆婆",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "夏琪",
+            "source": "夏琪（芍姨）",
             "target": "咋婆婆",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "波雅•玛丽戈尔德",
-            "target": "雷利",
+            "target": "西尔巴斯·雷利",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "波雅•玛丽戈尔德",
-            "target": "夏琪",
+            "target": "夏琪（芍姨）",
             "value": 3
         },
         {
@@ -8408,19 +8408,19 @@
         },
         {
             "relation": "遇见",
-            "source": "雷利",
-            "target": "夏琪",
+            "source": "西尔巴斯·雷利",
+            "target": "夏琪（芍姨）",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "雷利",
+            "source": "西尔巴斯·雷利",
             "target": "咋婆婆",
             "value": 3
         },
         {
             "relation": "遇见",
-            "source": "夏琪",
+            "source": "夏琪（芍姨）",
             "target": "咋婆婆",
             "value": 3
         },
@@ -8463,13 +8463,13 @@
         {
             "relation": "到过",
             "source": "哈雷达斯",
-            "target": "维萨利亚",
+            "target": "维沙利亚",
             "value": 3
         },
         {
             "relation": "出生地",
             "source": "哈雷达斯",
-            "target": "空岛比尔卡",
+            "target": "毕尔卡",
             "value": 3
         },
         {
@@ -8535,25 +8535,25 @@
         {
             "relation": "到过",
             "source": "汉尼拔",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "战斗",
             "source": "汉尼拔",
-            "target": "黑胡子",
+            "target": "马歇尔·D·蒂奇",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "汉尼拔",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "汉尼拔",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -8589,25 +8589,25 @@
         {
             "relation": "到过",
             "source": "麦哲伦",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "金狮子西奇",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "战斗",
-            "source": "伊万科夫",
+            "source": "安布里奥•伊万科夫",
             "target": "蓝猩猩部队",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "萨鲁戴斯",
-            "target": "因佩尔当",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -8637,13 +8637,13 @@
         {
             "relation": "战斗",
             "source": "小萨蒂",
-            "target": "伊万科夫",
+            "target": "安布里奥•伊万科夫",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "小萨蒂",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -8655,7 +8655,7 @@
         {
             "relation": "遇见",
             "source": "闪电",
-            "target": "伊万科夫",
+            "target": "安布里奥•伊万科夫",
             "value": 3
         },
         {
@@ -8666,26 +8666,26 @@
         },
         {
             "relation": "参与",
-            "source": "路飞",
+            "source": "蒙其·D·路飞",
             "target": "顶上战争",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "闪电",
-            "target": "路飞",
+            "target": "蒙其·D·路飞",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "闪电",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "安布里奥•伊万科夫",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -8709,7 +8709,7 @@
         {
             "relation": "到过",
             "source": "安布里奥•伊万科夫",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -8721,7 +8721,7 @@
         {
             "relation": "到过",
             "source": "安布里奥•伊万科夫",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -8745,7 +8745,7 @@
         {
             "relation": "到过",
             "source": "希留",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -8877,19 +8877,19 @@
         {
             "relation": "到过",
             "source": "圣胡安•恶狼",
-            "target": "因佩尔监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "到过",
-            "source": "蒂奇",
-            "target": "因佩尔监狱",
+            "source": "马歇尔·D·蒂奇",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "圣胡安•恶狼",
-            "target": "蒂奇",
+            "target": "马歇尔·D·蒂奇",
             "value": 3
         },
         {
@@ -8907,7 +8907,7 @@
         {
             "relation": "到过",
             "source": "圣胡安•恶狼",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -8919,31 +8919,31 @@
         {
             "relation": "参与",
             "source": "小奥兹.Jr",
-            "target": "玛林福德顶上战争",
+            "target": "顶上战争",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "巴斯克•乔特",
-            "target": "因佩尔",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "到过",
-            "source": "蒂奇",
-            "target": "因佩尔",
+            "source": "马歇尔·D·蒂奇",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "巴斯克•乔特",
-            "target": "蒂奇",
+            "target": "马歇尔·D·蒂奇",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "巴斯克•乔特",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -8954,20 +8954,20 @@
         },
         {
             "relation": "到过",
-            "source": "蒂奇",
-            "target": "因佩尔",
+            "source": "马歇尔·D·蒂奇",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "卡特琳娜•戴彭",
-            "target": "因佩尔",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "卡特琳娜•戴彭",
-            "target": "蒂奇",
+            "target": "马歇尔·D·蒂奇",
             "value": 3
         },
         {
@@ -8979,7 +8979,7 @@
         {
             "relation": "到过",
             "source": "卡特琳娜•戴彭",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -8990,20 +8990,20 @@
         },
         {
             "relation": "到过",
-            "source": "蒂奇",
-            "target": "因佩尔",
+            "source": "马歇尔·D·蒂奇",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "到过",
             "source": "阿巴罗•皮萨罗",
-            "target": "因佩尔",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "阿巴罗•皮萨罗",
-            "target": "蒂奇",
+            "target": "马歇尔·D·蒂奇",
             "value": 3
         },
         {
@@ -9015,7 +9015,7 @@
         {
             "relation": "到过",
             "source": "阿巴罗•皮萨罗",
-            "target": "因佩尔大监狱",
+            "target": "因佩尔当大监狱",
             "value": 3
         },
         {
@@ -9033,7 +9033,7 @@
         {
             "relation": "遇见",
             "source": "查多罗斯•希格利格斯",
-            "target": "罗",
+            "target": "特拉法尔加·罗",
             "value": 3
         },
         {
@@ -9089,7 +9089,7 @@
         {
             "class": "人",
             "group": "0",
-            "id": "C·克洛",
+            "id": "克洛",
             "size": "8"
         },
         {
@@ -9113,25 +9113,19 @@
         {
             "class": "人",
             "group": "0",
-            "id": "Miss.黄金周",
+            "id": "玛莉安（Miss.黄金周）",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
-            "id": "Miss黄金周",
+            "id": "本萨姆（Mr.2·冯·克雷）",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
-            "id": "Mr. 2",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "Mr. 3",
+            "id": "加尔帝诺（Mr.3）",
             "size": "8"
         },
         {
@@ -9185,7 +9179,7 @@
         {
             "class": "人",
             "group": "0",
-            "id": "乔巴",
+            "id": "托尼托尼•乔巴",
             "size": "8"
         },
         {
@@ -9221,19 +9215,13 @@
         {
             "class": "人",
             "group": "0",
-            "id": "人妖王伊万科夫",
+            "id": "安布里奥•伊万科夫",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
             "id": "人猿",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "伊万科夫",
             "size": "8"
         },
         {
@@ -9305,12 +9293,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "克洛",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "克洛克达尔",
             "size": "8"
         },
@@ -9365,19 +9347,13 @@
         {
             "class": "人",
             "group": "0",
-            "id": "利基",
+            "id": "摩奇&利基",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
             "id": "加卡",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "加尔帝诺（Mr.3）",
             "size": "8"
         },
         {
@@ -9419,7 +9395,7 @@
         {
             "class": "人",
             "group": "0",
-            "id": "卡普",
+            "id": "蒙奇·D·卡普",
             "size": "8"
         },
         {
@@ -9515,12 +9491,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "哥尔•D•罗杰",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "哲夫",
             "size": "8"
         },
@@ -9581,12 +9551,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "夏琪",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "夏琪（芍姨）",
             "size": "8"
         },
@@ -9599,25 +9563,19 @@
         {
             "class": "人",
             "group": "0",
-            "id": "多弗朗明戈",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "多萝菲（Miss.圣诞快乐）",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
-            "id": "大熊",
+            "id": "巴索罗缪•熊",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
-            "id": "大话王诺兰度",
+            "id": "蒙布朗·诺兰度",
             "size": "8"
         },
         {
@@ -9641,19 +9599,13 @@
         {
             "class": "人",
             "group": "0",
-            "id": "奥尔维压",
+            "id": "妮可•奥尔维亚",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
             "id": "妮可·罗宾",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "妮可•奥尔维亚",
             "size": "8"
         },
         {
@@ -9666,24 +9618,6 @@
             "class": "人",
             "group": "0",
             "id": "宇宙小姐",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "安布里奥•伊万科夫",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "寇布拉",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "寇布拉•薇薇",
             "size": "8"
         },
         {
@@ -9767,12 +9701,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "巴索罗缪•熊",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "巴里",
             "size": "8"
         },
@@ -9845,7 +9773,7 @@
         {
             "class": "人",
             "group": "0",
-            "id": "库利凯",
+            "id": "蒙布朗·库利凯",
             "size": "8"
         },
         {
@@ -9923,18 +9851,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "托尼托尼·乔巴",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "托尼托尼•乔巴",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "拉基·路",
             "size": "8"
         },
@@ -9966,12 +9882,6 @@
             "class": "人",
             "group": "0",
             "id": "摩兹",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "摩奇&利基",
             "size": "8"
         },
         {
@@ -10014,12 +9924,6 @@
             "class": "人",
             "group": "0",
             "id": "本·贝克曼",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "本萨姆（Mr.2·冯·克雷）",
             "size": "8"
         },
         {
@@ -10127,7 +10031,7 @@
         {
             "class": "人",
             "group": "0",
-            "id": "汉库克",
+            "id": "波雅•汉库克",
             "size": "8"
         },
         {
@@ -10152,12 +10056,6 @@
             "class": "人",
             "group": "0",
             "id": "波雅•桑达索尼娅",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "波雅•汉库克",
             "size": "8"
         },
         {
@@ -10205,12 +10103,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "熊",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "爱德华•纽盖特",
             "size": "8"
         },
@@ -10253,12 +10145,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "玛莉安（Miss.黄金周）",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "瓦夷帕",
             "size": "8"
         },
@@ -10272,12 +10158,6 @@
             "class": "人",
             "group": "0",
             "id": "甘·福尔",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "甘•福尔",
             "size": "8"
         },
         {
@@ -10331,13 +10211,7 @@
         {
             "class": "人",
             "group": "0",
-            "id": "米霍克",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "索隆",
+            "id": "罗罗诺亚·索隆",
             "size": "8"
         },
         {
@@ -10350,12 +10224,6 @@
             "class": "人",
             "group": "0",
             "id": "约瑟夫",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "纽盖特",
             "size": "8"
         },
         {
@@ -10379,43 +10247,13 @@
         {
             "class": "人",
             "group": "0",
-            "id": "罗",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "罗兰度",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "罗兹瓦德圣",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
-            "id": "罗宾",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "罗布·路奇",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "罗杰",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "罗罗诺亚·索隆",
             "size": "8"
         },
         {
@@ -10451,12 +10289,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "艾斯",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "芬布迪",
             "size": "8"
         },
@@ -10476,18 +10308,6 @@
             "class": "人",
             "group": "0",
             "id": "莎德利",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "莫利亚",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "萨乌罗",
             "size": "8"
         },
         {
@@ -10529,19 +10349,13 @@
         {
             "class": "人",
             "group": "0",
-            "id": "萨龙",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "葛达茨",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
-            "id": "蒂奇",
+            "id": "马歇尔·D·蒂奇",
             "size": "8"
         },
         {
@@ -10565,55 +10379,13 @@
         {
             "class": "人",
             "group": "0",
-            "id": "蒙奇·D·卡普",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "蒙奇·D·路飞",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "蒙奇•D•龙",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
-            "id": "蒙布朗·库利凯",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "蒙布朗·诺兰度",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "蒙布朗•罗兰度",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "薇薇",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "西奇",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "西尔尔克",
+            "id": "金狮子西奇",
             "size": "8"
         },
         {
@@ -10626,12 +10398,6 @@
             "class": "人",
             "group": "0",
             "id": "西格",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "诺兰度",
             "size": "8"
         },
         {
@@ -10709,30 +10475,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "路奇",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "路飞",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "辛朵莉",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "达兹",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "达兹·波尼斯 (Mr.1)",
             "size": "8"
         },
@@ -10758,12 +10500,6 @@
             "class": "人",
             "group": "0",
             "id": "酋长",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "金狮子西奇",
             "size": "8"
         },
         {
@@ -10824,12 +10560,6 @@
             "class": "人",
             "group": "0",
             "id": "雪莉",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "雷利",
             "size": "8"
         },
         {
@@ -10901,12 +10631,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "马歇尔·D·蒂奇",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "鹤",
             "size": "8"
         },
@@ -10914,18 +10638,6 @@
             "class": "人",
             "group": "0",
             "id": "麦哲伦",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "黄猿",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "黑胡子",
             "size": "8"
         },
         {
@@ -10961,25 +10673,13 @@
         {
             "class": "地点",
             "group": "1",
-            "id": "Water 7",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "Water Seven",
+            "id": "七水之都",
             "size": "16"
         },
         {
             "class": "地点",
             "group": "1",
             "id": "“北海”诺提斯",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "七水之都",
             "size": "16"
         },
         {
@@ -11057,7 +10757,7 @@
         {
             "class": "地点",
             "group": "1",
-            "id": "古代都市“毕尔卡”",
+            "id": "毕尔卡",
             "size": "16"
         },
         {
@@ -11087,37 +10787,7 @@
         {
             "class": "地点",
             "group": "1",
-            "id": "因佩尔",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "因佩尔大监狱",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "因佩尔当",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
             "id": "因佩尔当大监狱",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "因佩尔监狱",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "圣地“玛丽乔亚”",
             "size": "16"
         },
         {
@@ -11183,12 +10853,6 @@
         {
             "class": "地点",
             "group": "1",
-            "id": "巴拉蒂",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
             "id": "巴拉蒂餐厅",
             "size": "16"
         },
@@ -11220,12 +10884,6 @@
             "class": "地点",
             "group": "1",
             "id": "恐怖三桅帆船",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "恶龙乐园",
             "size": "16"
         },
         {
@@ -11267,7 +10925,7 @@
         {
             "class": "地点",
             "group": "1",
-            "id": "旧磁鼓王国",
+            "id": "磁鼓岛",
             "size": "16"
         },
         {
@@ -11291,18 +10949,6 @@
         {
             "class": "地点",
             "group": "1",
-            "id": "毕尔卡",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "水之都",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
             "id": "波音列岛",
             "size": "16"
         },
@@ -11315,31 +10961,13 @@
         {
             "class": "地点",
             "group": "1",
-            "id": "海军派出所",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
             "id": "犹巴",
             "size": "16"
         },
         {
             "class": "地点",
             "group": "1",
-            "id": "玛丽乔亚",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
             "id": "玻璃球岛",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "磁鼓岛",
             "size": "16"
         },
         {
@@ -11364,12 +10992,6 @@
             "class": "地点",
             "group": "1",
             "id": "空岛",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "空岛比尔卡",
             "size": "16"
         },
         {
@@ -11405,12 +11027,6 @@
         {
             "class": "地点",
             "group": "1",
-            "id": "维萨利亚",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
             "id": "罗格镇",
             "size": "16"
         },
@@ -11418,12 +11034,6 @@
             "class": "地点",
             "group": "1",
             "id": "艾尔巴夫",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "芭拉蒂总店",
             "size": "16"
         },
         {
@@ -11448,12 +11058,6 @@
             "class": "地点",
             "group": "1",
             "id": "铃后",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "镜球岛",
             "size": "16"
         },
         {
@@ -11502,12 +11106,6 @@
             "class": "地点",
             "group": "1",
             "id": "香波地群岛",
-            "size": "16"
-        },
-        {
-            "class": "地点",
-            "group": "1",
-            "id": "香波地诸岛",
             "size": "16"
         },
         {
@@ -11627,7 +11225,7 @@
         {
             "class": "组织",
             "group": "3",
-            "id": "1号船坞",
+            "id": "卡雷拉公司一号船坞",
             "size": "10"
         },
         {
@@ -11651,13 +11249,7 @@
         {
             "class": "组织",
             "group": "3",
-            "id": "BW",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
-            "id": "Big Mom海贼团",
+            "id": "巴洛克工作室",
             "size": "10"
         },
         {
@@ -11711,12 +11303,6 @@
         {
             "class": "组织",
             "group": "3",
-            "id": "Water 7的酒吧",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
             "id": "“西海”的地下社会",
             "size": "10"
         },
@@ -11735,7 +11321,7 @@
         {
             "class": "组织",
             "group": "3",
-            "id": "七武海",
+            "id": "王下七武海",
             "size": "10"
         },
         {
@@ -11831,19 +11417,7 @@
         {
             "class": "组织",
             "group": "3",
-            "id": "南瓜咖啡店",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
             "id": "卡雷拉公司",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
-            "id": "卡雷拉公司一号船坞",
             "size": "10"
         },
         {
@@ -11856,12 +11430,6 @@
             "class": "组织",
             "group": "3",
             "id": "反叛军",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
-            "id": "叛乱军",
             "size": "10"
         },
         {
@@ -11909,19 +11477,7 @@
         {
             "class": "组织",
             "group": "3",
-            "id": "多弗朗明哥旗下",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
             "id": "多弗朗明戈旗下",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
-            "id": "大意温泉",
             "size": "10"
         },
         {
@@ -11981,18 +11537,6 @@
         {
             "class": "组织",
             "group": "3",
-            "id": "巴洛克工作室",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
-            "id": "巴洛克工作社",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
             "id": "广播海贼团",
             "size": "10"
         },
@@ -12029,24 +11573,6 @@
         {
             "class": "组织",
             "group": "3",
-            "id": "恶龙手下",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
-            "id": "恶龙派阀",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
-            "id": "恶龙麾下",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
             "id": "护卫战团",
             "size": "10"
         },
@@ -12066,12 +11592,6 @@
             "class": "组织",
             "group": "3",
             "id": "新蜘蛛人咖啡厅",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
-            "id": "新蜘蛛人咖啡店",
             "size": "10"
         },
         {
@@ -12132,12 +11652,6 @@
             "class": "组织",
             "group": "3",
             "id": "火焰坦克海贼团",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
-            "id": "王下七武海",
             "size": "10"
         },
         {
@@ -12317,12 +11831,6 @@
         {
             "class": "组织",
             "group": "3",
-            "id": "路飞一伙",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
             "id": "达旦一家",
             "size": "10"
         },
@@ -12366,12 +11874,6 @@
             "class": "组织",
             "group": "3",
             "id": "香狄亚",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
-            "id": "香迪亚",
             "size": "10"
         },
         {
@@ -12467,12 +11969,6 @@
         {
             "class": "船只",
             "group": "4",
-            "id": "千阳号",
-            "size": "5"
-        },
-        {
-            "class": "船只",
-            "group": "4",
             "id": "奥尔•杰克逊号",
             "size": "5"
         },
@@ -12486,18 +11982,6 @@
             "class": "船只",
             "group": "4",
             "id": "方舟箴言",
-            "size": "5"
-        },
-        {
-            "class": "船只",
-            "group": "4",
-            "id": "桑尼号",
-            "size": "5"
-        },
-        {
-            "class": "船只",
-            "group": "4",
-            "id": "梅里号",
             "size": "5"
         },
         {
@@ -13187,12 +12671,6 @@
         {
             "class": "事件",
             "group": "6",
-            "id": "“神域岛”上的淘汰战",
-            "size": "20"
-        },
-        {
-            "class": "事件",
-            "group": "6",
             "id": "世界会议",
             "size": "20"
         },
@@ -13206,12 +12684,6 @@
             "class": "事件",
             "group": "6",
             "id": "巴纳罗岛的决斗",
-            "size": "20"
-        },
-        {
-            "class": "事件",
-            "group": "6",
-            "id": "巴那罗岛的决斗",
             "size": "20"
         },
         {
@@ -13241,43 +12713,13 @@
         {
             "class": "事件",
             "group": "6",
-            "id": "玛林福德顶上战争",
-            "size": "20"
-        },
-        {
-            "class": "事件",
-            "group": "6",
-            "id": "生存淘汰赛",
+            "id": "顶上战争",
             "size": "20"
         },
         {
             "class": "事件",
             "group": "6",
             "id": "舞蹈大赛",
-            "size": "20"
-        },
-        {
-            "class": "事件",
-            "group": "6",
-            "id": "舞蹈竞赛",
-            "size": "20"
-        },
-        {
-            "class": "事件",
-            "group": "6",
-            "id": "艾特·沃尔海战",
-            "size": "20"
-        },
-        {
-            "class": "事件",
-            "group": "6",
-            "id": "艾特•沃尔海战",
-            "size": "20"
-        },
-        {
-            "class": "事件",
-            "group": "6",
-            "id": "顶上战争",
             "size": "20"
         }
     ]

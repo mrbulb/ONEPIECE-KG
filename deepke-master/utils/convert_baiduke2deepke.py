@@ -16,12 +16,12 @@
 import os
 from tqdm import tqdm
 
-root = '/home/zenghao/ZJU_study/Knowledge_Graph/baidu_ke'
+root = '~/ZJU_study/Knowledge_Graph/baidu_ke'
 train_file  = os.path.join(root, 'train_data.json')
 dev_file    = os.path.join(root, 'dev_data.json')
 schema_file = os.path.join(root, 'all_50_schemas')
 
-output_root = '/home/zenghao/ZJU_study/Knowledge_Graph/deepke/data/baidu_ke/origin'
+output_root = '~/ZJU_study/Knowledge_Graph/deepke/data/baidu_ke/origin'
 output_train_file    = os.path.join(output_root, 'train.csv')
 output_valid_file    = os.path.join(output_root, 'valid.csv')
 output_test_file     = os.path.join(output_root, 'test.csv')
