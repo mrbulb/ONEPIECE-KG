@@ -193,6 +193,7 @@ $(document).ready(function() {
 
     var names = ['人', '地点', '恶魔果实', '组织', '船只', '职务', '事件']
     var colors = ['#6ca46c', '#4e88af', '#ca635f', '#d2907c', '#d6744d', '#ded295', '#7481c3'];
+    var outlier_avatar_ID = ['0001', '0002', '0003', '0004', '0005', '0006', '0007', '0008', '0009', '0177', '0377', '0378', '0659'];
 
     for (var i = 0; i < names.length; i++) {
         // 选中indicator，每一种都append一个div，就是前面的小色块
@@ -387,6 +388,15 @@ $(document).ready(function() {
             // 去掉旧的<p></p>
             $('#info p').remove();
 
+            // 增加各个人物的头像
+            if (typeof(info[name]) != "undefined") {
+                avatar_ID = info[name]['ID'][0]
+                if(outlier_avatar_ID.indexOf(avatar_ID) != -1) {
+                    avatar_ID = avatar_ID + '0'
+                }
+                $('#info').append('<p>' + '<img src="http://one-piece.com/vivre/icon/' + avatar_ID + '.jpg" />' + '</p>');
+            }
+
             for (var key in info[name]) {
                 value = info[name][key];
 
@@ -498,6 +508,15 @@ $(document).ready(function() {
             $('#info h4').css('color', $(this).attr('fill')).text(name);
             // 去掉旧的<p></p>
             $('#info p').remove();
+
+            // 增加各个人物的头像
+            if (typeof(info[name]) != "undefined") {
+                avatar_ID = info[name]['ID'][0]
+                if(outlier_avatar_ID.indexOf(avatar_ID) != -1) {
+                    avatar_ID = avatar_ID + '0'
+                }
+                $('#info').append('<p>' + '<img src="http://one-piece.com/vivre/icon/' + avatar_ID + '.jpg" />' + '</p>');
+            }
 
             for (var key in info[name]) {
                 value = info[name][key];
