@@ -991,12 +991,6 @@
             "value": 3
         },
         {
-            "relation": "属于",
-            "source": "西格",
-            "target": "山贼",
-            "value": 3
-        },
-        {
             "relation": "参与",
             "source": "克比",
             "target": "顶上战争",
@@ -6585,13 +6579,13 @@
         {
             "relation": "遇见",
             "source": "蒙奇·D·卡普",
-            "target": "达旦",
+            "target": "卡利•达旦",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "蒙其·D·路飞",
-            "target": "达旦",
+            "target": "卡利•达旦",
             "value": 3
         },
         {
@@ -6633,7 +6627,7 @@
         {
             "relation": "遇见",
             "source": "蒙奇·D·卡普",
-            "target": "达旦",
+            "target": "卡利•达旦",
             "value": 3
         },
         {
@@ -7539,19 +7533,19 @@
         {
             "relation": "同盟",
             "source": "巴吉尔·霍金斯",
-            "target": "基德",
+            "target": "尤斯塔斯·基德",
             "value": 3
         },
         {
             "relation": "同盟",
-            "source": "基德",
-            "target": "阿普",
+            "source": "尤斯塔斯·基德",
+            "target": "打碟音·阿普",
             "value": 3
         },
         {
             "relation": "同盟",
             "source": "巴吉尔·霍金斯",
-            "target": "阿普",
+            "target": "打碟音·阿普",
             "value": 3
         },
         {
@@ -7599,19 +7593,19 @@
         {
             "relation": "同盟",
             "source": "尤斯塔斯·基德",
-            "target": "阿普",
+            "target": "打碟音·阿普",
             "value": 3
         },
         {
             "relation": "同盟",
             "source": "尤斯塔斯·基德",
-            "target": "霍金斯",
+            "target": "巴吉尔·霍金斯",
             "value": 3
         },
         {
             "relation": "同盟",
-            "source": "阿普",
-            "target": "霍金斯",
+            "source": "打碟音·阿普",
+            "target": "巴吉尔·霍金斯",
             "value": 3
         },
         {
@@ -7653,19 +7647,19 @@
         {
             "relation": "同盟",
             "source": "打碟音·阿普",
-            "target": "基德",
+            "target": "尤斯塔斯·基德",
             "value": 3
         },
         {
             "relation": "同盟",
-            "source": "基德",
-            "target": "霍金斯",
+            "source": "尤斯塔斯·基德",
+            "target": "巴吉尔·霍金斯",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "打碟音·阿普",
-            "target": "霍金斯",
+            "target": "巴吉尔·霍金斯",
             "value": 3
         },
         {
@@ -7797,7 +7791,7 @@
         {
             "relation": "遇见",
             "source": "基拉",
-            "target": "基德",
+            "target": "尤斯塔斯·基德",
             "value": 3
         },
         {
@@ -8319,7 +8313,7 @@
         {
             "relation": "遇见",
             "source": "波雅•桑达索尼娅",
-            "target": "咋婆婆",
+            "target": "古罗丽奥萨（咋婆婆）",
             "value": 3
         },
         {
@@ -8379,13 +8373,13 @@
         {
             "relation": "遇见",
             "source": "西尔巴斯·雷利",
-            "target": "咋婆婆",
+            "target": "古罗丽奥萨（咋婆婆）",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "夏琪（芍姨）",
-            "target": "咋婆婆",
+            "target": "古罗丽奥萨（咋婆婆）",
             "value": 3
         },
         {
@@ -8403,7 +8397,7 @@
         {
             "relation": "遇见",
             "source": "波雅•玛丽戈尔德",
-            "target": "咋婆婆",
+            "target": "古罗丽奥萨（咋婆婆）",
             "value": 3
         },
         {
@@ -8415,13 +8409,13 @@
         {
             "relation": "遇见",
             "source": "西尔巴斯·雷利",
-            "target": "咋婆婆",
+            "target": "古罗丽奥萨（咋婆婆）",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "夏琪（芍姨）",
-            "target": "咋婆婆",
+            "target": "古罗丽奥萨（咋婆婆）",
             "value": 3
         },
         {
@@ -9069,7 +9063,253 @@
         {
             "relation": "战斗",
             "source": "查多罗斯•希格利格斯",
-            "target": "霍金斯",
+            "target": "巴吉尔·霍金斯",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "卡利•达旦",
+            "target": "布鲁杰姆一伙",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "蒙其·D·路飞",
+            "target": "卡利•达旦",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "卡利•达旦",
+            "target": "蒙奇·D·卡普",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "卡利•达旦",
+            "target": "戈尔波山",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "卡利•达旦",
+            "target": "山贼",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "波特卡斯•D•艾斯",
+            "target": "卡利•达旦",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "萨波",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "蒙其·D·路飞",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "萨波",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "萨波",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "萨波",
+            "target": "烧烧果实",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "萨波",
+            "target": "世界会议",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "萨波",
+            "target": "哈克",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "萨波",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "萨波",
+            "target": "哥亚王国",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "萨波",
+            "target": "克尔拉",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "萨波",
+            "target": "波特卡斯•D•艾斯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "萨波",
+            "target": "革命军",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "伯尔杰米",
+            "target": "波特卡斯•D•艾斯",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "史提利",
+            "target": "世界会议",
+            "value": 3
+        },
+        {
+            "relation": "兄弟",
+            "source": "萨波",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "兄弟",
+            "source": "萨波",
+            "target": "波特卡斯•D•艾斯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙其·D·路飞",
+            "target": "波特卡斯•D•艾斯",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "伯尔杰米",
+            "target": "萨波",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "伯尔杰米",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "伯尔杰米",
+            "target": "布尔杰姆",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "布尔杰姆",
+            "target": "哥亚国国王",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "布尔杰姆",
+            "target": "哥亚国国王",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "布尔杰姆",
+            "target": "伯尔杰米",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "布尔杰姆",
+            "target": "萨波父亲",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "布尔杰姆",
+            "target": "萨波",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "布尔杰姆",
+            "target": "波特卡斯•D•艾斯",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "布尔杰姆",
+            "target": "卡利•达旦",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "波特卡斯•D•艾斯",
+            "target": "卡利•达旦",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "史提利",
+            "target": "国王",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "史提利",
+            "target": "萨波",
+            "value": 3
+        },
+        {
+            "relation": "夫妻",
+            "source": "史提利",
+            "target": "哥亚王国的公主",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "史提利",
+            "target": "哥亚王国",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "史提利",
+            "target": "贵族家庭",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "史提利",
+            "target": "养子",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "西格",
+            "target": "山贼",
             "value": 3
         }
     ],
@@ -9239,6 +9479,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "伯尔杰米",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "佩罗娜",
             "size": "8"
         },
@@ -9270,6 +9516,12 @@
             "class": "人",
             "group": "0",
             "id": "克利克",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "克尔拉",
             "size": "8"
         },
         {
@@ -9365,6 +9617,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "卡利•达旦",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "卡尔加拉",
             "size": "8"
         },
@@ -9449,19 +9707,31 @@
         {
             "class": "人",
             "group": "0",
+            "id": "史提利",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "吉萨斯·巴杰斯",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
-            "id": "咋婆婆",
+            "id": "古罗丽奥萨（咋婆婆）",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
             "id": "和平主义者",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "哈克",
             "size": "8"
         },
         {
@@ -9480,6 +9750,18 @@
             "class": "人",
             "group": "0",
             "id": "哞哞",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "哥亚国国王",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "哥亚王国的公主",
             "size": "8"
         },
         {
@@ -9515,7 +9797,7 @@
         {
             "class": "人",
             "group": "0",
-            "id": "基德",
+            "id": "尤斯塔斯·基德",
             "size": "8"
         },
         {
@@ -9647,12 +9929,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "尤斯塔斯·基德",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "山姆",
             "size": "8"
         },
@@ -9714,6 +9990,12 @@
             "class": "人",
             "group": "0",
             "id": "布奇",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "布尔杰姆",
             "size": "8"
         },
         {
@@ -10343,6 +10625,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "萨波父亲",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "萨鲁戴斯",
             "size": "8"
         },
@@ -10487,12 +10775,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "达旦",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "迪巴鲁",
             "size": "8"
         },
@@ -10524,12 +10806,6 @@
             "class": "人",
             "group": "0",
             "id": "阿布萨罗姆",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "阿普",
             "size": "8"
         },
         {
@@ -10578,12 +10854,6 @@
             "class": "人",
             "group": "0",
             "id": "霍托力",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "霍金斯",
             "size": "8"
         },
         {
@@ -10787,6 +11057,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "哥亚王国",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "因佩尔当大监狱",
             "size": "16"
         },
@@ -10890,6 +11166,12 @@
             "class": "地点",
             "group": "1",
             "id": "恶龙公园",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "戈尔波山",
             "size": "16"
         },
         {
@@ -11178,6 +11460,12 @@
             "class": "恶魔果实",
             "group": "2",
             "id": "滑滑果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
+            "id": "烧烧果实",
             "size": "5"
         },
         {
@@ -11513,12 +11801,6 @@
         {
             "class": "组织",
             "group": "3",
-            "id": "山贼",
-            "size": "10"
-        },
-        {
-            "class": "组织",
-            "group": "3",
             "id": "岛鲸群",
             "size": "10"
         },
@@ -11532,6 +11814,12 @@
             "class": "组织",
             "group": "3",
             "id": "巴基海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "布鲁杰姆一伙",
             "size": "10"
         },
         {
@@ -12083,6 +12371,12 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "养子",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "准将",
             "size": "6"
         },
@@ -12276,6 +12570,12 @@
             "class": "职务",
             "group": "5",
             "id": "少校",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "山贼",
             "size": "6"
         },
         {
