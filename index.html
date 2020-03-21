@@ -44,6 +44,16 @@ body {
     stroke-opacity: 0;
 }
 
+.linetexts {
+    fill-opacity: 0;
+    font-size: 8px ;
+    font-family: SimSun;
+    fill:#fff;
+}
+.linetexts.inactive {
+    display: none !important;
+}
+
 .nodes circle {
     stroke: #fff;
     stroke-width: 1.5px;        /*圆的描边宽度*/
@@ -240,6 +250,19 @@ $(document).ready(function() {
             return 1;
             });
 
+        //边上的文字（实体之间的关系） 
+        var linktext = svg.append('g')
+            .attr("class", "linetexts")
+            .selectAll("text")
+            .data(graph.links)
+            .enter()
+            .append("text")
+            .style("display","block")
+            .style("color","red")
+            .text(function(d){
+                return d.relation;
+            });
+
         // 添加所有的node
         var node = svg.append('g')
             .attr('class', 'nodes')
@@ -300,6 +323,7 @@ $(document).ready(function() {
             link.attr("transform", d3.event.transform);
             node.attr("transform", d3.event.transform);
             text.attr("transform", d3.event.transform);
+            linktext.attr('transform', d3.event.transform);
         }
 
         simulation
@@ -323,6 +347,9 @@ $(document).ready(function() {
                 .attr("y2", function(d) {
                     return d.target.y;
                 });
+
+            linktext.attr("dx",function(d){ return (d.source.x + d.target.x) / 2 ; });
+            linktext.attr("dy",function(d){ return (d.source.y + d.target.y) / 2 ; });
 
             node
                 .attr("cx", function(d) {
@@ -458,6 +485,15 @@ $(document).ready(function() {
                 }
             });
 
+            // 只显示之间相连的关系名
+            d3.select("#svg1 .linetexts").selectAll('text').attr('class', function(d) {
+                if (d.source.id == name || d.target.id == name) {
+                    d3.select(this).attr('fill-opacity', 1);
+                } else {
+                    d3.select(this).attr('fill-opacity', 0);
+                }
+            })
+
             // UPDATE: 对于text也同时隐藏
             d3.select('#svg1 .texts').selectAll('text').attr('class', function(d){
                 if (d.id == name) {
@@ -506,6 +542,7 @@ $(document).ready(function() {
             d3.select('#svg1 .texts').selectAll('text').attr('class', '');;
             d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');;
             d3.select('#svg1 .links').selectAll('line').attr('class', '');;
+            d3.select("#svg1 .linetexts").selectAll('text').attr('fill-opacity', 0);
         }
     });
 
@@ -575,6 +612,15 @@ $(document).ready(function() {
                 }
             });
 
+            // 只显示之间相连的关系名
+            d3.select("#svg1 .linetexts").selectAll('text').attr('class', function(d) {
+                if (d.source.id == name || d.target.id == name) {
+                    d3.select(this).attr('fill-opacity', 1);
+                } else {
+                    d3.select(this).attr('fill-opacity', 0);
+                }
+            })
+
             // UPDATE: 对于circle也同时隐藏
             d3.select('#svg1 .nodes').selectAll('circle').attr('class', function(d){
                 // 是目前悬浮的那个
@@ -625,6 +671,7 @@ $(document).ready(function() {
             d3.select('#svg1 .texts').selectAll('text').attr('class', '');;
             d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');;
             d3.select('#svg1 .links').selectAll('line').attr('class', '');;
+            d3.select("#svg1 .linetexts").selectAll('text').attr('fill-opacity', 0);
         }
     });
 
@@ -635,6 +682,7 @@ $(document).ready(function() {
             d3.select('#svg1 .texts').selectAll('text').attr('class', '');;
             d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');;
             d3.select('#svg1 .links').selectAll('line').attr('class', '');;
+            d3.select("#svg1 .linetexts").selectAll('text').attr('fill-opacity', 0);
         }
         else { // 筛选，判断这三个东西里的元素是否包含输入的东西
             var name = $(this).val();
@@ -655,6 +703,7 @@ $(document).ready(function() {
             d3.select("#svg1 .links").selectAll('line').attr('class', function(d) {
                 return 'inactive';
             });
+            d3.select("#svg1 .linetexts").selectAll('text').attr('fill-opacity', 0);
         }
     });
 
@@ -665,6 +714,7 @@ $(document).ready(function() {
            d3.select('#svg1 .texts').selectAll('text').attr('class', '');;
            d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');;
            d3.select('#svg1 .links').selectAll('line').attr('class', '');;
+           d3.select("#svg1 .linetexts").selectAll('text').attr('fill-opacity', 0);
        }
     })
     // 点击到搜索框外
@@ -673,6 +723,7 @@ $(document).ready(function() {
            d3.select('#svg1 .texts').selectAll('text').attr('class', '');;
            d3.select('#svg1 .nodes').selectAll('circle').attr('class', '');;
            d3.select('#svg1 .links').selectAll('line').attr('class', '');;
+           d3.select("#svg1 .linetexts").selectAll('text').attr('fill-opacity', 0);
        }
     })
 
