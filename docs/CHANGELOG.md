@@ -1,5 +1,15 @@
 ## Changelog
 
+### v1.2.2 (04/05/2020)
+
+**Improvements**
+
+- 增加了标注的实体关系数据，增加的数据包括：鱼人岛。
+
+**New Features**
+
+- 在可视化方面，增加了新的特性：当鼠标移动悬停到某个结点/文本的时候，会显示和相邻结点的关系(之前是只有连线表示)。([#3](https://github.com/mrbulb/ONEPIECE-KG/issues/3))
+
 ### v1.2.1 (03/12/2020)
 
 **Improvements**
