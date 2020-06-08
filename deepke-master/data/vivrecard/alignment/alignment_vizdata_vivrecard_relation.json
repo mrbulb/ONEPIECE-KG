@@ -1749,7 +1749,7 @@
         {
             "relation": "战斗",
             "source": "乔拉可尔·米霍克",
-            "target": "红发",
+            "target": "香克斯",
             "value": 3
         },
         {
@@ -7419,7 +7419,7 @@
         {
             "relation": "战斗",
             "source": "卡彭·贝基",
-            "target": "Big Mom",
+            "target": "夏洛特•玲玲",
             "value": 3
         },
         {
@@ -7437,13 +7437,13 @@
         {
             "relation": "夫妻",
             "source": "卡彭·贝基",
-            "target": "戚风",
+            "target": "夏洛特·戚风",
             "value": 3
         },
         {
             "relation": "母亲",
             "source": "贝茨",
-            "target": "戚风",
+            "target": "夏洛特·戚风",
             "value": 3
         },
         {
@@ -10201,12 +10201,6 @@
             "value": 3
         },
         {
-            "relation": "夫妻",
-            "source": "阿拉丁",
-            "target": "夏洛特·普拉琳",
-            "value": 3
-        },
-        {
             "relation": "属于",
             "source": "阿拉丁",
             "target": "太阳海贼团",
@@ -10551,7 +10545,7 @@
         {
             "relation": "遇见",
             "source": "凯撒•库朗",
-            "target": "多弗拉明戈",
+            "target": "唐吉诃德•多弗朗明哥",
             "value": 3
         },
         {
@@ -10563,19 +10557,19 @@
         {
             "relation": "遇见",
             "source": "凯撒•库朗",
-            "target": "伽治",
+            "target": "文斯莫克·伽治",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "Dr.贝加庞克",
-            "target": "伽治",
+            "target": "文斯莫克·伽治",
             "value": 3
         },
         {
             "relation": "遇见",
             "source": "凯撒•库朗",
-            "target": "Big Mom",
+            "target": "夏洛特•玲玲",
             "value": 3
         },
         {
@@ -12773,6 +12767,2046 @@
             "source": "迪亚曼蒂",
             "target": "蕾贝卡",
             "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "爱德华•威布尔",
+            "target": "A•O海贼团",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "爱德华•威布尔",
+            "target": "王下七武海",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "巴金",
+            "target": "爱德华•纽盖特",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "爱德华•威布尔",
+            "target": "巴金",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "象主",
+            "target": "杰克的舰队",
+            "value": 3
+        },
+        {
+            "relation": "部下",
+            "source": "光月桃之助",
+            "target": "象主",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "蒙其·D·路飞",
+            "target": "毛茸茸公国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "旺达",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "旺达",
+            "target": "娜美",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "旺达",
+            "target": "杰克",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "旺达",
+            "target": "火枪队",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "旺达",
+            "target": "王之鸟",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "加洛特",
+            "target": "月亮狮子",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "加洛特",
+            "target": "大福舰队",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "加洛特",
+            "target": "夏洛特•布蕾",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "托尼托尼•乔巴",
+            "target": "夏洛特•布蕾",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "加洛特",
+            "target": "托尼托尼•乔巴",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "加洛特",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "蒙其·D·路飞",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "加洛特",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "杰克",
+            "target": "佐乌",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "加洛特",
+            "target": "杰克",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "加洛特",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "加洛特",
+            "target": "佐乌",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "加洛特",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "蒙其·D·路飞",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "加洛特",
+            "target": "火枪队",
+            "value": 3
+        },
+        {
+            "relation": "老师",
+            "source": "加洛特",
+            "target": "佩德罗",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "杰克",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "杰克",
+            "target": "佐乌",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "杰克",
+            "target": "海军舰队",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "杰克",
+            "target": "德雷斯罗萨近海",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "杰克",
+            "target": "佐乌",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "杰克",
+            "target": "克劳都",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "杰克",
+            "target": "百兽海贼团",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "杰克",
+            "target": "大看版",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "西普斯海德",
+            "target": "杰克",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "西普斯海德",
+            "target": "佐乌",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "西普斯海德",
+            "target": "克劳都",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "杰克",
+            "target": "佐乌",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "杰克",
+            "target": "克劳都",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "西普斯海德",
+            "target": "佐乌",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "西普斯海德",
+            "target": "佐乌",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "山治",
+            "target": "佐乌",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "西普斯海德",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "西西里安",
+            "target": "杰克",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "西西里安",
+            "target": "犬岚",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "西西里安",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "犬岚",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "西西里安",
+            "target": "火枪队",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "西西里安",
+            "target": "火枪队",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "西西里安",
+            "target": "队长",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "犬岚",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "犬岚",
+            "target": "杰克",
+            "value": 3
+        },
+        {
+            "relation": "部下",
+            "source": "光月御田",
+            "target": "犬岚",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "犬岚",
+            "target": "家臣",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "犬岚",
+            "target": "白胡子海贼团",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "犬岚",
+            "target": "罗杰海贼团",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "犬岚",
+            "target": "白昼之王",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "犬岚",
+            "target": "毛茸茸公国",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "乔凡尼",
+            "target": "杰克",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "犬岚",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "乔凡尼",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "乔凡尼",
+            "target": "火枪队",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "西西里安",
+            "target": "犬岚三枪手",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "乔凡尼",
+            "target": "犬岚三枪手",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "康斯洛特",
+            "target": "杰克",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "康斯洛特",
+            "target": "犬岚",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "犬岚",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "康斯洛特",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "康斯洛特",
+            "target": "火枪队",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "康斯洛特",
+            "target": "犬岚三枪手",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "猫蝮蛇",
+            "target": "杰克",
+            "value": 3
+        },
+        {
+            "relation": "出生地",
+            "source": "爱德华•纽盖特",
+            "target": "斯芬克斯",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "猫蝮蛇",
+            "target": "斯芬克斯",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "马尔科",
+            "target": "斯芬克斯",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "猫蝮蛇",
+            "target": "家臣",
+            "value": 3
+        },
+        {
+            "relation": "部下",
+            "source": "光月御田",
+            "target": "猫蝮蛇",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "Dr.贝加庞克",
+            "target": "海军伟大航路第5支部",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "猫蝮蛇",
+            "target": "罗杰海贼团",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "猫蝮蛇",
+            "target": "白胡子海贼团",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "猫蝮蛇",
+            "target": "毛茸茸公国",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "猫蝮蛇",
+            "target": "黑夜之王",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "猫蝮蛇",
+            "target": "毛茸茸公国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "犬岚",
+            "target": "毛茸茸公国",
+            "value": 3
+        },
+        {
+            "relation": "同盟",
+            "source": "维特",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "维特",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "维特",
+            "target": "BIG MOM海贼团",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "维特",
+            "target": "BIG MOM海贼团",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "维特",
+            "target": "火焰坦克海贼团",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "佩德罗",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "蒙其·D·路飞",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "佩德罗",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "佩德罗",
+            "target": "哥尔·D·罗杰",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "佩德罗",
+            "target": "贝壳慕斯",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "佩德罗",
+            "target": "政府",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "佩德罗",
+            "target": "海贼",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "佩德罗",
+            "target": "悬赏犯",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "佩德罗",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "泽波",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "佩德罗",
+            "target": "泽波",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "佩德罗",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "出生地",
+            "source": "佩德罗",
+            "target": "佐乌",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•布琳",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•布琳",
+            "target": "夏洛特·戚风",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•布琳",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•布琳",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特•布琳",
+            "target": "店主",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "夏洛特•布琳",
+            "target": "咖啡店「卡拉梅尔」",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "夏洛特•布琳",
+            "target": "三眼族",
+            "value": 3
+        },
+        {
+            "relation": "同盟",
+            "source": "戈蒂",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "戈蒂",
+            "target": "BIG MOM海贼团",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "戈蒂",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "山治",
+            "target": "维特",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "戈蒂",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙其·D·路飞",
+            "target": "卡彭·贝基",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "戈蒂",
+            "target": "BIG MOM海贼团",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "戈蒂",
+            "target": "火焰坦克海贼团",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "文斯莫克·勇治",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "山治",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "夏洛特•布琳",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·勇治",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·勇治",
+            "target": "夏洛特•布琳",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·勇治",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "文斯莫克·勇治",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "文斯莫克·勇治",
+            "target": "索拉",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "文斯莫克·勇治",
+            "target": "文斯莫克家",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "文斯莫克·勇治",
+            "target": "四男",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·蕾玖",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "文斯莫克·蕾玖",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "文斯莫克·蕾玖",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "山治",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "夏洛特•布琳",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·蕾玖",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·蕾玖",
+            "target": "夏洛特•布琳",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "文斯莫克·蕾玖",
+            "target": "夏洛特•布琳",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "文斯莫克·蕾玖",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "山治",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·蕾玖",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·蕾玖",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·蕾玖",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "文斯莫克·蕾玖",
+            "target": "索拉",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "文斯莫克·蕾玖",
+            "target": "文斯莫克家",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "文斯莫克·蕾玖",
+            "target": "长女",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "山治",
+            "target": "杰尔马",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•玲玲",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特•玲玲",
+            "target": "通缉犯",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "夏洛特•玲玲",
+            "target": "BIG MOM海贼团",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•玲玲",
+            "target": "艾尔巴夫的村庄",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•玲玲",
+            "target": "艾尔巴夫",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "夏洛特•玲玲",
+            "target": "羔羊之家",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "夏洛特•佩罗斯佩罗",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特•佩罗斯佩罗",
+            "target": "长子",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "夏洛特•玲玲",
+            "target": "人类",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特·普拉琳涅",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "夫妻",
+            "source": "夏洛特·普拉琳涅",
+            "target": "阿拉丁",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "夏洛特·普拉琳涅",
+            "target": "夏洛特家族",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "庞德",
+            "target": "夏洛特·戚风",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "庞德",
+            "target": "夏洛特•欧文",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "庞德",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "夫妻",
+            "source": "庞德",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "庞德",
+            "target": "诱惑之森",
+            "value": 3
+        },
+        {
+            "relation": "父亲",
+            "source": "夏洛特·戚风",
+            "target": "庞德",
+            "value": 3
+        },
+        {
+            "relation": "父亲",
+            "source": "夏洛特•罗拉",
+            "target": "庞德",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•布蕾",
+            "target": "诱惑森林",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•布蕾",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•布蕾",
+            "target": "夏洛特•卡塔库栗",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "夏洛特•布蕾",
+            "target": "Big·Mom暗杀计划",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·伽治",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "夏洛特·普拉琳涅",
+            "target": "政治联姻",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "阿拉丁",
+            "target": "政治联姻",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "文斯莫克·伽治",
+            "target": "政治联姻",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "夏洛特•玲玲",
+            "target": "政治联姻",
+            "value": 3
+        },
+        {
+            "relation": "夫妻",
+            "source": "文斯莫克·伽治",
+            "target": "索拉",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "文斯莫克·伽治",
+            "target": "杰尔马",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "文斯莫克·伽治",
+            "target": "国王",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "文斯莫克·伽治",
+            "target": "「血统因子」的研究",
+            "value": 3
+        },
+        {
+            "relation": "父亲",
+            "source": "文斯莫克·伊治",
+            "target": "文斯莫克·伽治",
+            "value": 3
+        },
+        {
+            "relation": "父亲",
+            "source": "文斯莫克·尼治",
+            "target": "文斯莫克·伽治",
+            "value": 3
+        },
+        {
+            "relation": "父亲",
+            "source": "山治",
+            "target": "文斯莫克·伽治",
+            "value": 3
+        },
+        {
+            "relation": "父亲",
+            "source": "文斯莫克·勇治",
+            "target": "文斯莫克·伽治",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "文斯莫克·蕾玖",
+            "target": "文斯莫克·伽治",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特·戚风",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特·戚风",
+            "target": "夏洛特•布琳",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "山治",
+            "target": "夏洛特•布琳",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特·戚风",
+            "target": "卡彭·贝基",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "卡彭·贝基",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特·戚风",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特·戚风",
+            "target": "夏洛特•罗拉",
+            "value": 3
+        },
+        {
+            "relation": "夫妻",
+            "source": "阿拉丁",
+            "target": "夏洛特·普拉琳涅",
+            "value": 3
+        },
+        {
+            "relation": "夫妻",
+            "source": "夏洛特·戚风",
+            "target": "卡彭·贝基",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特·戚风",
+            "target": "蓬松岛",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特·戚风",
+            "target": "蓬松大臣",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "卡彭·贝茨",
+            "target": "夏洛特·戚风",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•玲玲",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•佩罗斯佩罗",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•佩罗斯佩罗",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•佩罗斯佩罗",
+            "target": "佩德罗",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "夏洛特•佩罗斯佩罗",
+            "target": "茶话会",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•佩罗斯佩罗",
+            "target": "杰尔马66",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "夏洛特•佩罗斯佩罗",
+            "target": "舔舔果实",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•克力架",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•克力架",
+            "target": "诱惑森林",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•克力架",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特•克力架",
+            "target": "通缉犯",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "巴姆大王",
+            "target": "仆从",
+            "value": 3
+        },
+        {
+            "relation": "部下",
+            "source": "娜美",
+            "target": "巴姆大王",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "巴姆大王",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "巴姆大王",
+            "target": "夏洛特•克力架",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "巴姆大王",
+            "target": "普罗米修斯",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "巴姆大王",
+            "target": "阿曼德",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "巴姆大王",
+            "target": "霍米兹",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·伊治",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·伊治",
+            "target": "夏洛特•布琳",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "文斯莫克·伊治",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "山治",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "夏洛特•布琳",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·伊治",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "文斯莫克·伊治",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "文斯莫克·伊治",
+            "target": "西兰花岛的战争",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "文斯莫克·伊治",
+            "target": "索拉",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "文斯莫克·伊治",
+            "target": "文斯莫克家",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "文斯莫克·伊治",
+            "target": "长子",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·尼治",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "文斯莫克·尼治",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "文斯莫克·尼治",
+            "target": "西兰花岛的战争",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "文斯莫克·尼治",
+            "target": "索拉",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "夏洛特•布琳",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "山治",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "文斯莫克·尼治",
+            "target": "结婚典礼",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·尼治",
+            "target": "夏洛特•布琳",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "文斯莫克·尼治",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "文斯莫克·尼治",
+            "target": "文斯莫克家",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "文斯莫克·尼治",
+            "target": "次子",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "巴姆大王",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "斯图西",
+            "target": "世界会议",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "斯图西",
+            "target": "天龙人",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "斯图西",
+            "target": "茶话会",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "夏洛特•玲玲",
+            "target": "茶话会",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "斯图西",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "斯图西",
+            "target": "欢乐街女王",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "斯图西",
+            "target": "CP0",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "斯图西",
+            "target": "谍报部员",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•蒙多尔",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•玲玲",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•蒙多尔",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•蒙多尔",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•蒙多尔",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•蒙多尔",
+            "target": "娜美",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•蒙多尔",
+            "target": "莫斯卡托",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "夏洛特•蒙多尔",
+            "target": "书书果实",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•斯慕吉",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•玲玲",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•斯慕吉",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•斯慕吉",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•斯慕吉",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "夏洛特•斯慕吉",
+            "target": "榨榨果实",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•斯慕吉",
+            "target": "100%岛",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特•斯慕吉",
+            "target": "果汁大臣",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•斯慕吉",
+            "target": "斯特隆",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•斯慕吉",
+            "target": "斯娜蒙",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "斯特隆",
+            "target": "斯娜蒙",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "普罗米修斯",
+            "target": "布鲁克",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•玲玲",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "普罗米修斯",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "普罗米修斯",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "普罗米修斯",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•玲玲",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "宙斯",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "宙斯",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "宙斯",
+            "target": "布鲁克",
+            "value": 3
+        },
+        {
+            "relation": "部下",
+            "source": "娜美",
+            "target": "宙斯",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "宙斯",
+            "target": "仆人",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "宙斯",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "长面包",
+            "target": "BIG MOM海贼团",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "长面包",
+            "target": "厨师",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "长面包",
+            "target": "吃吃果实",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "长面包",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "摩根斯",
+            "target": "世界会议",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "摩根斯",
+            "target": "世界经济新闻社",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•卡塔库栗",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特•卡塔库栗",
+            "target": "通缉犯",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "夏洛特•卡塔库栗",
+            "target": "糯米果实",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•卡塔库栗",
+            "target": "夏洛特•欧文",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•欧文",
+            "target": "夏洛特•大福",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•卡塔库栗",
+            "target": "夏洛特•大福",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•玲玲",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•大福",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•大福",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•大福",
+            "target": "太阳海贼团",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•大福",
+            "target": "杰尔马66",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•大福",
+            "target": "夏洛特•布琳",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•大福",
+            "target": "山治",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•大福",
+            "target": "加洛特",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "加洛特",
+            "target": "月亮狮子",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•大福",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "夏洛特•大福",
+            "target": "蒸腾果实",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•大福",
+            "target": "夏洛特•卡塔库栗",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•大福",
+            "target": "夏洛特•欧文",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•卡塔库栗",
+            "target": "夏洛特•欧文",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•欧文",
+            "target": "烘焙甜点岛",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特•欧文",
+            "target": "焦黄大臣",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "夏洛特•欧文",
+            "target": "热热果实",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•欧文",
+            "target": "夏洛特•卡塔库栗",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•欧文",
+            "target": "夏洛特•欧文",
+            "value": 3
+        },
+        {
+            "relation": "兄弟姐妹",
+            "source": "夏洛特•卡塔库栗",
+            "target": "夏洛特•欧文",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "加尔默罗",
+            "target": "艾尔巴夫",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "加尔默罗",
+            "target": "羔羊之家",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "加尔默罗",
+            "target": "约翰·贾恩多",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "加尔默罗",
+            "target": "政府",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "约翰·贾恩多",
+            "target": "海兵",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "加尔默罗",
+            "target": "能力者",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "加尔默罗",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "加尔默罗",
+            "target": "巨兵海贼团余党",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "盖尔兹",
+            "target": "巴基速递",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "盖尔兹",
+            "target": "雇佣兵",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "盖尔兹",
+            "target": "巴基速递",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "盖尔兹",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "出生地",
+            "source": "盖尔兹",
+            "target": "艾尔巴夫",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "尤鲁鲁",
+            "target": "船长",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "尤鲁鲁",
+            "target": "巨兵海贼团",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "东利",
+            "target": "布洛基",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "尤鲁鲁",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•玲玲",
+            "target": "艾尔巴夫",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "崖鲁鲁",
+            "target": "船长",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "崖鲁鲁",
+            "target": "巨兵海贼团",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "崖鲁鲁",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "崖鲁鲁",
+            "target": "加尔默罗",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•芙兰佩",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•玲玲",
+            "target": "和之国",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•芙兰佩",
+            "target": "夏洛特•玲玲",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "夏洛特•芙兰佩",
+            "target": "夏洛特•卡塔库栗",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•芙兰佩",
+            "target": "蒙其·D·路飞",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "夏洛特•芙兰佩",
+            "target": "卡塔库栗粉丝后援会",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特•芙兰佩",
+            "target": "会长",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "夏洛特•芙兰佩",
+            "target": "特攻队长",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "夏洛特•芙兰佩",
+            "target": "夏洛特家族",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "夏洛特•欧文",
+            "target": "万国",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "夏洛特•欧文",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "加尔默罗",
+            "target": "修女",
+            "value": 3
         }
     ],
     "nodes": [
@@ -12785,7 +14819,7 @@
         {
             "class": "人",
             "group": "0",
-            "id": "Big Mom",
+            "id": "夏洛特•玲玲",
             "size": "8"
         },
         {
@@ -12893,6 +14927,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "乔凡尼",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "托尼托尼•乔巴",
             "size": "8"
         },
@@ -12971,6 +15011,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "文斯莫克·伊治",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "伊迪奥",
             "size": "8"
         },
@@ -12983,7 +15029,7 @@
         {
             "class": "人",
             "group": "0",
-            "id": "伽治",
+            "id": "文斯莫克·伽治",
             "size": "8"
         },
         {
@@ -12996,6 +15042,12 @@
             "class": "人",
             "group": "0",
             "id": "佩罗娜",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特•佩罗斯佩罗",
             "size": "8"
         },
         {
@@ -13044,6 +15096,12 @@
             "class": "人",
             "group": "0",
             "id": "克利克",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特•克力架",
             "size": "8"
         },
         {
@@ -13157,7 +15215,25 @@
         {
             "class": "人",
             "group": "0",
+            "id": "加尔默罗",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "加布拉",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "加洛特",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "文斯莫克·勇治",
             "size": "8"
         },
         {
@@ -13170,6 +15246,12 @@
             "class": "人",
             "group": "0",
             "id": "卡利•达旦",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特•卡塔库栗",
             "size": "8"
         },
         {
@@ -13200,6 +15282,12 @@
             "class": "人",
             "group": "0",
             "id": "卡彭·贝基",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "卡彭·贝茨",
             "size": "8"
         },
         {
@@ -13427,13 +15515,61 @@
         {
             "class": "人",
             "group": "0",
-            "id": "夏洛特·普拉琳",
+            "id": "夏洛特·戚风",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特·普拉琳涅",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特•大福",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特•布琳",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特•布蕾",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特•斯慕吉",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特•欧文",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
             "id": "夏洛特•罗拉",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特•芙兰佩",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "夏洛特•蒙多尔",
             "size": "8"
         },
         {
@@ -13452,12 +15588,6 @@
             "class": "人",
             "group": "0",
             "id": "多尔顿",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "多弗拉明戈",
             "size": "8"
         },
         {
@@ -13517,6 +15647,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "爱德华•威布尔",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "娜美",
             "size": "8"
         },
@@ -13524,6 +15660,12 @@
             "class": "人",
             "group": "0",
             "id": "宇宙小姐",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "宙斯",
             "size": "8"
         },
         {
@@ -13559,7 +15701,19 @@
         {
             "class": "人",
             "group": "0",
+            "id": "尤鲁鲁",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "尼普顿",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "文斯莫克·尼治",
             "size": "8"
         },
         {
@@ -13583,6 +15737,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "崖鲁鲁",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "巴利",
             "size": "8"
         },
@@ -13596,6 +15756,12 @@
             "class": "人",
             "group": "0",
             "id": "巴基",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "巴姆大王",
             "size": "8"
         },
         {
@@ -13632,6 +15798,12 @@
             "class": "人",
             "group": "0",
             "id": "巴里",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "巴金",
             "size": "8"
         },
         {
@@ -13739,6 +15911,18 @@
         {
             "class": "人",
             "group": "0",
+            "id": "庞德",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "康斯洛特",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "弗兰奇",
             "size": "8"
         },
@@ -13769,6 +15953,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "戈蒂",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "战国",
             "size": "8"
         },
@@ -13776,12 +15966,6 @@
             "class": "人",
             "group": "0",
             "id": "战桃丸",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
-            "id": "戚风",
             "size": "8"
         },
         {
@@ -13847,7 +16031,31 @@
         {
             "class": "人",
             "group": "0",
+            "id": "摩根斯",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "文斯莫克·蕾玖",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "斯卡莱特",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "斯图西",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "斯娜蒙",
             "size": "8"
         },
         {
@@ -13877,6 +16085,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "斯特隆",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "斯科奇",
             "size": "8"
         },
@@ -13896,6 +16110,18 @@
             "class": "人",
             "group": "0",
             "id": "旺泽",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "旺达",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "普罗米修斯",
             "size": "8"
         },
         {
@@ -14069,6 +16295,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "泽波",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "洛克",
             "size": "8"
         },
@@ -14123,7 +16355,19 @@
         {
             "class": "人",
             "group": "0",
+            "id": "犬岚",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "猩猩",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "猫蝮蛇",
             "size": "8"
         },
         {
@@ -14189,6 +16433,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "盖尔兹",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "盖蒙",
             "size": "8"
         },
@@ -14225,19 +16475,31 @@
         {
             "class": "人",
             "group": "0",
+            "id": "索拉",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "罗罗诺亚·索隆",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
-            "id": "红发",
+            "id": "香克斯",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
             "id": "约瑟夫",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "约翰·贾恩多",
             "size": "8"
         },
         {
@@ -14256,6 +16518,12 @@
             "class": "人",
             "group": "0",
             "id": "维尔戈",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "维特",
             "size": "8"
         },
         {
@@ -14352,6 +16620,12 @@
             "class": "人",
             "group": "0",
             "id": "莫奈",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "莫斯卡托",
             "size": "8"
         },
         {
@@ -14471,13 +16745,31 @@
         {
             "class": "人",
             "group": "0",
+            "id": "西普斯海德",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "西格",
             "size": "8"
         },
         {
             "class": "人",
             "group": "0",
+            "id": "西西里安",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "诺琪高",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "象主",
             "size": "8"
         },
         {
@@ -14490,6 +16782,12 @@
             "class": "人",
             "group": "0",
             "id": "贝克慕斯",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "贝壳慕斯",
             "size": "8"
         },
         {
@@ -14615,6 +16913,12 @@
         {
             "class": "人",
             "group": "0",
+            "id": "长面包",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
             "id": "闪电",
             "size": "8"
         },
@@ -14640,6 +16944,12 @@
             "class": "人",
             "group": "0",
             "id": "阿拉丁",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "阿曼德",
             "size": "8"
         },
         {
@@ -14753,12 +17063,6 @@
         {
             "class": "人",
             "group": "0",
-            "id": "香克斯",
-            "size": "8"
-        },
-        {
-            "class": "人",
-            "group": "0",
             "id": "马哈拜斯",
             "size": "8"
         },
@@ -14813,6 +17117,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "100%岛",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "Skypea",
             "size": "16"
         },
@@ -14862,6 +17172,12 @@
             "class": "地点",
             "group": "1",
             "id": "佐乌",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "克劳都",
             "size": "16"
         },
         {
@@ -15071,6 +17387,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "德雷斯罗萨近海",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "恐怖三桅帆船",
             "size": "16"
         },
@@ -15161,6 +17483,12 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "毛茸茸公国",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "波音列岛",
             "size": "16"
         },
@@ -15168,6 +17496,12 @@
             "class": "地点",
             "group": "1",
             "id": "海军拘留所",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "烘焙甜点岛",
             "size": "16"
         },
         {
@@ -15269,6 +17603,18 @@
         {
             "class": "地点",
             "group": "1",
+            "id": "艾尔巴夫的村庄",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "蓬松岛",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
             "id": "西海",
             "size": "16"
         },
@@ -15282,6 +17628,18 @@
             "class": "地点",
             "group": "1",
             "id": "角斗场的地下",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "诱惑之森",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "诱惑森林",
             "size": "16"
         },
         {
@@ -15407,7 +17765,19 @@
         {
             "class": "恶魔果实",
             "group": "2",
+            "id": "书书果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
             "id": "人人果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
+            "id": "吃吃果实",
             "size": "5"
         },
         {
@@ -15449,6 +17819,12 @@
         {
             "class": "恶魔果实",
             "group": "2",
+            "id": "榨榨果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
             "id": "橡胶果实",
             "size": "5"
         },
@@ -15479,6 +17855,12 @@
         {
             "class": "恶魔果实",
             "group": "2",
+            "id": "热热果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
             "id": "甜甜果实",
             "size": "5"
         },
@@ -15497,13 +17879,31 @@
         {
             "class": "恶魔果实",
             "group": "2",
+            "id": "糯米果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
             "id": "线线果实",
             "size": "5"
         },
         {
             "class": "恶魔果实",
             "group": "2",
+            "id": "舔舔果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
             "id": "花花果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
+            "id": "蒸腾果实",
             "size": "5"
         },
         {
@@ -15588,6 +17988,12 @@
             "class": "组织",
             "group": "3",
             "id": "7号船",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "A•O海贼团",
             "size": "10"
         },
         {
@@ -15695,7 +18101,19 @@
         {
             "class": "组织",
             "group": "3",
+            "id": "三眼族",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
             "id": "世界政府",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "世界经济新闻社",
             "size": "10"
         },
         {
@@ -15720,6 +18138,12 @@
             "class": "组织",
             "group": "3",
             "id": "人口贩卖店",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "人类",
             "size": "10"
         },
         {
@@ -15809,6 +18233,12 @@
         {
             "class": "组织",
             "group": "3",
+            "id": "卡塔库栗粉丝后援会",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
             "id": "卡里布海贼团",
             "size": "10"
         },
@@ -15834,6 +18264,12 @@
             "class": "组织",
             "group": "3",
             "id": "吓人僵尸",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "咖啡店「卡拉梅尔」",
             "size": "10"
         },
         {
@@ -15887,7 +18323,19 @@
         {
             "class": "组织",
             "group": "3",
+            "id": "夏洛特家族",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
             "id": "多弗朗明戈旗下",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "大福舰队",
             "size": "10"
         },
         {
@@ -15936,6 +18384,12 @@
             "class": "组织",
             "group": "3",
             "id": "巨兵海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "巨兵海贼团余党",
             "size": "10"
         },
         {
@@ -16013,6 +18467,18 @@
         {
             "class": "组织",
             "group": "3",
+            "id": "政府",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "文斯莫克家",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
             "id": "斗牛竞技场",
             "size": "10"
         },
@@ -16050,6 +18516,24 @@
             "class": "组织",
             "group": "3",
             "id": "普罗甸斯王国",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "杰克的舰队",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "杰尔马",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "杰尔马66",
             "size": "10"
         },
         {
@@ -16103,13 +18587,31 @@
         {
             "class": "组织",
             "group": "3",
+            "id": "海军舰队",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
             "id": "海贼派遣公司“巴基速递”",
             "size": "10"
         },
         {
             "class": "组织",
             "group": "3",
+            "id": "火枪队",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
             "id": "火焰坦克海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "犬岚三枪手",
             "size": "10"
         },
         {
@@ -16134,6 +18636,12 @@
             "class": "组织",
             "group": "3",
             "id": "白胡子海贼团残党",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "百兽海贼团",
             "size": "10"
         },
         {
@@ -16218,6 +18726,12 @@
             "class": "组织",
             "group": "3",
             "id": "罗杰海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "羔羊之家",
             "size": "10"
         },
         {
@@ -16559,6 +19073,24 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "仆人",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "仆从",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "会长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "佣兵",
             "size": "6"
         },
@@ -16566,6 +19098,12 @@
             "class": "职务",
             "group": "5",
             "id": "侍女",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "修女",
             "size": "6"
         },
         {
@@ -16673,6 +19211,12 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "厨师",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "厨师长",
             "size": "6"
         },
@@ -16692,6 +19236,12 @@
             "class": "职务",
             "group": "5",
             "id": "囚犯剑斗士",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "四男",
             "size": "6"
         },
         {
@@ -16752,6 +19302,12 @@
             "class": "职务",
             "group": "5",
             "id": "大尉",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "大看版",
             "size": "6"
         },
         {
@@ -16955,7 +19511,19 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "月亮狮子",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "杀戮兵器「死亡国度」",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "果汁大臣",
             "size": "6"
         },
         {
@@ -16985,7 +19553,25 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "次子",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "欢乐街女王",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "流浪舞者",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "海兵",
             "size": "6"
         },
         {
@@ -17003,7 +19589,25 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "焦黄大臣",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "特攻队长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "狱卒长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "王之鸟",
             "size": "6"
         },
         {
@@ -17034,6 +19638,12 @@
             "class": "职务",
             "group": "5",
             "id": "球云配送员",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "白昼之王",
             "size": "6"
         },
         {
@@ -17141,6 +19751,12 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "能力者",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "自由撰稿人",
             "size": "6"
         },
@@ -17195,6 +19811,12 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "蓬松大臣",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "设计师",
             "size": "6"
         },
@@ -17202,6 +19824,12 @@
             "class": "职务",
             "group": "5",
             "id": "谍报成员",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "谍报部员",
             "size": "6"
         },
         {
@@ -17225,6 +19853,18 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "长女",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "长子",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "队长",
             "size": "6"
         },
@@ -17238,6 +19878,12 @@
             "class": "职务",
             "group": "5",
             "id": "雇佣兵",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "霍米兹",
             "size": "6"
         },
         {
@@ -17285,8 +19931,20 @@
         {
             "class": "职务",
             "group": "5",
+            "id": "黑夜之王",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
             "id": "黑社会老大",
             "size": "6"
+        },
+        {
+            "class": "事件",
+            "group": "6",
+            "id": "Big·Mom暗杀计划",
+            "size": "20"
         },
         {
             "class": "事件",
@@ -17304,6 +19962,12 @@
             "class": "事件",
             "group": "6",
             "id": "“神之岛”生存战",
+            "size": "20"
+        },
+        {
+            "class": "事件",
+            "group": "6",
+            "id": "「血统因子」的研究",
             "size": "20"
         },
         {
@@ -17340,6 +20004,12 @@
             "class": "事件",
             "group": "6",
             "id": "政变",
+            "size": "20"
+        },
+        {
+            "class": "事件",
+            "group": "6",
+            "id": "政治联姻",
             "size": "20"
         },
         {
@@ -17393,7 +20063,25 @@
         {
             "class": "事件",
             "group": "6",
+            "id": "结婚典礼",
+            "size": "20"
+        },
+        {
+            "class": "事件",
+            "group": "6",
             "id": "舞蹈大赛",
+            "size": "20"
+        },
+        {
+            "class": "事件",
+            "group": "6",
+            "id": "茶话会",
+            "size": "20"
+        },
+        {
+            "class": "事件",
+            "group": "6",
+            "id": "西兰花岛的战争",
             "size": "20"
         },
         {
