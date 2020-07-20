@@ -45,7 +45,6 @@ body {
     display: none !important;
 }
 
-
 .nodes circle {
     stroke: #fff;
     stroke-width: 1.5px;        /*圆的描边宽度*/
@@ -216,7 +215,7 @@ $(document).ready(function() {
         .force("link", d3.forceLink().id(function(d) {
             return d.id;
         }))
-        .force("charge", d3.forceManyBody())
+        .force("charge", d3.forceManyBody().strength(-70))
         .force("center", d3.forceCenter(width / 2, height / 2));
 
     // 存之后生成的关系图数据
@@ -224,7 +223,7 @@ $(document).ready(function() {
 
     // d3.json("vizdata_vivrecard_relation.json", function(error, data) {
     // d3.json("test_vizdata_vivrecard_relation.json", function(error, data) {
-    d3.json("https://raw.githubusercontent.com/mrbulb/ONEPIECE-KG/master/visualization/html/vizdata_vivrecard_relation.json", function(error, data) {
+    d3.json("https://raw.githubusercontent.com/mrbulb/ONEPIECE-KG/master/visualization/html/alignment_vizdata_vivrecard_relation.json", function(error, data) {
         if (error) throw error;
 
         graph = data;
@@ -307,9 +306,14 @@ $(document).ready(function() {
         })
 
         // 处理缩放
-        svg.call(d3.zoom()
+        var zoom = d3.zoom()
             .scaleExtent([1 / 8, 8])
-            .on("zoom", zoomed));
+            .on("zoom", zoomed);
+
+        // 设置初始缩放比例
+        zoom.scaleTo(svg, 0.5);
+
+        svg.call(zoom);
          
         function zoomed() {
             link.attr("transform", d3.event.transform);
