@@ -489,19 +489,30 @@ def process_vivrecard_relations(relations_list, entities_list):
 	return deepke_instance_list, deepke_relation_list, annot_relation_sentid_set, ntriples_list, vizdata_dict
 
 
-def write_data(data, header, file_path, max_num=None):
+def write_data(data, header, file_path, max_num=None, remove_duplicate=False):
 	r"""将转换得到的deepke接收格式的数据，写入文件中.
 	Arguments:
 	    data (list): Deepke format data.
 	    header (str): The header that write into the head of file.
 	    file_path (str): Write file path.
 	    max_num (int): The maximum number of item that write into file.
+	    remove_duplicate (bool): Remove thr duplicate item ot not.
 	Returns:
 	    None.
 	Examples::
 	    >>> write_data(data=train_data, header=instance_header, file_path=output_train_file)
 	"""
 	print('\nWrite File: {}'.format(file_path))
+
+	# 去除重复的东西，特别针对 N-Triples
+	# 去除的同时注意保留原来的顺序
+	if remove_duplicate:
+		data_copy = []
+		data_copy.append(data[0])
+		for i in data[1:]:
+			if i not in data_copy:
+				data_copy.append(i)
+		data = data_copy
 
 	if max_num == None:
 		max_num = len(data)
@@ -608,7 +619,7 @@ write_data(data=[content_sentences[item] for item in unannot_relation_sentid_set
 
 # N-Triples
 write_data(data=ntriples_list, header=None,
-	file_path=summary_ntriples_file)
+           file_path=summary_ntriples_file, remove_duplicate=True)
 
 print('Sentence Number: {}'.format(len(all_sentid_set)))
 print('Sentence be annotated with entity, Number: {}'.format(len(annot_entity_sentid_set)))
