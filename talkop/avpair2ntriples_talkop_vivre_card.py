@@ -93,6 +93,15 @@ ntriples_talkop_vivre_card_file = os.path.join(data_dir, 'ntriples_talkop_vivre_
 print('write path: {}'.format(ntriples_talkop_vivre_card_file))
 
 with open(ntriples_talkop_vivre_card_file, 'w') as f:
+    # 去除重复的triple
+    ntriples_list_copy = []
+    ntriples_list_copy.append(ntriples_list[0])
+    for i in ntriples_list[1:]:
+        if i not in ntriples_list_copy:
+            ntriples_list_copy.append(i)
+    ntriples_list = ntriples_list_copy
+    print('Distinct Ntriples Number:  {}'.format(len(ntriples_list)))
+
     for item in ntriples_list:
         f.write(item + '\n')
 
