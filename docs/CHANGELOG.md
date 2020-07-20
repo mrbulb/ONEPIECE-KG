@@ -9,10 +9,6 @@
 - 根据生命卡官方网站的[订正表](https://one-piece.com/vivre/revision.php)，修正了生命卡中的相应数据(NOTE：关系数据那边更新起来比较复杂，暂时没有去更新)
 - 优化了可视化页面，希望缓解由于结点增加导致的视觉效果上的拥挤
 
-**New Features**
-
-- 增加了对于[LFS](https://support.gitkraken.com/git-workflows-and-extensions/git-lfs/)的支持，方便用于保存传输较大的PDF文件
-
 ### v1.2.2 (05/04/2020)
 
 **Improvements**
