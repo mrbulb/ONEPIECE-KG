@@ -1,6 +1,19 @@
 ## Changelog
 
-### v1.2.2 (04/05/2020)
+###v1.2.3(21/07/2020)
+
+**Improvements**
+
+- 将截止至2020.07.21之前发行的**所有**生命卡中实体关系数据**标注完成**，增加的数据包括：庞克哈萨德、德雷斯罗萨、佐乌、蛋糕岛。
+- 去除了N-Triples数据中的重复项。
+- 根据生命卡官方网站的[订正表](https://one-piece.com/vivre/revision.php)，修正了生命卡中的相应数据(NOTE：关系数据那边更新起来比较复杂，暂时没有去更新)
+- 优化了可视化页面，希望缓解由于结点增加导致的视觉效果上的拥挤
+
+**New Features**
+
+- 增加了对于[LFS](https://support.gitkraken.com/git-workflows-and-extensions/git-lfs/)的支持，方便用于保存传输较大的PDF文件
+
+### v1.2.2 (05/04/2020)
 
 **Improvements**
 
@@ -10,7 +23,7 @@
 
 - 在可视化方面，增加了新的特性：当鼠标移动悬停到某个结点/文本的时候，会显示和相邻结点的关系(之前是只有连线表示)。([#3](https://github.com/mrbulb/ONEPIECE-KG/issues/3))
 
-### v1.2.1 (03/12/2020)
+### v1.2.1 (12/03/2020)
 
 **Improvements**
 

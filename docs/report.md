@@ -267,7 +267,7 @@ python cndbpedia/get_onepiece_cndbpedia_avpair.py
 
 ```shell
 cd talkop
-python parse_processed_manual_talkop_vivre_card.py
+python summary_talkop_vivre_card.py
 ```
 
 从汇总的结果可以看到，一共包含**660个不同的实体，164个不同的predicate**
@@ -518,7 +518,7 @@ Cypher 最初是图数据库 Neo4j 中实现的属性图数据查询语言，是
    ```cypher
    CREATE INDEX ON :Resource(uri)
                              
-   CALL semantics.importRDF("${PROJECT_PATH}/deepke-master/data/vivrecard/summary/vivrecard_ntriples.nt","N-Triples")
+   CALL semantics.importRDF("file:///${PROJECT_PATH}/deepke-master/data/vivrecard/summary/vivrecard_ntriples.nt","N-Triples")
    ```
 
 2. 查看schema
