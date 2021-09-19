@@ -1,0 +1,16 @@
+0011 【前进梅利号/Going Merry】
+0012 【千阳号/Thousand Sunny】
+0144 【布洛基/Brogy】
+0145 【东利/Dorry】
+0262 【鹤/Tsuru】
+0265 【战国/Sengoku】
+0357 【库赞/Kuzan】
+0377 【罗布·路奇/Rob Lucci】
+0378 【哈多利】
+0445 【蒙奇·D·卡普/Monkey D Garp】
+0504 【夏尔莉亚宫/Saint Shalria】
+0505 【罗兹瓦德圣/Saint Rosward】
+0523 【查尔罗斯圣/Saint Charlos】
+0659 【萨波/Sabo】
+0830 【一笑/Issho】
+1032 【斯图西/Stussy】

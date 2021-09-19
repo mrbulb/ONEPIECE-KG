@@ -1,0 +1,58 @@
+0007 【妮可·罗宾/Nico Robin】
+0073 【芬布迪/Fullbody】
+0095 【小八/Hatchan】
+0101 【哞哞/Momoo】
+0109 【妈咪咪】
+0110 【萨姆】
+0111 【电话虫】
+0112 【新闻鸟】
+0114 【约翰·贾恩多（海军）】
+0115 【帕基】
+0116 【古杰】
+0117 【哈恩格先生】
+0119 【一本梅】
+0120 【沙皮】
+0121 【马希卡库（中士）】
+0123 【小悠】
+0139 【杰姆（Mr.5）/Gem（Mr.5）】
+0140 【米琪塔（Miss.情人节）/Mikita（Miss.Valentine）】
+0147 【加尔帝诺（Mr.3）/Galdino（Mr.3）】
+0148 【玛莉安（Miss.黄金周）/Marianne（Miss.Golden Week）】
+0172 【本萨姆（Mr.2·冯·克雷）/Bentham（Mr.2·Bon·Kurei）】
+0174 【克洛克达尔/Crocodile】
+0179 【多萝菲（Miss.圣诞快乐）/Drophy（Miss. Merry Christmas）】
+0180 【贝布 (Mr.4) 和拉苏/Babe (Mr. 4) & Lassoo】
+0181 【萨拉 （Miss. 双手指）/Zala (Miss. Double Finger)】
+0182 【达兹·波尼斯 (Mr.1)/Daz Bonez (Mr.1)】
+0188 【睫毛/Matsuge】
+0190 【寇沙/Koza】
+0212 【拉苏/Lassoo】
+0224 【缇娜/Hina】
+0539 【浮士德】
+0540 【坎迪】
+0542 【香豌豆】
+0544 【斑马花】
+0545 【贝拉多娜】
+0546 【桔梗】
+0547 【纳莉】
+0548 【古罗丽奥萨（咋婆婆）】
+0549 【波比】
+0550 【班琪】
+0551 【游蛇】
+0694 【小鱿/Surume】
+0715 【鲨星/Fukaboshi】
+0716 【皇星/Ryuboshi】
+0717 【翻车星/Mamboshi】
+0723 【夏莉/Shirley】
+0731 【尼普顿/Neptune】
+0732 【霍艾】
+0733 【梅加洛】
+0734 【右大臣&左大臣/Minister of the Right & Minister of the Left】
+0734 【右大臣/Minister of the Right】
+0735 【左大臣/Minister of the Left】
+0736 【白星/Shirahoshi】
+0740 【丹/Den】
+0742 【费舍·泰格/Fisher Tiger】
+0744 【乙姬/Otohime】
+0747 【克尔拉/Koala】
+0748 【阿拉丁/Aladdin】

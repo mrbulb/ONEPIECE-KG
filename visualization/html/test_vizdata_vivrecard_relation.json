@@ -1,0 +1,1644 @@
+{
+    "links": [
+        {
+            "relation": "到过",
+            "source": "蒙其·D·路飞",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "蒙其·D·路飞",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙其·D·路飞",
+            "target": "艾斯",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙其·D·路飞",
+            "target": "萨波",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "艾斯",
+            "target": "萨波",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "蒙其·D·路飞",
+            "target": "香克斯",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "蒙其·D·路飞",
+            "target": "风车村",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗罗诺亚·索隆",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗罗诺亚·索隆",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗罗诺亚·索隆",
+            "target": "威士忌峰",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "罗罗诺亚·索隆",
+            "target": "赏金猎人",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗罗诺亚·索隆",
+            "target": "阿拉巴斯坦",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "罗罗诺亚·索隆",
+            "target": "达兹",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "罗罗诺亚·索隆",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "罗罗诺亚·索隆",
+            "target": "霜月村",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "罗罗诺亚·索隆",
+            "target": "一心道场",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "娜美",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "娜美",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "娜美",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "娜美",
+            "target": "维萨利亚",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "娜美",
+            "target": "维沙利亚",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "娜美",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "娜美",
+            "target": "恶龙麾下",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "娜美",
+            "target": "恶龙手下",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "娜美",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "娜美",
+            "target": "贝尔梅尔",
+            "value": 3
+        },
+        {
+            "relation": "母亲",
+            "source": "娜美",
+            "target": "贝尔梅尔",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "娜美",
+            "target": "恶龙一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "娜美",
+            "target": "东海",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "娜美",
+            "target": "欧伊科特王国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "贝尔梅尔",
+            "target": "欧伊科特王国",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "贝尔梅尔",
+            "target": "东海",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "娜美",
+            "target": "贝尔梅尔",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "乌索普",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "乌索普",
+            "target": "乌索普海贼团",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "乌索普",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "乌索普",
+            "target": "乌索普海贼团",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "乌索普",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "乌索普",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "乌索普",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "乌索普",
+            "target": "Water Seven",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "乌索普",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "乌索普",
+            "target": "七水之都",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "乌索普",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "乌索普",
+            "target": "乌索普海贼团",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "山治",
+            "target": "蛋糕岛",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "山治",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "乌索普",
+            "target": "乌索普海贼团",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "山治",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "山治",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "山治",
+            "target": "芭拉蒂",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "山治",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "山治",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "山治",
+            "target": "副厨师长",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "山治",
+            "target": "杰尔马王国",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "山治",
+            "target": "芭拉蒂",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "哲夫",
+            "target": "芭拉蒂",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "山治",
+            "target": "哲夫",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "托尼托尼·乔巴",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "托尼托尼·乔巴",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "托尼托尼·乔巴",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "托尼托尼·乔巴",
+            "target": "托里诺王国",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "蒙其·D·路飞",
+            "target": "橡胶果实",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "托尼托尼·乔巴",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "托尼托尼·乔巴",
+            "target": "船医",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "托尼托尼·乔巴",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "托尼托尼·乔巴",
+            "target": "人人果实",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "托尼托尼·乔巴",
+            "target": "人人果实",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "托尼托尼·乔巴",
+            "target": "西尔尔克",
+            "value": 3
+        },
+        {
+            "relation": "老师",
+            "source": "托尼托尼·乔巴",
+            "target": "朵丽尔医娘",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "托尼托尼·乔巴",
+            "target": "西尔尔克",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "托尼托尼•乔巴",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "托尼托尼•乔巴",
+            "target": "医生",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "托尼托尼•乔巴",
+            "target": "人人果实",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "妮可·罗宾",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "妮可·罗宾",
+            "target": "巴洛克工作室",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "妮可·罗宾",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "妮可·罗宾",
+            "target": "巴洛克工作室",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "妮可·罗宾",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "妮可·罗宾",
+            "target": "司法岛",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "妮可·罗宾",
+            "target": "花花果实",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "妮可·罗宾",
+            "target": "克洛克达尔",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "妮可·罗宾",
+            "target": "巴洛克工作室",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "妮可·罗宾",
+            "target": "博士学位",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "妮可·罗宾",
+            "target": "奥哈拉",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "妮可·罗宾",
+            "target": "巴洛克工作室",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "弗兰奇",
+            "target": "庞克哈萨德",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "弗兰奇",
+            "target": "Baby 5",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "弗兰奇",
+            "target": "巴法罗",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "弗兰奇",
+            "target": "鱼人岛",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "Baby 5",
+            "target": "巴法罗",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "弗兰奇",
+            "target": "伊卡洛斯",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "弗兰奇",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "弗兰奇",
+            "target": "船匠",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "弗兰奇",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "弗兰奇",
+            "target": "千阳号",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "弗兰奇",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "弗兰奇",
+            "target": "巴尔基摩亚",
+            "value": 3
+        },
+        {
+            "relation": "建造",
+            "source": "弗兰奇",
+            "target": "千阳号",
+            "value": 3
+        },
+        {
+            "relation": "老师",
+            "source": "弗兰奇",
+            "target": "汤姆",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "汤姆",
+            "target": "船匠",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "弗兰奇",
+            "target": "Water Seven",
+            "value": 3
+        },
+        {
+            "relation": "创建",
+            "source": "弗兰奇",
+            "target": "弗兰奇一家",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "弗兰奇",
+            "target": "汤姆",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "布鲁克",
+            "target": "德雷斯罗萨",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "布鲁克",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "布鲁克",
+            "target": "伦巴海贼团",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "蒙其·D·路飞",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "布鲁克",
+            "target": "团长",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "布鲁克",
+            "target": "伦巴海贼团",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "布鲁克",
+            "target": "音乐家",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "布鲁克",
+            "target": "剑士",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "布鲁克",
+            "target": "月光•莫利亚",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "布鲁克",
+            "target": "黄泉果实",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "布鲁克",
+            "target": "拉布",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "布鲁克",
+            "target": "黄泉果实",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "布鲁克",
+            "target": "拉布",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "布鲁克",
+            "target": "双子岬",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "拉布",
+            "target": "双子岬",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "甚平",
+            "target": "太阳海贼团",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "甚平",
+            "target": "船长",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "甚平",
+            "target": "草帽一伙",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "甚平",
+            "target": "太阳海贼团",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "甚平",
+            "target": "船长",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "甚平",
+            "target": "BIG MOM海贼团",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "甚平",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "离开",
+            "source": "甚平",
+            "target": "王下七武海",
+            "value": 3
+        },
+        {
+            "relation": "领导",
+            "source": "布鲁克",
+            "target": "护卫战团",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "甚平",
+            "target": "尼普顿军",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "甚平",
+            "target": "王下七武海",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "甚平",
+            "target": "太阳海贼团",
+            "value": 3
+        },
+        {
+            "relation": "出生地",
+            "source": "甚平",
+            "target": "鱼人街",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "奈菲鲁塔丽•薇薇",
+            "target": "世界会议",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "奈菲鲁塔丽•薇薇",
+            "target": "克洛克达尔",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "奈菲鲁塔丽•薇薇",
+            "target": "巴洛克工作室",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "哥尔·D·罗杰",
+            "target": "罗格镇",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "哥尔·D·罗杰",
+            "target": "伟大航路",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "哥尔·D·罗杰",
+            "target": "爱特·沃尔海战",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "西奇",
+            "target": "爱特·沃尔海战",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "香克斯",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "哥尔·D·罗杰",
+            "target": "西奇",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "香克斯",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "香克斯",
+            "target": "四皇",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "香克斯",
+            "target": "风车村",
+            "value": 3
+        },
+        {
+            "relation": "拥有果实",
+            "source": "路飞",
+            "target": "橡胶果实",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "路飞",
+            "target": "拉基·路",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "拉基·路",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "拉基·路",
+            "target": "风车村",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "雅索普",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "雅索普",
+            "target": "红发海贼团",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "雅索普",
+            "target": "香克斯",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "雅索普",
+            "target": "西罗布村",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "香克斯",
+            "target": "西罗布村",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "雅索普",
+            "target": "风车村",
+            "value": 3
+        },
+        {
+            "relation": "战斗",
+            "source": "本·贝克曼",
+            "target": "西格",
+            "value": 3
+        },
+        {
+            "relation": "参与",
+            "source": "本·贝克曼",
+            "target": "顶上战争",
+            "value": 3
+        },
+        {
+            "relation": "加入",
+            "source": "本·贝克曼",
+            "target": "红发海贼团",
+            "value": 3
+        },
+        {
+            "relation": "担任",
+            "source": "本·贝克曼",
+            "target": "副船长",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "本·贝克曼",
+            "target": "红发海贼团",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "本·贝克曼",
+            "target": "风车村",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "玛琪诺",
+            "target": "艾斯",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "玛琪诺",
+            "target": "风车村",
+            "value": 3
+        },
+        {
+            "relation": "老师",
+            "source": "路飞",
+            "target": "玛琪诺",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "玛琪诺",
+            "target": "路飞",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "西格",
+            "target": "玛琪诺",
+            "value": 3
+        },
+        {
+            "relation": "遇见",
+            "source": "西格",
+            "target": "海王类",
+            "value": 3
+        },
+        {
+            "relation": "到过",
+            "source": "西格",
+            "target": "东海",
+            "value": 3
+        },
+        {
+            "relation": "属于",
+            "source": "西格",
+            "target": "山贼",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "class": "人",
+            "group": "0",
+            "id": "Baby 5",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "乌索普",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "乔巴",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "伊卡洛斯",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "克洛克达尔",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "哥尔·D·罗杰",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "哲夫",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "奈菲鲁塔丽•薇薇",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "妮可·罗宾",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "娜美",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "山治",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "巴法罗",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "布鲁克",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "弗兰奇",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "托尼托尼·乔巴",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "托尼托尼•乔巴",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "拉基·路",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "拉布",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "月光•莫利亚",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "本·贝克曼",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "朵丽尔医娘",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "汤姆",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "海王类",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "玛琪诺",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "甚平",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "索隆",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "罗宾",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "罗杰",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "罗罗诺亚·索隆",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "艾斯",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "萨波",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "蒙其·D·路飞",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "薇薇",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "西奇",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "西尔尔克",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "西格",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "贝尔梅尔",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "赏金猎人",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "路飞",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "达兹",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "雅索普",
+            "size": "8"
+        },
+        {
+            "class": "人",
+            "group": "0",
+            "id": "香克斯",
+            "size": "8"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "Water Seven",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "七水之都",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "东海",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "伟大航路",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "双子岬",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "司法岛",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "奥哈拉",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "威士忌峰",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "巴尔基摩亚",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "庞克哈萨德",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "德雷斯罗萨",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "托里诺王国",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "欧伊科特王国",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "维沙利亚",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "维萨利亚",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "罗格镇",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "蛋糕岛",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "西罗布村",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "阿拉巴斯坦",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "霜月村",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "风车村",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "鱼人岛",
+            "size": "16"
+        },
+        {
+            "class": "地点",
+            "group": "1",
+            "id": "鱼人街",
+            "size": "16"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
+            "id": "人人果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
+            "id": "橡胶果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
+            "id": "花花果实",
+            "size": "5"
+        },
+        {
+            "class": "恶魔果实",
+            "group": "2",
+            "id": "黄泉果实",
+            "size": "5"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "BIG MOM海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "一心道场",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "世界政府",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "乌索普海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "伦巴海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "四皇",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "太阳海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "尼普顿军",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "山贼",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "巴洛克工作室",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "弗兰奇一家",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "恶龙一伙",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "恶龙手下",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "恶龙麾下",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "护卫战团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "杰尔马王国",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "王下七武海",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "白胡子海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "红发海贼团",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "芭拉蒂",
+            "size": "10"
+        },
+        {
+            "class": "组织",
+            "group": "3",
+            "id": "草帽一伙",
+            "size": "10"
+        },
+        {
+            "class": "船只",
+            "group": "4",
+            "id": "千阳号",
+            "size": "5"
+        },
+        {
+            "class": "船只",
+            "group": "4",
+            "id": "奥比特号",
+            "size": "5"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "剑士",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "副厨师长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "副船长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "医生",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "博士学位",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "团长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "船匠",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "船医",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "船长",
+            "size": "6"
+        },
+        {
+            "class": "职务",
+            "group": "5",
+            "id": "音乐家",
+            "size": "6"
+        },
+        {
+            "class": "事件",
+            "group": "6",
+            "id": "世界会议",
+            "size": "20"
+        },
+        {
+            "class": "事件",
+            "group": "6",
+            "id": "爱特·沃尔海战",
+            "size": "20"
+        },
+        {
+            "class": "事件",
+            "group": "6",
+            "id": "顶上战争",
+            "size": "20"
+        }
+    ]
+}
