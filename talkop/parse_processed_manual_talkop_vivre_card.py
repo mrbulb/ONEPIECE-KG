@@ -17,7 +17,8 @@ data_dir  = './data/processed_manual_talkop_vivre_card'
 # 12-（201903初始套装Vol2-16张主卡）
 # 13-（201811可可亚西村+大监狱）
 # 14-（201809初始套装+1张追加卡）
-file_name = '14-（201809初始套装+1张追加卡）'
+# 15-（202105新初始套装）.txt
+file_name = '15-（202105新初始套装）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
@@ -341,5 +342,9 @@ if distinct_entities_num != distinct_avpair_num:
     print('[Warning]: Distinct Entities Number != Distinct Avpair Number')
     print('Distinct Entities Number: {}'.format(distinct_entities_num))
     print('Distinct Avpair Number:   {}'.format(distinct_avpair_num))
+
+    print(sorted(entities_id_name_list))
+    print('--' * 10)
+    print(sorted_entities_avpair_results_dict.keys())
 
 print('\n\n------Finish------\n\n')
