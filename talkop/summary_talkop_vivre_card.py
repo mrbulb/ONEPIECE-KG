@@ -57,6 +57,10 @@ print('\n时间轴排序\n')
 year_list = []
 for item in predicate_set:
     if '年前' in item and '？' not in item:
+        # 在 `15-（202105新初始套装）.txt` 中 新增了一种时间格式：about 01年前，需要特殊处理一下
+        if 'about' in item:
+            item = item.split('about')[-1].strip()
+
         result = re.findall('([0-9]*).*', item)
         year_list.append(int(result[0]))
 

@@ -1,22 +1,32 @@
 0001 【蒙其·D·路飞/Monkey D Luffy】
 0001 【蒙其·D·路飞/Monkey D Luffy】
+0001 【路飞太郎/Luffy-tarou】
+0002 【索隆十郎/Zorojuurou】
 0002 【罗罗诺亚·索隆/Roronoa Zoro】
 0002 【罗罗诺亚·索隆/Roronoa Zoro】
 0003 【娜美/Nami】
 0003 【娜美/Nami】
+0003 【阿娜/O-Nami】
+0004 【乌索八/Uso-hachi】
 0004 【乌索普/Usopp】
 0004 【乌索普/Usopp】
+0005 【山五郎-面条假面/San-goro-Osoba-mask】
 0005 【山治/Sanji】
 0005 【山治/Sanji】
+0006 【乔巴卫门/Chopa-emon】
 0006 【托尼托尼·乔巴/Tonytony·Chopper】
 0006 【托尼托尼•乔巴/Tony Tony Chopper】
 0007 【妮可·罗宾/Nico Robin】
 0007 【妮可·罗宾/Nico Robin】
+0007 【阿宾/O-robi】
+0008 【弗兰之介/Fra-nosuke】
 0008 【弗兰奇/Franky】
 0008 【弗兰奇/Franky】
 0008 【弗兰奇将军/General Franky】
 0009 【布鲁克/Brook】
 0009 【布鲁克/Brook】
+0009 【骨吉/Hone-kichi】
+0010 【甚平/Jinbe】
 0010 【甚平/Jinbe】
 0011 【前进梅利号/Going Merry】
 0012 【千阳号/Thousand Sunny】
@@ -262,39 +272,55 @@
 0255 【老大】
 0261 【史铁雷斯】
 0262 【鹤/Tsuru】
+0263 【凯沙】
+0264 【莫桑比亚】
 0265 【战国/Sengoku】
 0266 【唐吉诃德•多弗朗明哥/Donquixote Doflamingo】
 0267 【巴索罗缪•熊/Bartholomew•Kuma】
 0268 【拉菲特/Laffitte】
+0269 【洛克斯达】
 0270 【爱德华•纽盖特/Edward Newgate】
+0271 【特托】
 0272 【吉萨斯·巴杰斯/Jesus Burgess】
 0273 【范·奥卡/Van Auger】
 0274 【马歇尔·D·蒂奇/Marshall D Teach】
 0275 【毒Q/Doc Q】
 0276 【壮壮】
+0277 【空鱼】
+0278 【伊雷沙海贼团】
 0279 【甘·福尔/Gan Fall】
 0280 【皮耶尔】
 0281 【亚马逊/Amazon】
+0282 【特快虾】
 0283 【柯妮丝/Conis】
 0284 【丝丝】
 0285 【派葛亚/Pagaya】
 0286 【霍利】
+0287 【麦金利】
 0288 【莎德利/Satori】
 0289 【盘腿】
 0290 【修罗/Shura】
+0291 【箱子狗】
 0292 【爱莎/Aisa】
 0293 【卡马奇力/Kamakiri】
 0294 【韦帕/Wyper】
 0295 【捷宝/Genbo】
 0296 【布拉哈姆/Braham】
 0297 【拉琪/Raki】
+0298 【船之妖精】
 0299 【欧姆/Ohm】
 0300 【葛达茨/Gedatsu】
 0301 【雅玛/Yama】
 0302 【艾尼路/Enel】
+0303 【诺兰】
+0304 【依萨】
+0305 【柯铁】
 0307 【霍托力 & 克托力/Hotori & Kotori】
 0307 【霍托力/Hotori】
 0308 【克托力/Kotori】
+0309 【优兹哈涅】
+0310 【马尤希卡】
+0311 【瓦拉希】
 0314 【酋长/Chief】
 0317 【卡尔加拉/Kargara】
 0318 【蒙布朗·诺兰度/Mont Blanc Noland】
@@ -686,3 +712,24 @@
 1113 【尤鲁鲁/Jorul】
 1114 【崖鲁鲁/Jarul】
 1147 【夏洛特•芙兰佩/Charlotte Flampe】
+1245 【阿玉】
+1246 【小出】
+1247 【港友】
+1248 【蛤蟆跳之助】
+1249 【津轻海】
+1250 【义浪鸩太郎】
+1251 【远山街义郎】
+1252 【春章鱼】
+1253 【梦鲤】
+1254 【狒狒丸】
+1255 【狂暴龙】
+1256 【马苏】
+1257 【小玉/O-Tama】
+1258 【狛千代】
+1259 【分福】
+1264 【鳄鲨】
+1265 【狛鹿】
+1267 【小菊/O-Kiku】
+1268 【浦岛】
+1327 【南子/Toko】
+1341 【霜月康家/Yasuie Shimotsuki】
