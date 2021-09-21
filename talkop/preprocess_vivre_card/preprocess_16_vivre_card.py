@@ -3,7 +3,7 @@ import os
 import json
 
 data_dir  = './data/processed_manual_talkop_vivre_card'
-file_name = '15-（202105新初始套装）'
+file_name = '16-（20210703传说中的男人们+赤鞘9人男）'
 suffix    = '.txt'
 vivre_card_path = os.path.join(data_dir, file_name + suffix)
 
@@ -58,6 +58,7 @@ print('\n\n')
 entities_cnt          = 0
 entities_id_list      = []
 entities_mention_list = []
+recog_entities_list   = []
 for idx, item in enumerate(vivre_card_list):
     # 每个entities项开头和结尾都是数字
     # 并且它的下一项是带【】，里面有名字的项目
@@ -85,7 +86,9 @@ for idx, item in enumerate(vivre_card_list):
             entities_id_list.append(item)
             entities_mention_list.append(next_item)
 
-            print('|{}|{}|{}|'.format(item, next_item, item + ' ' + next_item))
+            format_entity_info = '|{}|{}|{}|'.format(item, next_item, item + ' ' + next_item)
+            recog_entities_list.append(format_entity_info)
+            print(format_entity_info)
             entities_cnt += 1
     elif (item[:4].isdecimal() and item[4] == ' ') or (item[1:5].isdecimal() and item[5] == ' '):
         if item[4] == ' ':
@@ -107,7 +110,9 @@ for idx, item in enumerate(vivre_card_list):
         entities_id_list.append(entity_id)
         entities_mention_list.append(entity_mention_name)
 
-        print('|{}|{}|{}|'.format(entity_id, entity_mention_name, item))
+        format_entity_info = '|{}|{}|{}|'.format(entity_id, entity_mention_name, item)
+        recog_entities_list.append(format_entity_info)
+        print(format_entity_info)
         entities_cnt += 1
 
 
@@ -263,5 +268,15 @@ while idx < len(content):
 
 
 f.close()
+
+print('\n' * 3)
+print('--' * 10)
+print('--' * 10)
+print('\n' * 3)
+
+for item in recog_entities_list:
+    print(item)
+
+print('\n\nOnepiece Entities Number: {}\n\n'.format(entities_cnt))
 
 exit(-1)
