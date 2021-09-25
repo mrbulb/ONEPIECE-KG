@@ -20,6 +20,21 @@ with open(prefix_file_path) as f:
 print(prefix_list)
 
 
+def removeSpace(input_dict):
+    for predicate in input_dict.keys():
+        item = input_dict[predicate]
+        tmp = []
+        for i in item:
+            if i is not None:
+                tmp.append(i.strip())
+            else:
+                tmp.append(i)
+        
+        input_dict[predicate] = tmp
+
+    return input_dict
+
+
 # ----------------------------------
 print('\n\n------Convert Avpair to Ntriples------\n\n')
 
@@ -47,15 +62,15 @@ for item in prefix_list:
     avpair_set.update(content.keys())
 
     for ID in content.keys():
-        print(ID)
+        # print(ID)
         entity_item = content[ID]
         for predicate in entity_item.keys():
             objects_item = entity_item[predicate]
 
             ntriples_num += len(objects_item)
 
-            if (len(objects_item) != 1):
-                print(predicate, objects_item)
+            # if (len(objects_item) != 1):
+            #     print(predicate, objects_item)
 
             for object in objects_item:
 
@@ -68,9 +83,9 @@ for item in prefix_list:
                 if object == None or 'N/A' in object:
                     empty_ntriples_num += 1
 
-        # visualization data
+        # visualization data, 存储各个人物属性的json文件
         entity_name = entity_item['中文名'][0].strip().strip('\"')
-        vizdata_dict[entity_name] = entity_item
+        vizdata_dict[entity_name] = removeSpace(entity_item)
 
     print('--------------------')
 
