@@ -27,9 +27,7 @@ def removeSpace(input_dict):
         for i in item:
             if i is not None:
                 tmp.append(i.strip())
-            else:
-                tmp.append(i)
-        
+
         input_dict[predicate] = tmp
 
     return input_dict
