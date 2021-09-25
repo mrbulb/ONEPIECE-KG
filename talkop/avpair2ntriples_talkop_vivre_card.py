@@ -83,7 +83,42 @@ for item in prefix_list:
 
         # visualization data, 存储各个人物属性的json文件
         entity_name = entity_item['中文名'][0].strip().strip('\"')
-        vizdata_dict[entity_name] = removeSpace(entity_item)
+        if entity_name not in vizdata_dict.keys():
+            vizdata_dict[entity_name] = removeSpace(entity_item)
+        elif entity_name in vizdata_dict.keys() and vizdata_dict[entity_name]['ID'][0] != ID:
+            # 相同名字的人物，却有不同的ID
+            # 处理方式：再人物名字后面增加ID号，用于标记
+            old_name = f"{entity_name}-{vizdata_dict[entity_name]['ID'][0]}"
+            new_name = f"{entity_name}-{ID}"
+            print(f'[WARNING] differen ID entity share the same name: {old_name} {new_name}')
+
+            vizdata_dict[old_name] = removeSpace(vizdata_dict[entity_name]).copy()
+            vizdata_dict[new_name] = removeSpace(entity_item)
+            del vizdata_dict[entity_name]
+        else:
+            # 多个文件里面有同一个人物的情况，可能是信息更新之类的
+            store_item = vizdata_dict[entity_name]
+            for predicate in entity_item.keys():
+                if predicate not in store_item.keys():
+                    # 新文件中的属性在老文件中没有出现过，直接添加
+                    store_item[predicate] = entity_item[predicate]
+                elif str(store_item[predicate]) != str(entity_item[predicate]):
+                    # 当出现相同的属性并且内容不相同的时候，如果内容不为空就进行合并
+                    print(f"{ID}-{entity_name}", str(store_item[predicate]), str(entity_item[predicate]))
+                    tmp = []
+                    for i in store_item[predicate]:
+                        if i not in [None, '']:
+                            tmp.append(i.strip())
+                    for i in entity_item[predicate]:
+                        if i not in [None, '']:
+                            tmp.append(i.strip())
+                    
+                    tmp = sorted(list(set(tmp)))
+                    entity_item[predicate] = tmp
+                    
+                    print(entity_item[predicate])
+                    print('--')
+            vizdata_dict[entity_name] = removeSpace(entity_item)
 
     print('--------------------')
 
@@ -115,6 +150,7 @@ with open(ntriples_talkop_vivre_card_file, 'w') as f:
     ntriples_list = ntriples_list_copy
     print('Distinct Ntriples Number:  {}'.format(len(ntriples_list)))
 
+    ntriples_list = sorted(list(set(ntriples_list)))
     for item in ntriples_list:
         f.write(item + '\n')
 
@@ -127,6 +163,20 @@ print('write path: {}'.format(vizdata_file))
 
 with open(vizdata_file, 'w', encoding='utf-8') as f:
     json.dump(vizdata_dict, f, ensure_ascii=False, indent=4, sort_keys=True)
+
+# ----------------------------------
+print('\n\n------Write Entities Name data into Files------\n\n')
+
+summary_entities_name_list_file = os.path.join(data_dir, 'summary_entities_name_list.txt')
+print('write path: {}'.format(summary_entities_name_list_file))
+
+with open(summary_entities_name_list_file, 'w', encoding='utf-8') as f:
+    json.dump(vizdata_dict, f, ensure_ascii=False, indent=4, sort_keys=True)
+
+entities_name_list = sorted(list(set(vizdata_dict.keys())))
+with open(summary_entities_name_list_file, 'w') as f:
+    for item in entities_name_list:
+        f.write(item + '\n')
 
 print('\n\nFinish\n\n')
 
