@@ -72,8 +72,15 @@ for item in prefix_list:
 
             for object in objects_item:
 
-                if object != None:
+                if object is not None:
                     object = object.strip().strip('\"')
+                    object = object.replace('"', '\'')
+
+                # 修复N-Triple文件的bug，往fuseki中导入N-Triple文件要求
+                # * predicate(中间部分)不能够有空格
+                # * object部分因为是拿 `"....."` 作为分隔符，因此object中 `"` 符号需要被进行替换
+                if predicate is not None:
+                    predicate = predicate.replace(' ', '')
                 
                 triple = triple_template.format(ID, predicate, object)
                 ntriples_list.append(triple)
