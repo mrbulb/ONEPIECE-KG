@@ -6,7 +6,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 year_prefix = 'http://kg.course/talkop-vivre-card/'
 
-data_dir = '~/ZJU_study/Knowledge_Graph/2019-11-27-KG-demo-for-movie-master-学习/deepke-master/data/vivrecard/raw'
+data_dir = './data/vivrecard/raw'
 output_sentence_item_path = os.path.join(data_dir, 'fuseki_vivrecard_sentence_item.txt')
 output_sentence_dict_path = os.path.join(data_dir, 'fuseki_vivrecard_sentence_dict.json')
 
@@ -40,6 +40,10 @@ for result in results["results"]["bindings"]:
 
 
 print('Sentence Number: {}'.format(len(sentence_item_list)))
+
+# sentence_item_list = sorted(list(set(sentence_item_list)))
+# print('Sentence Number: {}'.format(len(sentence_item_list)))
+
 
 print('\noutput_sentence_item_path: {}'.format(output_sentence_item_path))
 with open(output_sentence_item_path, 'w') as f:
